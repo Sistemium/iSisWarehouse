@@ -1,0 +1,13 @@
+
+Podfile.lock
+/Pods/*
+
+*.xcuserstate
+*.xcbkptlist
+xcuserdata
+
+/Crashlytics.framework/*
+/Fabric.framework/*
+/ScanApiSDK/*
+
+fabric.sh
