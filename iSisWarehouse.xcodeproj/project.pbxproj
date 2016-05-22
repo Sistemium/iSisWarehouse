@@ -1,0 +1,2115 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03E0124B49F4F46928602305 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9639524B0D712DC31B0658 /* libPods.a */; };
+		2C40F7801CF2037A00231E01 /* STMController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C40F77F1CF2037A00231E01 /* STMController.m */; };
+		2C40F78B1CF203A100231E01 /* STMAuthController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C40F7821CF203A100231E01 /* STMAuthController.m */; };
+		2C40F78D1CF203A100231E01 /* STMSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C40F7861CF203A100231E01 /* STMSession.m */; };
+		2C40F78E1CF203A100231E01 /* STMSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C40F7881CF203A100231E01 /* STMSessionManager.m */; };
+		2C40F78F1CF203A100231E01 /* STMSettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C40F78A1CF203A100231E01 /* STMSettingsController.m */; };
+		2C94BFCF1CF1ACB8004476D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94BFCE1CF1ACB8004476D8 /* main.m */; };
+		2C94BFDA1CF1ACB8004476D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C94BFD91CF1ACB8004476D8 /* Assets.xcassets */; };
+		2C94BFE81CF1ACB8004476D8 /* iSisWarehouseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94BFE71CF1ACB8004476D8 /* iSisWarehouseTests.m */; };
+		2C94BFF31CF1ACB8004476D8 /* iSisWarehouseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94BFF21CF1ACB8004476D8 /* iSisWarehouseUITests.m */; };
+		2C94C0D91CF1B1BB004476D8 /* STMBarCodeScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0041CF1B1BA004476D8 /* STMBarCodeScanner.m */; };
+		2C94C0DA1CF1B1BB004476D8 /* STMCoreAuthController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0071CF1B1BA004476D8 /* STMCoreAuthController.m */; };
+		2C94C0DB1CF1B1BB004476D8 /* STMCoreBatteryTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0091CF1B1BA004476D8 /* STMCoreBatteryTracker.m */; };
+		2C94C0DC1CF1B1BB004476D8 /* STMCoreLocationTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C00B1CF1B1BA004476D8 /* STMCoreLocationTracker.m */; };
+		2C94C0DD1CF1B1BB004476D8 /* STMCoreSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C00D1CF1B1BA004476D8 /* STMCoreSession.m */; };
+		2C94C0DE1CF1B1BB004476D8 /* STMCoreSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C00F1CF1B1BA004476D8 /* STMCoreSessionManager.m */; };
+		2C94C0DF1CF1B1BB004476D8 /* STMCoreSettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0111CF1B1BA004476D8 /* STMCoreSettingsController.m */; };
+		2C94C0E01CF1B1BB004476D8 /* STMCoreTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0131CF1B1BA004476D8 /* STMCoreTracker.m */; };
+		2C94C0E11CF1B1BB004476D8 /* STMDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0161CF1B1BA004476D8 /* STMDocument.m */; };
+		2C94C0E21CF1B1BB004476D8 /* STMExtendNSLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0181CF1B1BA004476D8 /* STMExtendNSLog.m */; };
+		2C94C0E31CF1B1BB004476D8 /* STMFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C01A1CF1B1BA004476D8 /* STMFunctions.m */; };
+		2C94C0E41CF1B1BB004476D8 /* STMGarbageCollector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C01B1CF1B1BA004476D8 /* STMGarbageCollector.swift */; };
+		2C94C0E51CF1B1BB004476D8 /* STMLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C01D1CF1B1BA004476D8 /* STMLogger.m */; };
+		2C94C0E61CF1B1BB004476D8 /* STMRemoteController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C01F1CF1B1BA004476D8 /* STMRemoteController.m */; };
+		2C94C0E71CF1B1BB004476D8 /* STMScanApiHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0211CF1B1BA004476D8 /* STMScanApiHelper.m */; };
+		2C94C0E81CF1B1BB004476D8 /* STMScriptMessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0221CF1B1BA004476D8 /* STMScriptMessageController.swift */; };
+		2C94C0E91CF1B1BB004476D8 /* STMSettingsData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0241CF1B1BA004476D8 /* STMSettingsData.m */; };
+		2C94C0EA1CF1B1BB004476D8 /* STMSocketController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0261CF1B1BA004476D8 /* STMSocketController.m */; };
+		2C94C0EB1CF1B1BB004476D8 /* STMSoundController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0281CF1B1BA004476D8 /* STMSoundController.m */; };
+		2C94C0EC1CF1B1BB004476D8 /* STMStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0291CF1B1BA004476D8 /* STMStringExtension.swift */; };
+		2C94C0ED1CF1B1BB004476D8 /* STMSwiftConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C02A1CF1B1BA004476D8 /* STMSwiftConstants.swift */; };
+		2C94C0EE1CF1B1BB004476D8 /* STMSyncer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C02C1CF1B1BA004476D8 /* STMSyncer.m */; };
+		2C94C0EF1CF1B1BB004476D8 /* STMClientDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C02F1CF1B1BA004476D8 /* STMClientDataController.m */; };
+		2C94C0F01CF1B1BB004476D8 /* STMClientEntityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0311CF1B1BA004476D8 /* STMClientEntityController.m */; };
+		2C94C0F11CF1B1BB004476D8 /* STMCoreBarCodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0331CF1B1BA004476D8 /* STMCoreBarCodeController.m */; };
+		2C94C0F21CF1B1BB004476D8 /* STMCoreController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0351CF1B1BA004476D8 /* STMCoreController.m */; };
+		2C94C0F31CF1B1BB004476D8 /* STMCoreObjectsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0371CF1B1BA004476D8 /* STMCoreObjectsController.m */; };
+		2C94C0F41CF1B1BB004476D8 /* STMCorePhotosController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0391CF1B1BA004476D8 /* STMCorePhotosController.m */; };
+		2C94C0F51CF1B1BB004476D8 /* STMCorePicturesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C03B1CF1B1BA004476D8 /* STMCorePicturesController.m */; };
+		2C94C0F61CF1B1BB004476D8 /* STMEntityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C03D1CF1B1BA004476D8 /* STMEntityController.m */; };
+		2C94C0F71CF1B1BB004476D8 /* STMLocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C03F1CF1B1BA004476D8 /* STMLocationController.m */; };
+		2C94C0F81CF1B1BB004476D8 /* STMMessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0411CF1B1BA004476D8 /* STMMessageController.m */; };
+		2C94C0F91CF1B1BB004476D8 /* STMRecordStatusController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0431CF1B1BA004476D8 /* STMRecordStatusController.m */; };
+		2C94C0FA1CF1B1BB004476D8 /* STMWorkflowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0451CF1B1BA004476D8 /* STMWorkflowController.m */; };
+		2C94C0FB1CF1B1BB004476D8 /* STMEntityDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0531CF1B1BA004476D8 /* STMEntityDescription.m */; };
+		2C94C0FC1CF1B1BB004476D8 /* STMFetchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0551CF1B1BA004476D8 /* STMFetchRequest.m */; };
+		2C94C0FD1CF1B1BB004476D8 /* STMPredicate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0581CF1B1BA004476D8 /* STMPredicate.m */; };
+		2C94C0FE1CF1B1BB004476D8 /* STMActionPopoverNC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C05B1CF1B1BA004476D8 /* STMActionPopoverNC.m */; };
+		2C94C0FF1CF1B1BB004476D8 /* STMBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C05D1CF1B1BA004476D8 /* STMBarButtonItem.m */; };
+		2C94C1001CF1B1BB004476D8 /* STMCoreVolumePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0601CF1B1BA004476D8 /* STMCoreVolumePicker.m */; };
+		2C94C1011CF1B1BB004476D8 /* STMCoreVolumeTVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0631CF1B1BA004476D8 /* STMCoreVolumeTVCell.m */; };
+		2C94C1021CF1B1BB004476D8 /* STMCustom10TVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0651CF1B1BA004476D8 /* STMCustom10TVCell.m */; };
+		2C94C1031CF1B1BB004476D8 /* STMCustom1CVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0671CF1B1BA004476D8 /* STMCustom1CVCell.m */; };
+		2C94C1041CF1B1BB004476D8 /* STMCustom1CVHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0691CF1B1BA004476D8 /* STMCustom1CVHeader.m */; };
+		2C94C1051CF1B1BB004476D8 /* STMCustom1TVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C06B1CF1B1BA004476D8 /* STMCustom1TVCell.m */; };
+		2C94C1061CF1B1BB004476D8 /* STMCustom2TVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C06D1CF1B1BA004476D8 /* STMCustom2TVCell.m */; };
+		2C94C1071CF1B1BB004476D8 /* STMCustom3TVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C06F1CF1B1BA004476D8 /* STMCustom3TVCell.m */; };
+		2C94C1081CF1B1BB004476D8 /* STMCustom4TVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0711CF1B1BA004476D8 /* STMCustom4TVCell.m */; };
+		2C94C1091CF1B1BB004476D8 /* STMCustom5TVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0731CF1B1BA004476D8 /* STMCustom5TVCell.m */; };
+		2C94C10A1CF1B1BB004476D8 /* STMCustom6TVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0751CF1B1BA004476D8 /* STMCustom6TVCell.m */; };
+		2C94C10B1CF1B1BB004476D8 /* STMCustom7TVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0771CF1B1BA004476D8 /* STMCustom7TVCell.m */; };
+		2C94C10C1CF1B1BB004476D8 /* STMCustom8TVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0791CF1B1BA004476D8 /* STMCustom8TVCell.m */; };
+		2C94C10D1CF1B1BB004476D8 /* STMCustom9TVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C07B1CF1B1BA004476D8 /* STMCustom9TVCell.m */; };
+		2C94C10E1CF1B1BB004476D8 /* STMThreeLinesAndCheckboxTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C07D1CF1B1BA004476D8 /* STMThreeLinesAndCheckboxTVCell.swift */; };
+		2C94C10F1CF1B1BB004476D8 /* STMVolumeControlsTVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C07F1CF1B1BA004476D8 /* STMVolumeControlsTVCell.m */; };
+		2C94C1101CF1B1BB004476D8 /* STMDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0801CF1B1BA004476D8 /* STMDatePicker.swift */; };
+		2C94C1111CF1B1BB004476D8 /* STMFetchedResultsControllerTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0821CF1B1BA004476D8 /* STMFetchedResultsControllerTVC.m */; };
+		2C94C1121CF1B1BB004476D8 /* STMImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0841CF1B1BA004476D8 /* STMImagePickerController.m */; };
+		2C94C1131CF1B1BB004476D8 /* STMInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0861CF1B1BA004476D8 /* STMInfoTableViewCell.m */; };
+		2C94C1141CF1B1BB004476D8 /* STMInsetLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0881CF1B1BA004476D8 /* STMInsetLabel.m */; };
+		2C94C1151CF1B1BB004476D8 /* STMLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C08A1CF1B1BA004476D8 /* STMLabel.m */; };
+		2C94C1161CF1B1BB004476D8 /* STMSearchableTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C08C1CF1B1BA004476D8 /* STMSearchableTVC.m */; };
+		2C94C1171CF1B1BB004476D8 /* STMSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C08E1CF1B1BA004476D8 /* STMSegmentedControl.m */; };
+		2C94C1181CF1B1BB004476D8 /* STMSpinnerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0901CF1B1BA004476D8 /* STMSpinnerView.m */; };
+		2C94C1191CF1B1BB004476D8 /* STMSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0921CF1B1BA004476D8 /* STMSplitViewController.m */; };
+		2C94C11A1CF1B1BB004476D8 /* STMSplitViewController_Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0931CF1B1BA004476D8 /* STMSplitViewController_Swift.swift */; };
+		2C94C11B1CF1B1BB004476D8 /* STMStoryboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0951CF1B1BA004476D8 /* STMStoryboard.m */; };
+		2C94C11C1CF1B1BB004476D8 /* STMTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0971CF1B1BA004476D8 /* STMTableViewCell.m */; };
+		2C94C11D1CF1B1BB004476D8 /* STMVariableCellsHeightTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0991CF1B1BA004476D8 /* STMVariableCellsHeightTVC.m */; };
+		2C94C11E1CF1B1BB004476D8 /* STMWorkflowAS.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C09B1CF1B1BA004476D8 /* STMWorkflowAS.m */; };
+		2C94C11F1CF1B1BB004476D8 /* UIToolbar+custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C09D1CF1B1BA004476D8 /* UIToolbar+custom.m */; };
+		2C94C1201CF1B1BB004476D8 /* UIViewController+custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C09F1CF1B1BA004476D8 /* UIViewController+custom.m */; };
+		2C94C1211CF1B1BB004476D8 /* STMAuthNC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0A31CF1B1BA004476D8 /* STMAuthNC.m */; };
+		2C94C1221CF1B1BB004476D8 /* STMAuthPhoneVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0A51CF1B1BA004476D8 /* STMAuthPhoneVC.m */; };
+		2C94C1231CF1B1BB004476D8 /* STMAuthSMSVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0A71CF1B1BA004476D8 /* STMAuthSMSVC.m */; };
+		2C94C1241CF1B1BB004476D8 /* STMAuthVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0A91CF1B1BA004476D8 /* STMAuthVC.m */; };
+		2C94C1251CF1B1BB004476D8 /* STMCoreRootTBC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0AB1CF1B1BA004476D8 /* STMCoreRootTBC.m */; };
+		2C94C1261CF1B1BB004476D8 /* STMLogMessagesDetailTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0AE1CF1B1BA004476D8 /* STMLogMessagesDetailTVC.m */; };
+		2C94C1271CF1B1BB004476D8 /* STMLogMessagesMasterTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0B01CF1B1BA004476D8 /* STMLogMessagesMasterTVC.m */; };
+		2C94C1281CF1B1BB004476D8 /* STMLogMessagesSVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0B21CF1B1BA004476D8 /* STMLogMessagesSVC.m */; };
+		2C94C1291CF1B1BB004476D8 /* STMMessagesNC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0B51CF1B1BB004476D8 /* STMMessagesNC.m */; };
+		2C94C12A1CF1B1BB004476D8 /* STMMessagesTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0B71CF1B1BB004476D8 /* STMMessagesTVC.m */; };
+		2C94C12B1CF1B1BB004476D8 /* STMMessageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0B91CF1B1BB004476D8 /* STMMessageVC.m */; };
+		2C94C12C1CF1B1BB004476D8 /* STMProfileNC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0BC1CF1B1BB004476D8 /* STMProfileNC.m */; };
+		2C94C12D1CF1B1BB004476D8 /* STMProfileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0BE1CF1B1BB004476D8 /* STMProfileVC.m */; };
+		2C94C12E1CF1B1BB004476D8 /* STMScannerInfoNC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0C11CF1B1BB004476D8 /* STMScannerInfoNC.m */; };
+		2C94C12F1CF1B1BB004476D8 /* STMScannerInfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0C31CF1B1BB004476D8 /* STMScannerInfoVC.m */; };
+		2C94C1301CF1B1BB004476D8 /* STMSettingControlsTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0C61CF1B1BB004476D8 /* STMSettingControlsTVC.m */; };
+		2C94C1311CF1B1BB004476D8 /* STMSettingsNC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0C81CF1B1BB004476D8 /* STMSettingsNC.m */; };
+		2C94C1321CF1B1BB004476D8 /* STMSettingsTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0CA1CF1B1BB004476D8 /* STMSettingsTVC.m */; };
+		2C94C1331CF1B1BB004476D8 /* STMTabBarButtonTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0CC1CF1B1BB004476D8 /* STMTabBarButtonTVC.m */; };
+		2C94C1341CF1B1BB004476D8 /* STMWebViewNC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0CF1CF1B1BB004476D8 /* STMWebViewNC.m */; };
+		2C94C1351CF1B1BB004476D8 /* STMWebViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0D11CF1B1BB004476D8 /* STMWebViewVC.m */; };
+		2C94C1361CF1B1BB004476D8 /* STMWKWebViewNC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0D41CF1B1BB004476D8 /* STMWKWebViewNC.m */; };
+		2C94C1371CF1B1BB004476D8 /* STMWKWebViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0D61CF1B1BB004476D8 /* STMWKWebViewVC.m */; };
+		2C94C1381CF1B1BB004476D8 /* STMWorkflowEditablesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C0D81CF1B1BB004476D8 /* STMWorkflowEditablesVC.m */; };
+		2C94C17D1CF1B1F3004476D8 /* STMBarCodeScan+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C13C1CF1B1F3004476D8 /* STMBarCodeScan+CoreDataProperties.m */; };
+		2C94C17E1CF1B1F3004476D8 /* STMBarCodeScan.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C13E1CF1B1F3004476D8 /* STMBarCodeScan.m */; };
+		2C94C17F1CF1B1F3004476D8 /* STMBarCodeType+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C1401CF1B1F3004476D8 /* STMBarCodeType+CoreDataProperties.m */; };
+		2C94C1801CF1B1F3004476D8 /* STMBarCodeType.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C1421CF1B1F3004476D8 /* STMBarCodeType.m */; };
+		2C94C1811CF1B1F3004476D8 /* STMBatteryStatus+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C1441CF1B1F3004476D8 /* STMBatteryStatus+CoreDataProperties.m */; };
+		2C94C1821CF1B1F3004476D8 /* STMBatteryStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C1461CF1B1F3004476D8 /* STMBatteryStatus.m */; };
+		2C94C1831CF1B1F3004476D8 /* STMClientData+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C1481CF1B1F3004476D8 /* STMClientData+CoreDataProperties.m */; };
+		2C94C1841CF1B1F3004476D8 /* STMClientData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C14A1CF1B1F3004476D8 /* STMClientData.m */; };
+		2C94C1851CF1B1F3004476D8 /* STMClientEntity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C14C1CF1B1F3004476D8 /* STMClientEntity+CoreDataProperties.m */; };
+		2C94C1861CF1B1F3004476D8 /* STMClientEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C14E1CF1B1F3004476D8 /* STMClientEntity.m */; };
+		2C94C1871CF1B1F3004476D8 /* STMCorePicture+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C1511CF1B1F3004476D8 /* STMCorePicture+CoreDataProperties.m */; };
+		2C94C1881CF1B1F3004476D8 /* STMCorePicture.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C1531CF1B1F3004476D8 /* STMCorePicture.m */; };
+		2C94C1891CF1B1F3004476D8 /* STMDatum+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C1551CF1B1F3004476D8 /* STMDatum+CoreDataProperties.m */; };
+		2C94C18A1CF1B1F3004476D8 /* STMDatum.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C1571CF1B1F3004476D8 /* STMDatum.m */; };
+		2C94C18B1CF1B1F3004476D8 /* STMEntity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C1591CF1B1F3004476D8 /* STMEntity+CoreDataProperties.m */; };
+		2C94C18C1CF1B1F3004476D8 /* STMEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C15B1CF1B1F3004476D8 /* STMEntity.m */; };
+		2C94C18D1CF1B1F3004476D8 /* STMLocation+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C15D1CF1B1F3004476D8 /* STMLocation+CoreDataProperties.m */; };
+		2C94C18E1CF1B1F3004476D8 /* STMLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C15F1CF1B1F3004476D8 /* STMLocation.m */; };
+		2C94C18F1CF1B1F3004476D8 /* STMLogMessage+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C1611CF1B1F3004476D8 /* STMLogMessage+CoreDataProperties.m */; };
+		2C94C1901CF1B1F3004476D8 /* STMLogMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C1631CF1B1F3004476D8 /* STMLogMessage.m */; };
+		2C94C1911CF1B1F3004476D8 /* STMMessage+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C1651CF1B1F3004476D8 /* STMMessage+CoreDataProperties.m */; };
+		2C94C1921CF1B1F3004476D8 /* STMMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C1671CF1B1F3004476D8 /* STMMessage.m */; };
+		2C94C1931CF1B1F3004476D8 /* STMMessagePicture+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C1691CF1B1F3004476D8 /* STMMessagePicture+CoreDataProperties.m */; };
+		2C94C1941CF1B1F3004476D8 /* STMMessagePicture.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C16B1CF1B1F3004476D8 /* STMMessagePicture.m */; };
+		2C94C1951CF1B1F3004476D8 /* STMPhoto+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C16D1CF1B1F3004476D8 /* STMPhoto+CoreDataProperties.m */; };
+		2C94C1961CF1B1F3004476D8 /* STMPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C16F1CF1B1F3004476D8 /* STMPhoto.m */; };
+		2C94C1971CF1B1F3004476D8 /* STMRecordStatus+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C1711CF1B1F3004476D8 /* STMRecordStatus+CoreDataProperties.m */; };
+		2C94C1981CF1B1F3004476D8 /* STMRecordStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C1731CF1B1F3004476D8 /* STMRecordStatus.m */; };
+		2C94C1991CF1B1F3004476D8 /* STMSetting+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C1751CF1B1F3004476D8 /* STMSetting+CoreDataProperties.m */; };
+		2C94C19A1CF1B1F3004476D8 /* STMSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C1771CF1B1F3004476D8 /* STMSetting.m */; };
+		2C94C19B1CF1B1F3004476D8 /* STMWorkflow+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C1791CF1B1F3004476D8 /* STMWorkflow+CoreDataProperties.m */; };
+		2C94C19C1CF1B1F3004476D8 /* STMWorkflow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C17B1CF1B1F3004476D8 /* STMWorkflow.m */; };
+		2C94C1A11CF1B2A6004476D8 /* iSisWarehouse.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C1A01CF1B2A6004476D8 /* iSisWarehouse.xcdatamodel */; };
+		2C94C1B41CF1B2D8004476D8 /* SocketAckEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C1A41CF1B2D8004476D8 /* SocketAckEmitter.swift */; };
+		2C94C1B51CF1B2D8004476D8 /* SocketAckManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C1A51CF1B2D8004476D8 /* SocketAckManager.swift */; };
+		2C94C1B61CF1B2D8004476D8 /* SocketAnyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C1A61CF1B2D8004476D8 /* SocketAnyEvent.swift */; };
+		2C94C1B71CF1B2D8004476D8 /* SocketEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C1A71CF1B2D8004476D8 /* SocketEngine.swift */; };
+		2C94C1B81CF1B2D8004476D8 /* SocketEngineClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C1A81CF1B2D8004476D8 /* SocketEngineClient.swift */; };
+		2C94C1B91CF1B2D8004476D8 /* SocketEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C1A91CF1B2D8004476D8 /* SocketEventHandler.swift */; };
+		2C94C1BA1CF1B2D8004476D8 /* SocketFixUTF8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C1AA1CF1B2D8004476D8 /* SocketFixUTF8.swift */; };
+		2C94C1BB1CF1B2D8004476D8 /* SocketIOClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C1AB1CF1B2D8004476D8 /* SocketIOClient.swift */; };
+		2C94C1BC1CF1B2D8004476D8 /* SocketIOClientStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C1AC1CF1B2D8004476D8 /* SocketIOClientStatus.swift */; };
+		2C94C1BD1CF1B2D8004476D8 /* SocketLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C1AD1CF1B2D8004476D8 /* SocketLogger.swift */; };
+		2C94C1BE1CF1B2D8004476D8 /* SocketPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C1AE1CF1B2D8004476D8 /* SocketPacket.swift */; };
+		2C94C1BF1CF1B2D8004476D8 /* SocketParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C1AF1CF1B2D8004476D8 /* SocketParser.swift */; };
+		2C94C1C01CF1B2D8004476D8 /* SocketStringReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C1B01CF1B2D8004476D8 /* SocketStringReader.swift */; };
+		2C94C1C11CF1B2D8004476D8 /* SocketTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C1B11CF1B2D8004476D8 /* SocketTypes.swift */; };
+		2C94C1C21CF1B2D8004476D8 /* SwiftRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C1B21CF1B2D8004476D8 /* SwiftRegex.swift */; };
+		2C94C1C31CF1B2D8004476D8 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C1B31CF1B2D8004476D8 /* WebSocket.swift */; };
+		2C94C1F21CF1B308004476D8 /* 3colors-colorless.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C1C61CF1B308004476D8 /* 3colors-colorless.png */; };
+		2C94C1F31CF1B308004476D8 /* alphabetical_sorting.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C1C71CF1B308004476D8 /* alphabetical_sorting.png */; };
+		2C94C1F41CF1B308004476D8 /* alphabetical_sorting_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C1C81CF1B308004476D8 /* alphabetical_sorting_2.png */; };
+		2C94C1F51CF1B308004476D8 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C1C91CF1B308004476D8 /* back.png */; };
+		2C94C1F61CF1B308004476D8 /* barcode.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C1CA1CF1B308004476D8 /* barcode.png */; };
+		2C94C1F71CF1B308004476D8 /* barcode_scanner.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C1CB1CF1B308004476D8 /* barcode_scanner.png */; };
+		2C94C1F81CF1B308004476D8 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C1CC1CF1B308004476D8 /* camera.png */; };
+		2C94C1F91CF1B308004476D8 /* camera_filled.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C1CD1CF1B308004476D8 /* camera_filled.png */; };
+		2C94C1FA1CF1B308004476D8 /* checked_user-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C1CE1CF1B308004476D8 /* checked_user-128.png */; };
+		2C94C1FB1CF1B308004476D8 /* checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C1CF1CF1B308004476D8 /* checkmark.png */; };
+		2C94C1FC1CF1B308004476D8 /* checkmark_filled.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C1D01CF1B308004476D8 /* checkmark_filled.png */; };
+		2C94C1FD1CF1B308004476D8 /* Clear Filters-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C1D11CF1B308004476D8 /* Clear Filters-25.png */; };
+		2C94C1FE1CF1B308004476D8 /* close-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C1D21CF1B308004476D8 /* close-128.png */; };
+		2C94C1FF1CF1B308004476D8 /* data_in_both_directions.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C1D31CF1B308004476D8 /* data_in_both_directions.png */; };
+		2C94C2001CF1B308004476D8 /* Down4-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C1D41CF1B308004476D8 /* Down4-25.png */; };
+		2C94C2011CF1B308004476D8 /* Download From Cloud-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C1D51CF1B308004476D8 /* Download From Cloud-100.png */; };
+		2C94C2021CF1B308004476D8 /* exit-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C1D61CF1B308004476D8 /* exit-128.png */; };
+		2C94C2031CF1B308004476D8 /* forward.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C1D71CF1B308004476D8 /* forward.png */; };
+		2C94C2041CF1B308004476D8 /* full_moon-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C1D81CF1B308004476D8 /* full_moon-128.png */; };
+		2C94C2051CF1B308004476D8 /* future.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C1D91CF1B308004476D8 /* future.png */; };
+		2C94C2061CF1B308004476D8 /* help.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C1DA1CF1B308004476D8 /* help.png */; };
+		2C94C2071CF1B308004476D8 /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C1DB1CF1B308004476D8 /* location.png */; };
+		2C94C2081CF1B308004476D8 /* No connection Cloud-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C1DC1CF1B308004476D8 /* No connection Cloud-100.png */; };
+		2C94C2091CF1B308004476D8 /* numerical_sorting_12.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C1DD1CF1B308004476D8 /* numerical_sorting_12.png */; };
+		2C94C20A1CF1B308004476D8 /* numerical_sorting_21.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C1DE1CF1B308004476D8 /* numerical_sorting_21.png */; };
+		2C94C20B1CF1B308004476D8 /* password2-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C1DF1CF1B308004476D8 /* password2-128.png */; };
+		2C94C20C1CF1B308004476D8 /* past.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C1E01CF1B308004476D8 /* past.png */; };
+		2C94C20D1CF1B308004476D8 /* photo-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C1E11CF1B308004476D8 /* photo-icon.png */; };
+		2C94C20E1CF1B308004476D8 /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C1E21CF1B308004476D8 /* plus.png */; };
+		2C94C20F1CF1B308004476D8 /* refresh_barcode.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C1E31CF1B308004476D8 /* refresh_barcode.png */; };
+		2C94C2101CF1B308004476D8 /* reordering.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C1E41CF1B308004476D8 /* reordering.png */; };
+		2C94C2111CF1B308004476D8 /* scanner_info.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C1E51CF1B308004476D8 /* scanner_info.png */; };
+		2C94C2121CF1B308004476D8 /* Settings-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C1E61CF1B308004476D8 /* Settings-25.png */; };
+		2C94C2131CF1B308004476D8 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C1E71CF1B308004476D8 /* settings.png */; };
+		2C94C2141CF1B308004476D8 /* settings3-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C1E81CF1B308004476D8 /* settings3-128.png */; };
+		2C94C2151CF1B308004476D8 /* Sync With Cloud.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C1E91CF1B308004476D8 /* Sync With Cloud.png */; };
+		2C94C2161CF1B308004476D8 /* uncheckmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C1EA1CF1B308004476D8 /* uncheckmark.png */; };
+		2C94C2171CF1B308004476D8 /* uncheckmark_filled.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C1EB1CF1B308004476D8 /* uncheckmark_filled.png */; };
+		2C94C2181CF1B308004476D8 /* Up4-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C1EC1CF1B308004476D8 /* Up4-25.png */; };
+		2C94C2191CF1B308004476D8 /* Upload To Cloud-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C1ED1CF1B308004476D8 /* Upload To Cloud-100.png */; };
+		2C94C21A1CF1B308004476D8 /* Upload-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C1EE1CF1B308004476D8 /* Upload-100.png */; };
+		2C94C21D1CF1B308004476D8 /* settings_schema.json in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C1F11CF1B308004476D8 /* settings_schema.json */; };
+		2C94C2211CF1B36F004476D8 /* iphoneTabs.json in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C21F1CF1B36F004476D8 /* iphoneTabs.json */; };
+		2C94C2221CF1B36F004476D8 /* settings.json in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C2201CF1B36F004476D8 /* settings.json */; };
+		2C94C23D1CF1B3BA004476D8 /* STMAuth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C2241CF1B3BA004476D8 /* STMAuth.storyboard */; };
+		2C94C23E1CF1B3BA004476D8 /* STMCoreVolumeTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C2261CF1B3BA004476D8 /* STMCoreVolumeTVCell.xib */; };
+		2C94C23F1CF1B3BA004476D8 /* STMCustom10TVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C2271CF1B3BA004476D8 /* STMCustom10TVCell.xib */; };
+		2C94C2401CF1B3BA004476D8 /* STMCustom1CVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C2281CF1B3BA004476D8 /* STMCustom1CVCell.xib */; };
+		2C94C2411CF1B3BA004476D8 /* STMCustom1CVHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C2291CF1B3BA004476D8 /* STMCustom1CVHeader.xib */; };
+		2C94C2421CF1B3BA004476D8 /* STMCustom1TVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C22A1CF1B3BA004476D8 /* STMCustom1TVCell.xib */; };
+		2C94C2431CF1B3BA004476D8 /* STMCustom2TVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C22B1CF1B3BA004476D8 /* STMCustom2TVCell.xib */; };
+		2C94C2441CF1B3BA004476D8 /* STMCustom3TVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C22C1CF1B3BA004476D8 /* STMCustom3TVCell.xib */; };
+		2C94C2451CF1B3BA004476D8 /* STMCustom4TVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C22D1CF1B3BA004476D8 /* STMCustom4TVCell.xib */; };
+		2C94C2461CF1B3BA004476D8 /* STMCustom5TVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C22E1CF1B3BA004476D8 /* STMCustom5TVCell.xib */; };
+		2C94C2471CF1B3BA004476D8 /* STMCustom6TVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C22F1CF1B3BA004476D8 /* STMCustom6TVCell.xib */; };
+		2C94C2481CF1B3BA004476D8 /* STMCustom7TVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C2301CF1B3BA004476D8 /* STMCustom7TVCell.xib */; };
+		2C94C2491CF1B3BA004476D8 /* STMCustom8TVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C2311CF1B3BA004476D8 /* STMCustom8TVCell.xib */; };
+		2C94C24A1CF1B3BA004476D8 /* STMCustom9TVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C2321CF1B3BA004476D8 /* STMCustom9TVCell.xib */; };
+		2C94C24B1CF1B3BA004476D8 /* STMThreeLinesAndCheckboxTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C2331CF1B3BA004476D8 /* STMThreeLinesAndCheckboxTVCell.xib */; };
+		2C94C24C1CF1B3BA004476D8 /* STMVolumeControlsTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C2341CF1B3BA004476D8 /* STMVolumeControlsTVCell.xib */; };
+		2C94C24D1CF1B3BA004476D8 /* STMLogs.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C2351CF1B3BA004476D8 /* STMLogs.storyboard */; };
+		2C94C24E1CF1B3BA004476D8 /* STMMessages.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C2361CF1B3BA004476D8 /* STMMessages.storyboard */; };
+		2C94C24F1CF1B3BA004476D8 /* STMMessageVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C2371CF1B3BA004476D8 /* STMMessageVC.storyboard */; };
+		2C94C2501CF1B3BA004476D8 /* STMProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C2381CF1B3BA004476D8 /* STMProfile.storyboard */; };
+		2C94C2511CF1B3BA004476D8 /* STMScannerInfo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C2391CF1B3BA004476D8 /* STMScannerInfo.storyboard */; };
+		2C94C2521CF1B3BA004476D8 /* STMSettings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C23A1CF1B3BA004476D8 /* STMSettings.storyboard */; };
+		2C94C2531CF1B3BA004476D8 /* STMWebView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C23B1CF1B3BA004476D8 /* STMWebView.storyboard */; };
+		2C94C2541CF1B3BA004476D8 /* STMWKWebView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C94C23C1CF1B3BA004476D8 /* STMWKWebView.storyboard */; };
+		2C94C2591CF1B3D8004476D8 /* STMCoreAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C2561CF1B3D8004476D8 /* STMCoreAppDelegate.m */; };
+		2C94C25A1CF1B3D8004476D8 /* STMCoreApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C2581CF1B3D8004476D8 /* STMCoreApplication.m */; };
+		2C94C2621CF1B771004476D8 /* STMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C25F1CF1B771004476D8 /* STMAppDelegate.m */; };
+		2C94C2631CF1B771004476D8 /* STMApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C2611CF1B771004476D8 /* STMApplication.m */; };
+		2CD5BEFD1CF1DFAB006E1E36 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD5BEFC1CF1DFAB006E1E36 /* WebKit.framework */; };
+		2CD5BF081CF1E780006E1E36 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2CD5BF0A1CF1E780006E1E36 /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C94BFE41CF1ACB8004476D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C94BFC21CF1ACB8004476D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C94BFC91CF1ACB8004476D8;
+			remoteInfo = iSisWarehouse;
+		};
+		2C94BFEF1CF1ACB8004476D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C94BFC21CF1ACB8004476D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C94BFC91CF1ACB8004476D8;
+			remoteInfo = iSisWarehouse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C40F77E1CF2037A00231E01 /* STMController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMController.h; sourceTree = "<group>"; };
+		2C40F77F1CF2037A00231E01 /* STMController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMController.m; sourceTree = "<group>"; };
+		2C40F7811CF203A100231E01 /* STMAuthController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMAuthController.h; sourceTree = "<group>"; };
+		2C40F7821CF203A100231E01 /* STMAuthController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMAuthController.m; sourceTree = "<group>"; };
+		2C40F7851CF203A100231E01 /* STMSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMSession.h; sourceTree = "<group>"; };
+		2C40F7861CF203A100231E01 /* STMSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMSession.m; sourceTree = "<group>"; };
+		2C40F7871CF203A100231E01 /* STMSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMSessionManager.h; sourceTree = "<group>"; };
+		2C40F7881CF203A100231E01 /* STMSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMSessionManager.m; sourceTree = "<group>"; };
+		2C40F7891CF203A100231E01 /* STMSettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMSettingsController.h; sourceTree = "<group>"; };
+		2C40F78A1CF203A100231E01 /* STMSettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMSettingsController.m; sourceTree = "<group>"; };
+		2C40F7901CF203BF00231E01 /* STMDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMDataModel.h; sourceTree = "<group>"; };
+		2C40F7961CF2056700231E01 /* STMNS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMNS.h; sourceTree = "<group>"; };
+		2C40F7971CF205CC00231E01 /* STMUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMUI.h; sourceTree = "<group>"; };
+		2C40F7981CF2060300231E01 /* STMCoreNS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMCoreNS.h; sourceTree = "<group>"; };
+		2C94BFCA1CF1ACB8004476D8 /* iSisWarehouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSisWarehouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C94BFCE1CF1ACB8004476D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C94BFD91CF1ACB8004476D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C94BFDE1CF1ACB8004476D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C94BFE31CF1ACB8004476D8 /* iSisWarehouseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iSisWarehouseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C94BFE71CF1ACB8004476D8 /* iSisWarehouseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iSisWarehouseTests.m; sourceTree = "<group>"; };
+		2C94BFE91CF1ACB8004476D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C94BFEE1CF1ACB8004476D8 /* iSisWarehouseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iSisWarehouseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C94BFF21CF1ACB8004476D8 /* iSisWarehouseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iSisWarehouseUITests.m; sourceTree = "<group>"; };
+		2C94BFF41CF1ACB8004476D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C94C0031CF1B1BA004476D8 /* STMBarCodeScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMBarCodeScanner.h; sourceTree = "<group>"; };
+		2C94C0041CF1B1BA004476D8 /* STMBarCodeScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMBarCodeScanner.m; sourceTree = "<group>"; };
+		2C94C0051CF1B1BA004476D8 /* STMConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMConstants.h; sourceTree = "<group>"; };
+		2C94C0061CF1B1BA004476D8 /* STMCoreAuthController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCoreAuthController.h; sourceTree = "<group>"; };
+		2C94C0071CF1B1BA004476D8 /* STMCoreAuthController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCoreAuthController.m; sourceTree = "<group>"; };
+		2C94C0081CF1B1BA004476D8 /* STMCoreBatteryTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCoreBatteryTracker.h; sourceTree = "<group>"; };
+		2C94C0091CF1B1BA004476D8 /* STMCoreBatteryTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCoreBatteryTracker.m; sourceTree = "<group>"; };
+		2C94C00A1CF1B1BA004476D8 /* STMCoreLocationTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCoreLocationTracker.h; sourceTree = "<group>"; };
+		2C94C00B1CF1B1BA004476D8 /* STMCoreLocationTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCoreLocationTracker.m; sourceTree = "<group>"; };
+		2C94C00C1CF1B1BA004476D8 /* STMCoreSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCoreSession.h; sourceTree = "<group>"; };
+		2C94C00D1CF1B1BA004476D8 /* STMCoreSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCoreSession.m; sourceTree = "<group>"; };
+		2C94C00E1CF1B1BA004476D8 /* STMCoreSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCoreSessionManager.h; sourceTree = "<group>"; };
+		2C94C00F1CF1B1BA004476D8 /* STMCoreSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCoreSessionManager.m; sourceTree = "<group>"; };
+		2C94C0101CF1B1BA004476D8 /* STMCoreSettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCoreSettingsController.h; sourceTree = "<group>"; };
+		2C94C0111CF1B1BA004476D8 /* STMCoreSettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCoreSettingsController.m; sourceTree = "<group>"; };
+		2C94C0121CF1B1BA004476D8 /* STMCoreTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCoreTracker.h; sourceTree = "<group>"; };
+		2C94C0131CF1B1BA004476D8 /* STMCoreTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCoreTracker.m; sourceTree = "<group>"; };
+		2C94C0141CF1B1BA004476D8 /* STMDevDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMDevDef.h; sourceTree = "<group>"; };
+		2C94C0151CF1B1BA004476D8 /* STMDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMDocument.h; sourceTree = "<group>"; };
+		2C94C0161CF1B1BA004476D8 /* STMDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMDocument.m; sourceTree = "<group>"; };
+		2C94C0171CF1B1BA004476D8 /* STMExtendNSLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMExtendNSLog.h; sourceTree = "<group>"; };
+		2C94C0181CF1B1BA004476D8 /* STMExtendNSLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMExtendNSLog.m; sourceTree = "<group>"; };
+		2C94C0191CF1B1BA004476D8 /* STMFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMFunctions.h; sourceTree = "<group>"; };
+		2C94C01A1CF1B1BA004476D8 /* STMFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMFunctions.m; sourceTree = "<group>"; };
+		2C94C01B1CF1B1BA004476D8 /* STMGarbageCollector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STMGarbageCollector.swift; sourceTree = "<group>"; };
+		2C94C01C1CF1B1BA004476D8 /* STMLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMLogger.h; sourceTree = "<group>"; };
+		2C94C01D1CF1B1BA004476D8 /* STMLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMLogger.m; sourceTree = "<group>"; };
+		2C94C01E1CF1B1BA004476D8 /* STMRemoteController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMRemoteController.h; sourceTree = "<group>"; };
+		2C94C01F1CF1B1BA004476D8 /* STMRemoteController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMRemoteController.m; sourceTree = "<group>"; };
+		2C94C0201CF1B1BA004476D8 /* STMScanApiHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMScanApiHelper.h; sourceTree = "<group>"; };
+		2C94C0211CF1B1BA004476D8 /* STMScanApiHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMScanApiHelper.m; sourceTree = "<group>"; };
+		2C94C0221CF1B1BA004476D8 /* STMScriptMessageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STMScriptMessageController.swift; sourceTree = "<group>"; };
+		2C94C0231CF1B1BA004476D8 /* STMSettingsData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMSettingsData.h; sourceTree = "<group>"; };
+		2C94C0241CF1B1BA004476D8 /* STMSettingsData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMSettingsData.m; sourceTree = "<group>"; };
+		2C94C0251CF1B1BA004476D8 /* STMSocketController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMSocketController.h; sourceTree = "<group>"; };
+		2C94C0261CF1B1BA004476D8 /* STMSocketController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMSocketController.m; sourceTree = "<group>"; };
+		2C94C0271CF1B1BA004476D8 /* STMSoundController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMSoundController.h; sourceTree = "<group>"; };
+		2C94C0281CF1B1BA004476D8 /* STMSoundController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMSoundController.m; sourceTree = "<group>"; };
+		2C94C0291CF1B1BA004476D8 /* STMStringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STMStringExtension.swift; sourceTree = "<group>"; };
+		2C94C02A1CF1B1BA004476D8 /* STMSwiftConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STMSwiftConstants.swift; sourceTree = "<group>"; };
+		2C94C02B1CF1B1BA004476D8 /* STMSyncer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMSyncer.h; sourceTree = "<group>"; };
+		2C94C02C1CF1B1BA004476D8 /* STMSyncer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMSyncer.m; sourceTree = "<group>"; };
+		2C94C02E1CF1B1BA004476D8 /* STMClientDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = STMClientDataController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		2C94C02F1CF1B1BA004476D8 /* STMClientDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMClientDataController.m; sourceTree = "<group>"; };
+		2C94C0301CF1B1BA004476D8 /* STMClientEntityController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = STMClientEntityController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		2C94C0311CF1B1BA004476D8 /* STMClientEntityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMClientEntityController.m; sourceTree = "<group>"; };
+		2C94C0321CF1B1BA004476D8 /* STMCoreBarCodeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = STMCoreBarCodeController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		2C94C0331CF1B1BA004476D8 /* STMCoreBarCodeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCoreBarCodeController.m; sourceTree = "<group>"; };
+		2C94C0341CF1B1BA004476D8 /* STMCoreController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = STMCoreController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		2C94C0351CF1B1BA004476D8 /* STMCoreController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = STMCoreController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		2C94C0361CF1B1BA004476D8 /* STMCoreObjectsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = STMCoreObjectsController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		2C94C0371CF1B1BA004476D8 /* STMCoreObjectsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCoreObjectsController.m; sourceTree = "<group>"; };
+		2C94C0381CF1B1BA004476D8 /* STMCorePhotosController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = STMCorePhotosController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		2C94C0391CF1B1BA004476D8 /* STMCorePhotosController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCorePhotosController.m; sourceTree = "<group>"; };
+		2C94C03A1CF1B1BA004476D8 /* STMCorePicturesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = STMCorePicturesController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		2C94C03B1CF1B1BA004476D8 /* STMCorePicturesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCorePicturesController.m; sourceTree = "<group>"; };
+		2C94C03C1CF1B1BA004476D8 /* STMEntityController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = STMEntityController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		2C94C03D1CF1B1BA004476D8 /* STMEntityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMEntityController.m; sourceTree = "<group>"; };
+		2C94C03E1CF1B1BA004476D8 /* STMLocationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = STMLocationController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		2C94C03F1CF1B1BA004476D8 /* STMLocationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMLocationController.m; sourceTree = "<group>"; };
+		2C94C0401CF1B1BA004476D8 /* STMMessageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = STMMessageController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		2C94C0411CF1B1BA004476D8 /* STMMessageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMMessageController.m; sourceTree = "<group>"; };
+		2C94C0421CF1B1BA004476D8 /* STMRecordStatusController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = STMRecordStatusController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		2C94C0431CF1B1BA004476D8 /* STMRecordStatusController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMRecordStatusController.m; sourceTree = "<group>"; };
+		2C94C0441CF1B1BA004476D8 /* STMWorkflowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = STMWorkflowController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		2C94C0451CF1B1BA004476D8 /* STMWorkflowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMWorkflowController.m; sourceTree = "<group>"; };
+		2C94C0471CF1B1BA004476D8 /* STMBarCodeScannerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMBarCodeScannerDelegate.h; sourceTree = "<group>"; };
+		2C94C0481CF1B1BA004476D8 /* STMEntitiesSubscribable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMEntitiesSubscribable.h; sourceTree = "<group>"; };
+		2C94C0491CF1B1BA004476D8 /* STMImagePickerOwnerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMImagePickerOwnerProtocol.h; sourceTree = "<group>"; };
+		2C94C04A1CF1B1BA004476D8 /* STMRequestAuthenticatable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMRequestAuthenticatable.h; sourceTree = "<group>"; };
+		2C94C04B1CF1B1BA004476D8 /* STMScanApiHelperDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMScanApiHelperDelegate.h; sourceTree = "<group>"; };
+		2C94C04C1CF1B1BA004476D8 /* STMSessionManagement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMSessionManagement.h; sourceTree = "<group>"; };
+		2C94C04D1CF1B1BA004476D8 /* STMSoundCallbackable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMSoundCallbackable.h; sourceTree = "<group>"; };
+		2C94C04E1CF1B1BA004476D8 /* STMTabBarItemControllable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMTabBarItemControllable.h; sourceTree = "<group>"; };
+		2C94C04F1CF1B1BA004476D8 /* STMVolumePickerOwner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMVolumePickerOwner.h; sourceTree = "<group>"; };
+		2C94C0501CF1B1BA004476D8 /* STMWorkflowable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMWorkflowable.h; sourceTree = "<group>"; };
+		2C94C0521CF1B1BA004476D8 /* STMEntityDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMEntityDescription.h; sourceTree = "<group>"; };
+		2C94C0531CF1B1BA004476D8 /* STMEntityDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMEntityDescription.m; sourceTree = "<group>"; };
+		2C94C0541CF1B1BA004476D8 /* STMFetchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMFetchRequest.h; sourceTree = "<group>"; };
+		2C94C0551CF1B1BA004476D8 /* STMFetchRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMFetchRequest.m; sourceTree = "<group>"; };
+		2C94C0571CF1B1BA004476D8 /* STMPredicate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMPredicate.h; sourceTree = "<group>"; };
+		2C94C0581CF1B1BA004476D8 /* STMPredicate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMPredicate.m; sourceTree = "<group>"; };
+		2C94C05A1CF1B1BA004476D8 /* STMActionPopoverNC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMActionPopoverNC.h; sourceTree = "<group>"; };
+		2C94C05B1CF1B1BA004476D8 /* STMActionPopoverNC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMActionPopoverNC.m; sourceTree = "<group>"; };
+		2C94C05C1CF1B1BA004476D8 /* STMBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMBarButtonItem.h; sourceTree = "<group>"; };
+		2C94C05D1CF1B1BA004476D8 /* STMBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMBarButtonItem.m; sourceTree = "<group>"; };
+		2C94C05E1CF1B1BA004476D8 /* STMCoreUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCoreUI.h; sourceTree = "<group>"; };
+		2C94C05F1CF1B1BA004476D8 /* STMCoreVolumePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCoreVolumePicker.h; sourceTree = "<group>"; };
+		2C94C0601CF1B1BA004476D8 /* STMCoreVolumePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCoreVolumePicker.m; sourceTree = "<group>"; };
+		2C94C0621CF1B1BA004476D8 /* STMCoreVolumeTVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCoreVolumeTVCell.h; sourceTree = "<group>"; };
+		2C94C0631CF1B1BA004476D8 /* STMCoreVolumeTVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCoreVolumeTVCell.m; sourceTree = "<group>"; };
+		2C94C0641CF1B1BA004476D8 /* STMCustom10TVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCustom10TVCell.h; sourceTree = "<group>"; };
+		2C94C0651CF1B1BA004476D8 /* STMCustom10TVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCustom10TVCell.m; sourceTree = "<group>"; };
+		2C94C0661CF1B1BA004476D8 /* STMCustom1CVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCustom1CVCell.h; sourceTree = "<group>"; };
+		2C94C0671CF1B1BA004476D8 /* STMCustom1CVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCustom1CVCell.m; sourceTree = "<group>"; };
+		2C94C0681CF1B1BA004476D8 /* STMCustom1CVHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCustom1CVHeader.h; sourceTree = "<group>"; };
+		2C94C0691CF1B1BA004476D8 /* STMCustom1CVHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCustom1CVHeader.m; sourceTree = "<group>"; };
+		2C94C06A1CF1B1BA004476D8 /* STMCustom1TVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCustom1TVCell.h; sourceTree = "<group>"; };
+		2C94C06B1CF1B1BA004476D8 /* STMCustom1TVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCustom1TVCell.m; sourceTree = "<group>"; };
+		2C94C06C1CF1B1BA004476D8 /* STMCustom2TVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCustom2TVCell.h; sourceTree = "<group>"; };
+		2C94C06D1CF1B1BA004476D8 /* STMCustom2TVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCustom2TVCell.m; sourceTree = "<group>"; };
+		2C94C06E1CF1B1BA004476D8 /* STMCustom3TVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCustom3TVCell.h; sourceTree = "<group>"; };
+		2C94C06F1CF1B1BA004476D8 /* STMCustom3TVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCustom3TVCell.m; sourceTree = "<group>"; };
+		2C94C0701CF1B1BA004476D8 /* STMCustom4TVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCustom4TVCell.h; sourceTree = "<group>"; };
+		2C94C0711CF1B1BA004476D8 /* STMCustom4TVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCustom4TVCell.m; sourceTree = "<group>"; };
+		2C94C0721CF1B1BA004476D8 /* STMCustom5TVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCustom5TVCell.h; sourceTree = "<group>"; };
+		2C94C0731CF1B1BA004476D8 /* STMCustom5TVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCustom5TVCell.m; sourceTree = "<group>"; };
+		2C94C0741CF1B1BA004476D8 /* STMCustom6TVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCustom6TVCell.h; sourceTree = "<group>"; };
+		2C94C0751CF1B1BA004476D8 /* STMCustom6TVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCustom6TVCell.m; sourceTree = "<group>"; };
+		2C94C0761CF1B1BA004476D8 /* STMCustom7TVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCustom7TVCell.h; sourceTree = "<group>"; };
+		2C94C0771CF1B1BA004476D8 /* STMCustom7TVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCustom7TVCell.m; sourceTree = "<group>"; };
+		2C94C0781CF1B1BA004476D8 /* STMCustom8TVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCustom8TVCell.h; sourceTree = "<group>"; };
+		2C94C0791CF1B1BA004476D8 /* STMCustom8TVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCustom8TVCell.m; sourceTree = "<group>"; };
+		2C94C07A1CF1B1BA004476D8 /* STMCustom9TVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCustom9TVCell.h; sourceTree = "<group>"; };
+		2C94C07B1CF1B1BA004476D8 /* STMCustom9TVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCustom9TVCell.m; sourceTree = "<group>"; };
+		2C94C07C1CF1B1BA004476D8 /* STMCustomCells.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCustomCells.h; sourceTree = "<group>"; };
+		2C94C07D1CF1B1BA004476D8 /* STMThreeLinesAndCheckboxTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STMThreeLinesAndCheckboxTVCell.swift; sourceTree = "<group>"; };
+		2C94C07E1CF1B1BA004476D8 /* STMVolumeControlsTVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMVolumeControlsTVCell.h; sourceTree = "<group>"; };
+		2C94C07F1CF1B1BA004476D8 /* STMVolumeControlsTVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMVolumeControlsTVCell.m; sourceTree = "<group>"; };
+		2C94C0801CF1B1BA004476D8 /* STMDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STMDatePicker.swift; sourceTree = "<group>"; };
+		2C94C0811CF1B1BA004476D8 /* STMFetchedResultsControllerTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMFetchedResultsControllerTVC.h; sourceTree = "<group>"; };
+		2C94C0821CF1B1BA004476D8 /* STMFetchedResultsControllerTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMFetchedResultsControllerTVC.m; sourceTree = "<group>"; };
+		2C94C0831CF1B1BA004476D8 /* STMImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMImagePickerController.h; sourceTree = "<group>"; };
+		2C94C0841CF1B1BA004476D8 /* STMImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMImagePickerController.m; sourceTree = "<group>"; };
+		2C94C0851CF1B1BA004476D8 /* STMInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMInfoTableViewCell.h; sourceTree = "<group>"; };
+		2C94C0861CF1B1BA004476D8 /* STMInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMInfoTableViewCell.m; sourceTree = "<group>"; };
+		2C94C0871CF1B1BA004476D8 /* STMInsetLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMInsetLabel.h; sourceTree = "<group>"; };
+		2C94C0881CF1B1BA004476D8 /* STMInsetLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMInsetLabel.m; sourceTree = "<group>"; };
+		2C94C0891CF1B1BA004476D8 /* STMLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMLabel.h; sourceTree = "<group>"; };
+		2C94C08A1CF1B1BA004476D8 /* STMLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMLabel.m; sourceTree = "<group>"; };
+		2C94C08B1CF1B1BA004476D8 /* STMSearchableTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMSearchableTVC.h; sourceTree = "<group>"; };
+		2C94C08C1CF1B1BA004476D8 /* STMSearchableTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMSearchableTVC.m; sourceTree = "<group>"; };
+		2C94C08D1CF1B1BA004476D8 /* STMSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMSegmentedControl.h; sourceTree = "<group>"; };
+		2C94C08E1CF1B1BA004476D8 /* STMSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMSegmentedControl.m; sourceTree = "<group>"; };
+		2C94C08F1CF1B1BA004476D8 /* STMSpinnerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMSpinnerView.h; sourceTree = "<group>"; };
+		2C94C0901CF1B1BA004476D8 /* STMSpinnerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMSpinnerView.m; sourceTree = "<group>"; };
+		2C94C0911CF1B1BA004476D8 /* STMSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMSplitViewController.h; sourceTree = "<group>"; };
+		2C94C0921CF1B1BA004476D8 /* STMSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMSplitViewController.m; sourceTree = "<group>"; };
+		2C94C0931CF1B1BA004476D8 /* STMSplitViewController_Swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STMSplitViewController_Swift.swift; sourceTree = "<group>"; };
+		2C94C0941CF1B1BA004476D8 /* STMStoryboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMStoryboard.h; sourceTree = "<group>"; };
+		2C94C0951CF1B1BA004476D8 /* STMStoryboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMStoryboard.m; sourceTree = "<group>"; };
+		2C94C0961CF1B1BA004476D8 /* STMTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMTableViewCell.h; sourceTree = "<group>"; };
+		2C94C0971CF1B1BA004476D8 /* STMTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMTableViewCell.m; sourceTree = "<group>"; };
+		2C94C0981CF1B1BA004476D8 /* STMVariableCellsHeightTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMVariableCellsHeightTVC.h; sourceTree = "<group>"; };
+		2C94C0991CF1B1BA004476D8 /* STMVariableCellsHeightTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMVariableCellsHeightTVC.m; sourceTree = "<group>"; };
+		2C94C09A1CF1B1BA004476D8 /* STMWorkflowAS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMWorkflowAS.h; sourceTree = "<group>"; };
+		2C94C09B1CF1B1BA004476D8 /* STMWorkflowAS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMWorkflowAS.m; sourceTree = "<group>"; };
+		2C94C09C1CF1B1BA004476D8 /* UIToolbar+custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIToolbar+custom.h"; sourceTree = "<group>"; };
+		2C94C09D1CF1B1BA004476D8 /* UIToolbar+custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIToolbar+custom.m"; sourceTree = "<group>"; };
+		2C94C09E1CF1B1BA004476D8 /* UIViewController+custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+custom.h"; sourceTree = "<group>"; };
+		2C94C09F1CF1B1BA004476D8 /* UIViewController+custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+custom.m"; sourceTree = "<group>"; };
+		2C94C0A21CF1B1BA004476D8 /* STMAuthNC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMAuthNC.h; sourceTree = "<group>"; };
+		2C94C0A31CF1B1BA004476D8 /* STMAuthNC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMAuthNC.m; sourceTree = "<group>"; };
+		2C94C0A41CF1B1BA004476D8 /* STMAuthPhoneVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMAuthPhoneVC.h; sourceTree = "<group>"; };
+		2C94C0A51CF1B1BA004476D8 /* STMAuthPhoneVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMAuthPhoneVC.m; sourceTree = "<group>"; };
+		2C94C0A61CF1B1BA004476D8 /* STMAuthSMSVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMAuthSMSVC.h; sourceTree = "<group>"; };
+		2C94C0A71CF1B1BA004476D8 /* STMAuthSMSVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMAuthSMSVC.m; sourceTree = "<group>"; };
+		2C94C0A81CF1B1BA004476D8 /* STMAuthVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMAuthVC.h; sourceTree = "<group>"; };
+		2C94C0A91CF1B1BA004476D8 /* STMAuthVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMAuthVC.m; sourceTree = "<group>"; };
+		2C94C0AA1CF1B1BA004476D8 /* STMCoreRootTBC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCoreRootTBC.h; sourceTree = "<group>"; };
+		2C94C0AB1CF1B1BA004476D8 /* STMCoreRootTBC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCoreRootTBC.m; sourceTree = "<group>"; };
+		2C94C0AD1CF1B1BA004476D8 /* STMLogMessagesDetailTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMLogMessagesDetailTVC.h; sourceTree = "<group>"; };
+		2C94C0AE1CF1B1BA004476D8 /* STMLogMessagesDetailTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMLogMessagesDetailTVC.m; sourceTree = "<group>"; };
+		2C94C0AF1CF1B1BA004476D8 /* STMLogMessagesMasterTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMLogMessagesMasterTVC.h; sourceTree = "<group>"; };
+		2C94C0B01CF1B1BA004476D8 /* STMLogMessagesMasterTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMLogMessagesMasterTVC.m; sourceTree = "<group>"; };
+		2C94C0B11CF1B1BA004476D8 /* STMLogMessagesSVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMLogMessagesSVC.h; sourceTree = "<group>"; };
+		2C94C0B21CF1B1BA004476D8 /* STMLogMessagesSVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMLogMessagesSVC.m; sourceTree = "<group>"; };
+		2C94C0B41CF1B1BA004476D8 /* STMMessagesNC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMMessagesNC.h; sourceTree = "<group>"; };
+		2C94C0B51CF1B1BB004476D8 /* STMMessagesNC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMMessagesNC.m; sourceTree = "<group>"; };
+		2C94C0B61CF1B1BB004476D8 /* STMMessagesTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMMessagesTVC.h; sourceTree = "<group>"; };
+		2C94C0B71CF1B1BB004476D8 /* STMMessagesTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMMessagesTVC.m; sourceTree = "<group>"; };
+		2C94C0B81CF1B1BB004476D8 /* STMMessageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMMessageVC.h; sourceTree = "<group>"; };
+		2C94C0B91CF1B1BB004476D8 /* STMMessageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMMessageVC.m; sourceTree = "<group>"; };
+		2C94C0BB1CF1B1BB004476D8 /* STMProfileNC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMProfileNC.h; sourceTree = "<group>"; };
+		2C94C0BC1CF1B1BB004476D8 /* STMProfileNC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMProfileNC.m; sourceTree = "<group>"; };
+		2C94C0BD1CF1B1BB004476D8 /* STMProfileVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMProfileVC.h; sourceTree = "<group>"; };
+		2C94C0BE1CF1B1BB004476D8 /* STMProfileVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMProfileVC.m; sourceTree = "<group>"; };
+		2C94C0C01CF1B1BB004476D8 /* STMScannerInfoNC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMScannerInfoNC.h; sourceTree = "<group>"; };
+		2C94C0C11CF1B1BB004476D8 /* STMScannerInfoNC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMScannerInfoNC.m; sourceTree = "<group>"; };
+		2C94C0C21CF1B1BB004476D8 /* STMScannerInfoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMScannerInfoVC.h; sourceTree = "<group>"; };
+		2C94C0C31CF1B1BB004476D8 /* STMScannerInfoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMScannerInfoVC.m; sourceTree = "<group>"; };
+		2C94C0C51CF1B1BB004476D8 /* STMSettingControlsTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMSettingControlsTVC.h; sourceTree = "<group>"; };
+		2C94C0C61CF1B1BB004476D8 /* STMSettingControlsTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMSettingControlsTVC.m; sourceTree = "<group>"; };
+		2C94C0C71CF1B1BB004476D8 /* STMSettingsNC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMSettingsNC.h; sourceTree = "<group>"; };
+		2C94C0C81CF1B1BB004476D8 /* STMSettingsNC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMSettingsNC.m; sourceTree = "<group>"; };
+		2C94C0C91CF1B1BB004476D8 /* STMSettingsTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMSettingsTVC.h; sourceTree = "<group>"; };
+		2C94C0CA1CF1B1BB004476D8 /* STMSettingsTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMSettingsTVC.m; sourceTree = "<group>"; };
+		2C94C0CB1CF1B1BB004476D8 /* STMTabBarButtonTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMTabBarButtonTVC.h; sourceTree = "<group>"; };
+		2C94C0CC1CF1B1BB004476D8 /* STMTabBarButtonTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMTabBarButtonTVC.m; sourceTree = "<group>"; };
+		2C94C0CE1CF1B1BB004476D8 /* STMWebViewNC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMWebViewNC.h; sourceTree = "<group>"; };
+		2C94C0CF1CF1B1BB004476D8 /* STMWebViewNC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMWebViewNC.m; sourceTree = "<group>"; };
+		2C94C0D01CF1B1BB004476D8 /* STMWebViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMWebViewVC.h; sourceTree = "<group>"; };
+		2C94C0D11CF1B1BB004476D8 /* STMWebViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMWebViewVC.m; sourceTree = "<group>"; };
+		2C94C0D31CF1B1BB004476D8 /* STMWKWebViewNC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMWKWebViewNC.h; sourceTree = "<group>"; };
+		2C94C0D41CF1B1BB004476D8 /* STMWKWebViewNC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMWKWebViewNC.m; sourceTree = "<group>"; };
+		2C94C0D51CF1B1BB004476D8 /* STMWKWebViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMWKWebViewVC.h; sourceTree = "<group>"; };
+		2C94C0D61CF1B1BB004476D8 /* STMWKWebViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMWKWebViewVC.m; sourceTree = "<group>"; };
+		2C94C0D71CF1B1BB004476D8 /* STMWorkflowEditablesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMWorkflowEditablesVC.h; sourceTree = "<group>"; };
+		2C94C0D81CF1B1BB004476D8 /* STMWorkflowEditablesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMWorkflowEditablesVC.m; sourceTree = "<group>"; };
+		2C94C13B1CF1B1F3004476D8 /* STMBarCodeScan+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMBarCodeScan+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2C94C13C1CF1B1F3004476D8 /* STMBarCodeScan+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMBarCodeScan+CoreDataProperties.m"; sourceTree = "<group>"; };
+		2C94C13D1CF1B1F3004476D8 /* STMBarCodeScan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMBarCodeScan.h; sourceTree = "<group>"; };
+		2C94C13E1CF1B1F3004476D8 /* STMBarCodeScan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMBarCodeScan.m; sourceTree = "<group>"; };
+		2C94C13F1CF1B1F3004476D8 /* STMBarCodeType+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMBarCodeType+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2C94C1401CF1B1F3004476D8 /* STMBarCodeType+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMBarCodeType+CoreDataProperties.m"; sourceTree = "<group>"; };
+		2C94C1411CF1B1F3004476D8 /* STMBarCodeType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMBarCodeType.h; sourceTree = "<group>"; };
+		2C94C1421CF1B1F3004476D8 /* STMBarCodeType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMBarCodeType.m; sourceTree = "<group>"; };
+		2C94C1431CF1B1F3004476D8 /* STMBatteryStatus+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMBatteryStatus+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2C94C1441CF1B1F3004476D8 /* STMBatteryStatus+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMBatteryStatus+CoreDataProperties.m"; sourceTree = "<group>"; };
+		2C94C1451CF1B1F3004476D8 /* STMBatteryStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMBatteryStatus.h; sourceTree = "<group>"; };
+		2C94C1461CF1B1F3004476D8 /* STMBatteryStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMBatteryStatus.m; sourceTree = "<group>"; };
+		2C94C1471CF1B1F3004476D8 /* STMClientData+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMClientData+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2C94C1481CF1B1F3004476D8 /* STMClientData+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMClientData+CoreDataProperties.m"; sourceTree = "<group>"; };
+		2C94C1491CF1B1F3004476D8 /* STMClientData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMClientData.h; sourceTree = "<group>"; };
+		2C94C14A1CF1B1F3004476D8 /* STMClientData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMClientData.m; sourceTree = "<group>"; };
+		2C94C14B1CF1B1F3004476D8 /* STMClientEntity+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMClientEntity+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2C94C14C1CF1B1F3004476D8 /* STMClientEntity+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMClientEntity+CoreDataProperties.m"; sourceTree = "<group>"; };
+		2C94C14D1CF1B1F3004476D8 /* STMClientEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMClientEntity.h; sourceTree = "<group>"; };
+		2C94C14E1CF1B1F3004476D8 /* STMClientEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMClientEntity.m; sourceTree = "<group>"; };
+		2C94C14F1CF1B1F3004476D8 /* STMCoreDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCoreDataModel.h; sourceTree = "<group>"; };
+		2C94C1501CF1B1F3004476D8 /* STMCorePicture+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMCorePicture+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2C94C1511CF1B1F3004476D8 /* STMCorePicture+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMCorePicture+CoreDataProperties.m"; sourceTree = "<group>"; };
+		2C94C1521CF1B1F3004476D8 /* STMCorePicture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMCorePicture.h; sourceTree = "<group>"; };
+		2C94C1531CF1B1F3004476D8 /* STMCorePicture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMCorePicture.m; sourceTree = "<group>"; };
+		2C94C1541CF1B1F3004476D8 /* STMDatum+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMDatum+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2C94C1551CF1B1F3004476D8 /* STMDatum+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMDatum+CoreDataProperties.m"; sourceTree = "<group>"; };
+		2C94C1561CF1B1F3004476D8 /* STMDatum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMDatum.h; sourceTree = "<group>"; };
+		2C94C1571CF1B1F3004476D8 /* STMDatum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMDatum.m; sourceTree = "<group>"; };
+		2C94C1581CF1B1F3004476D8 /* STMEntity+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMEntity+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2C94C1591CF1B1F3004476D8 /* STMEntity+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMEntity+CoreDataProperties.m"; sourceTree = "<group>"; };
+		2C94C15A1CF1B1F3004476D8 /* STMEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMEntity.h; sourceTree = "<group>"; };
+		2C94C15B1CF1B1F3004476D8 /* STMEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMEntity.m; sourceTree = "<group>"; };
+		2C94C15C1CF1B1F3004476D8 /* STMLocation+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMLocation+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2C94C15D1CF1B1F3004476D8 /* STMLocation+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMLocation+CoreDataProperties.m"; sourceTree = "<group>"; };
+		2C94C15E1CF1B1F3004476D8 /* STMLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMLocation.h; sourceTree = "<group>"; };
+		2C94C15F1CF1B1F3004476D8 /* STMLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMLocation.m; sourceTree = "<group>"; };
+		2C94C1601CF1B1F3004476D8 /* STMLogMessage+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMLogMessage+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2C94C1611CF1B1F3004476D8 /* STMLogMessage+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMLogMessage+CoreDataProperties.m"; sourceTree = "<group>"; };
+		2C94C1621CF1B1F3004476D8 /* STMLogMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMLogMessage.h; sourceTree = "<group>"; };
+		2C94C1631CF1B1F3004476D8 /* STMLogMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMLogMessage.m; sourceTree = "<group>"; };
+		2C94C1641CF1B1F3004476D8 /* STMMessage+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMMessage+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2C94C1651CF1B1F3004476D8 /* STMMessage+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMMessage+CoreDataProperties.m"; sourceTree = "<group>"; };
+		2C94C1661CF1B1F3004476D8 /* STMMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMMessage.h; sourceTree = "<group>"; };
+		2C94C1671CF1B1F3004476D8 /* STMMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMMessage.m; sourceTree = "<group>"; };
+		2C94C1681CF1B1F3004476D8 /* STMMessagePicture+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMMessagePicture+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2C94C1691CF1B1F3004476D8 /* STMMessagePicture+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMMessagePicture+CoreDataProperties.m"; sourceTree = "<group>"; };
+		2C94C16A1CF1B1F3004476D8 /* STMMessagePicture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMMessagePicture.h; sourceTree = "<group>"; };
+		2C94C16B1CF1B1F3004476D8 /* STMMessagePicture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMMessagePicture.m; sourceTree = "<group>"; };
+		2C94C16C1CF1B1F3004476D8 /* STMPhoto+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMPhoto+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2C94C16D1CF1B1F3004476D8 /* STMPhoto+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMPhoto+CoreDataProperties.m"; sourceTree = "<group>"; };
+		2C94C16E1CF1B1F3004476D8 /* STMPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMPhoto.h; sourceTree = "<group>"; };
+		2C94C16F1CF1B1F3004476D8 /* STMPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMPhoto.m; sourceTree = "<group>"; };
+		2C94C1701CF1B1F3004476D8 /* STMRecordStatus+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMRecordStatus+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2C94C1711CF1B1F3004476D8 /* STMRecordStatus+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMRecordStatus+CoreDataProperties.m"; sourceTree = "<group>"; };
+		2C94C1721CF1B1F3004476D8 /* STMRecordStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMRecordStatus.h; sourceTree = "<group>"; };
+		2C94C1731CF1B1F3004476D8 /* STMRecordStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMRecordStatus.m; sourceTree = "<group>"; };
+		2C94C1741CF1B1F3004476D8 /* STMSetting+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMSetting+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2C94C1751CF1B1F3004476D8 /* STMSetting+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMSetting+CoreDataProperties.m"; sourceTree = "<group>"; };
+		2C94C1761CF1B1F3004476D8 /* STMSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMSetting.h; sourceTree = "<group>"; };
+		2C94C1771CF1B1F3004476D8 /* STMSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMSetting.m; sourceTree = "<group>"; };
+		2C94C1781CF1B1F3004476D8 /* STMWorkflow+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMWorkflow+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2C94C1791CF1B1F3004476D8 /* STMWorkflow+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMWorkflow+CoreDataProperties.m"; sourceTree = "<group>"; };
+		2C94C17A1CF1B1F3004476D8 /* STMWorkflow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMWorkflow.h; sourceTree = "<group>"; };
+		2C94C17B1CF1B1F3004476D8 /* STMWorkflow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMWorkflow.m; sourceTree = "<group>"; };
+		2C94C1A01CF1B2A6004476D8 /* iSisWarehouse.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iSisWarehouse.xcdatamodel; sourceTree = "<group>"; };
+		2C94C1A41CF1B2D8004476D8 /* SocketAckEmitter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketAckEmitter.swift; sourceTree = "<group>"; };
+		2C94C1A51CF1B2D8004476D8 /* SocketAckManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketAckManager.swift; sourceTree = "<group>"; };
+		2C94C1A61CF1B2D8004476D8 /* SocketAnyEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketAnyEvent.swift; sourceTree = "<group>"; };
+		2C94C1A71CF1B2D8004476D8 /* SocketEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEngine.swift; sourceTree = "<group>"; };
+		2C94C1A81CF1B2D8004476D8 /* SocketEngineClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEngineClient.swift; sourceTree = "<group>"; };
+		2C94C1A91CF1B2D8004476D8 /* SocketEventHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEventHandler.swift; sourceTree = "<group>"; };
+		2C94C1AA1CF1B2D8004476D8 /* SocketFixUTF8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketFixUTF8.swift; sourceTree = "<group>"; };
+		2C94C1AB1CF1B2D8004476D8 /* SocketIOClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOClient.swift; sourceTree = "<group>"; };
+		2C94C1AC1CF1B2D8004476D8 /* SocketIOClientStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOClientStatus.swift; sourceTree = "<group>"; };
+		2C94C1AD1CF1B2D8004476D8 /* SocketLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketLogger.swift; sourceTree = "<group>"; };
+		2C94C1AE1CF1B2D8004476D8 /* SocketPacket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketPacket.swift; sourceTree = "<group>"; };
+		2C94C1AF1CF1B2D8004476D8 /* SocketParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketParser.swift; sourceTree = "<group>"; };
+		2C94C1B01CF1B2D8004476D8 /* SocketStringReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketStringReader.swift; sourceTree = "<group>"; };
+		2C94C1B11CF1B2D8004476D8 /* SocketTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketTypes.swift; sourceTree = "<group>"; };
+		2C94C1B21CF1B2D8004476D8 /* SwiftRegex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftRegex.swift; sourceTree = "<group>"; };
+		2C94C1B31CF1B2D8004476D8 /* WebSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebSocket.swift; sourceTree = "<group>"; };
+		2C94C1C61CF1B308004476D8 /* 3colors-colorless.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3colors-colorless.png"; sourceTree = "<group>"; };
+		2C94C1C71CF1B308004476D8 /* alphabetical_sorting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alphabetical_sorting.png; sourceTree = "<group>"; };
+		2C94C1C81CF1B308004476D8 /* alphabetical_sorting_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alphabetical_sorting_2.png; sourceTree = "<group>"; };
+		2C94C1C91CF1B308004476D8 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		2C94C1CA1CF1B308004476D8 /* barcode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barcode.png; sourceTree = "<group>"; };
+		2C94C1CB1CF1B308004476D8 /* barcode_scanner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barcode_scanner.png; sourceTree = "<group>"; };
+		2C94C1CC1CF1B308004476D8 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		2C94C1CD1CF1B308004476D8 /* camera_filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_filled.png; sourceTree = "<group>"; };
+		2C94C1CE1CF1B308004476D8 /* checked_user-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checked_user-128.png"; sourceTree = "<group>"; };
+		2C94C1CF1CF1B308004476D8 /* checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkmark.png; sourceTree = "<group>"; };
+		2C94C1D01CF1B308004476D8 /* checkmark_filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkmark_filled.png; sourceTree = "<group>"; };
+		2C94C1D11CF1B308004476D8 /* Clear Filters-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Clear Filters-25.png"; sourceTree = "<group>"; };
+		2C94C1D21CF1B308004476D8 /* close-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close-128.png"; sourceTree = "<group>"; };
+		2C94C1D31CF1B308004476D8 /* data_in_both_directions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = data_in_both_directions.png; sourceTree = "<group>"; };
+		2C94C1D41CF1B308004476D8 /* Down4-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Down4-25.png"; sourceTree = "<group>"; };
+		2C94C1D51CF1B308004476D8 /* Download From Cloud-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Download From Cloud-100.png"; sourceTree = "<group>"; };
+		2C94C1D61CF1B308004476D8 /* exit-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "exit-128.png"; sourceTree = "<group>"; };
+		2C94C1D71CF1B308004476D8 /* forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forward.png; sourceTree = "<group>"; };
+		2C94C1D81CF1B308004476D8 /* full_moon-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "full_moon-128.png"; sourceTree = "<group>"; };
+		2C94C1D91CF1B308004476D8 /* future.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = future.png; sourceTree = "<group>"; };
+		2C94C1DA1CF1B308004476D8 /* help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = help.png; sourceTree = "<group>"; };
+		2C94C1DB1CF1B308004476D8 /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location.png; sourceTree = "<group>"; };
+		2C94C1DC1CF1B308004476D8 /* No connection Cloud-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "No connection Cloud-100.png"; sourceTree = "<group>"; };
+		2C94C1DD1CF1B308004476D8 /* numerical_sorting_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = numerical_sorting_12.png; sourceTree = "<group>"; };
+		2C94C1DE1CF1B308004476D8 /* numerical_sorting_21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = numerical_sorting_21.png; sourceTree = "<group>"; };
+		2C94C1DF1CF1B308004476D8 /* password2-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "password2-128.png"; sourceTree = "<group>"; };
+		2C94C1E01CF1B308004476D8 /* past.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = past.png; sourceTree = "<group>"; };
+		2C94C1E11CF1B308004476D8 /* photo-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo-icon.png"; sourceTree = "<group>"; };
+		2C94C1E21CF1B308004476D8 /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
+		2C94C1E31CF1B308004476D8 /* refresh_barcode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refresh_barcode.png; sourceTree = "<group>"; };
+		2C94C1E41CF1B308004476D8 /* reordering.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reordering.png; sourceTree = "<group>"; };
+		2C94C1E51CF1B308004476D8 /* scanner_info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scanner_info.png; sourceTree = "<group>"; };
+		2C94C1E61CF1B308004476D8 /* Settings-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Settings-25.png"; sourceTree = "<group>"; };
+		2C94C1E71CF1B308004476D8 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		2C94C1E81CF1B308004476D8 /* settings3-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings3-128.png"; sourceTree = "<group>"; };
+		2C94C1E91CF1B308004476D8 /* Sync With Cloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sync With Cloud.png"; sourceTree = "<group>"; };
+		2C94C1EA1CF1B308004476D8 /* uncheckmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uncheckmark.png; sourceTree = "<group>"; };
+		2C94C1EB1CF1B308004476D8 /* uncheckmark_filled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uncheckmark_filled.png; sourceTree = "<group>"; };
+		2C94C1EC1CF1B308004476D8 /* Up4-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Up4-25.png"; sourceTree = "<group>"; };
+		2C94C1ED1CF1B308004476D8 /* Upload To Cloud-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Upload To Cloud-100.png"; sourceTree = "<group>"; };
+		2C94C1EE1CF1B308004476D8 /* Upload-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Upload-100.png"; sourceTree = "<group>"; };
+		2C94C1F11CF1B308004476D8 /* settings_schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = settings_schema.json; sourceTree = "<group>"; };
+		2C94C21F1CF1B36F004476D8 /* iphoneTabs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = iphoneTabs.json; sourceTree = "<group>"; };
+		2C94C2201CF1B36F004476D8 /* settings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = settings.json; sourceTree = "<group>"; };
+		2C94C2241CF1B3BA004476D8 /* STMAuth.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = STMAuth.storyboard; sourceTree = "<group>"; };
+		2C94C2261CF1B3BA004476D8 /* STMCoreVolumeTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STMCoreVolumeTVCell.xib; sourceTree = "<group>"; };
+		2C94C2271CF1B3BA004476D8 /* STMCustom10TVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STMCustom10TVCell.xib; sourceTree = "<group>"; };
+		2C94C2281CF1B3BA004476D8 /* STMCustom1CVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STMCustom1CVCell.xib; sourceTree = "<group>"; };
+		2C94C2291CF1B3BA004476D8 /* STMCustom1CVHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STMCustom1CVHeader.xib; sourceTree = "<group>"; };
+		2C94C22A1CF1B3BA004476D8 /* STMCustom1TVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STMCustom1TVCell.xib; sourceTree = "<group>"; };
+		2C94C22B1CF1B3BA004476D8 /* STMCustom2TVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STMCustom2TVCell.xib; sourceTree = "<group>"; };
+		2C94C22C1CF1B3BA004476D8 /* STMCustom3TVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STMCustom3TVCell.xib; sourceTree = "<group>"; };
+		2C94C22D1CF1B3BA004476D8 /* STMCustom4TVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STMCustom4TVCell.xib; sourceTree = "<group>"; };
+		2C94C22E1CF1B3BA004476D8 /* STMCustom5TVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STMCustom5TVCell.xib; sourceTree = "<group>"; };
+		2C94C22F1CF1B3BA004476D8 /* STMCustom6TVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STMCustom6TVCell.xib; sourceTree = "<group>"; };
+		2C94C2301CF1B3BA004476D8 /* STMCustom7TVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STMCustom7TVCell.xib; sourceTree = "<group>"; };
+		2C94C2311CF1B3BA004476D8 /* STMCustom8TVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STMCustom8TVCell.xib; sourceTree = "<group>"; };
+		2C94C2321CF1B3BA004476D8 /* STMCustom9TVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STMCustom9TVCell.xib; sourceTree = "<group>"; };
+		2C94C2331CF1B3BA004476D8 /* STMThreeLinesAndCheckboxTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STMThreeLinesAndCheckboxTVCell.xib; sourceTree = "<group>"; };
+		2C94C2341CF1B3BA004476D8 /* STMVolumeControlsTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STMVolumeControlsTVCell.xib; sourceTree = "<group>"; };
+		2C94C2351CF1B3BA004476D8 /* STMLogs.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = STMLogs.storyboard; sourceTree = "<group>"; };
+		2C94C2361CF1B3BA004476D8 /* STMMessages.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = STMMessages.storyboard; sourceTree = "<group>"; };
+		2C94C2371CF1B3BA004476D8 /* STMMessageVC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = STMMessageVC.storyboard; sourceTree = "<group>"; };
+		2C94C2381CF1B3BA004476D8 /* STMProfile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = STMProfile.storyboard; sourceTree = "<group>"; };
+		2C94C2391CF1B3BA004476D8 /* STMScannerInfo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = STMScannerInfo.storyboard; sourceTree = "<group>"; };
+		2C94C23A1CF1B3BA004476D8 /* STMSettings.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = STMSettings.storyboard; sourceTree = "<group>"; };
+		2C94C23B1CF1B3BA004476D8 /* STMWebView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = STMWebView.storyboard; sourceTree = "<group>"; };
+		2C94C23C1CF1B3BA004476D8 /* STMWKWebView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = STMWKWebView.storyboard; sourceTree = "<group>"; };
+		2C94C2551CF1B3D8004476D8 /* STMCoreAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STMCoreAppDelegate.h; path = ../../iSistemiumCore/iSistemiumCore/STMCoreAppDelegate.h; sourceTree = "<group>"; };
+		2C94C2561CF1B3D8004476D8 /* STMCoreAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STMCoreAppDelegate.m; path = ../../iSistemiumCore/iSistemiumCore/STMCoreAppDelegate.m; sourceTree = "<group>"; };
+		2C94C2571CF1B3D8004476D8 /* STMCoreApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STMCoreApplication.h; path = ../../iSistemiumCore/iSistemiumCore/STMCoreApplication.h; sourceTree = "<group>"; };
+		2C94C2581CF1B3D8004476D8 /* STMCoreApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STMCoreApplication.m; path = ../../iSistemiumCore/iSistemiumCore/STMCoreApplication.m; sourceTree = "<group>"; };
+		2C94C25B1CF1B3E5004476D8 /* iSistemiumCore-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "iSistemiumCore-Bridging-Header.h"; path = "../../iSistemiumCore/iSistemiumCore/iSistemiumCore-Bridging-Header.h"; sourceTree = "<group>"; };
+		2C94C25E1CF1B771004476D8 /* STMAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMAppDelegate.h; sourceTree = "<group>"; };
+		2C94C25F1CF1B771004476D8 /* STMAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMAppDelegate.m; sourceTree = "<group>"; };
+		2C94C2601CF1B771004476D8 /* STMApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMApplication.h; sourceTree = "<group>"; };
+		2C94C2611CF1B771004476D8 /* STMApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMApplication.m; sourceTree = "<group>"; };
+		2C94C2641CF1B78D004476D8 /* iSistemium-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iSistemium-Bridging-Header.h"; sourceTree = "<group>"; };
+		2CD5BEFB1CF1DEE1006E1E36 /* iSistemium-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iSistemium-Prefix.pch"; sourceTree = "<group>"; };
+		2CD5BEFC1CF1DFAB006E1E36 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		2CD5BF091CF1E780006E1E36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2CD5BF0B1CF1E7A4006E1E36 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5E9639524B0D712DC31B0658 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B689995AE2A7E80F555D29A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A3277DFA3A62BBCE8AF2B808 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C94BFC71CF1ACB8004476D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD5BEFD1CF1DFAB006E1E36 /* WebKit.framework in Frameworks */,
+				03E0124B49F4F46928602305 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C94BFE01CF1ACB8004476D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C94BFEB1CF1ACB8004476D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19A13E8DF2831B9700FDE8B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CD5BEFC1CF1DFAB006E1E36 /* WebKit.framework */,
+				5E9639524B0D712DC31B0658 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C94BFC11CF1ACB8004476D8 = {
+			isa = PBXGroup;
+			children = (
+				2C94BFCC1CF1ACB8004476D8 /* iSisWarehouse */,
+				2C94BFE61CF1ACB8004476D8 /* iSisWarehouseTests */,
+				2C94BFF11CF1ACB8004476D8 /* iSisWarehouseUITests */,
+				2C94BFCB1CF1ACB8004476D8 /* Products */,
+				4F33BC9424009A9FEC7C76FA /* Pods */,
+				19A13E8DF2831B9700FDE8B8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2C94BFCB1CF1ACB8004476D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C94BFCA1CF1ACB8004476D8 /* iSisWarehouse.app */,
+				2C94BFE31CF1ACB8004476D8 /* iSisWarehouseTests.xctest */,
+				2C94BFEE1CF1ACB8004476D8 /* iSisWarehouseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C94BFCC1CF1ACB8004476D8 /* iSisWarehouse */ = {
+			isa = PBXGroup;
+			children = (
+				2C94C0001CF1B140004476D8 /* ☯ iSisCore */,
+				2C94C25C1CF1B46E004476D8 /* Classes */,
+				2C94C19D1CF1B234004476D8 /* DataModel */,
+				2C94C21E1CF1B352004476D8 /* Resources */,
+				2C94C25D1CF1B4BC004476D8 /* Storyboards */,
+				2C94BFCD1CF1ACB8004476D8 /* Supporting Files */,
+				2C94C2641CF1B78D004476D8 /* iSistemium-Bridging-Header.h */,
+				2C94C25E1CF1B771004476D8 /* STMAppDelegate.h */,
+				2C94C25F1CF1B771004476D8 /* STMAppDelegate.m */,
+				2C94C2601CF1B771004476D8 /* STMApplication.h */,
+				2C94C2611CF1B771004476D8 /* STMApplication.m */,
+			);
+			path = iSisWarehouse;
+			sourceTree = "<group>";
+		};
+		2C94BFCD1CF1ACB8004476D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CD5BEFB1CF1DEE1006E1E36 /* iSistemium-Prefix.pch */,
+				2C94BFD91CF1ACB8004476D8 /* Assets.xcassets */,
+				2C94BFDE1CF1ACB8004476D8 /* Info.plist */,
+				2C94BFCE1CF1ACB8004476D8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2C94BFE61CF1ACB8004476D8 /* iSisWarehouseTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C94BFE71CF1ACB8004476D8 /* iSisWarehouseTests.m */,
+				2C94BFE91CF1ACB8004476D8 /* Info.plist */,
+			);
+			path = iSisWarehouseTests;
+			sourceTree = "<group>";
+		};
+		2C94BFF11CF1ACB8004476D8 /* iSisWarehouseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2C94BFF21CF1ACB8004476D8 /* iSisWarehouseUITests.m */,
+				2C94BFF41CF1ACB8004476D8 /* Info.plist */,
+			);
+			path = iSisWarehouseUITests;
+			sourceTree = "<group>";
+		};
+		2C94C0001CF1B140004476D8 /* ☯ iSisCore */ = {
+			isa = PBXGroup;
+			children = (
+				2C94C0011CF1B1BA004476D8 /* ☯ Classes */,
+				2C94C1391CF1B1F3004476D8 /* ☯ DataModel */,
+				2C94C1A21CF1B2D8004476D8 /* ☯ Frameworks */,
+				2C94C1C41CF1B308004476D8 /* ☯ Resources */,
+				2C94C2231CF1B3BA004476D8 /* ☯ Storyboards */,
+				2C94C25B1CF1B3E5004476D8 /* iSistemiumCore-Bridging-Header.h */,
+				2C94C2551CF1B3D8004476D8 /* STMCoreAppDelegate.h */,
+				2C94C2561CF1B3D8004476D8 /* STMCoreAppDelegate.m */,
+				2C94C2571CF1B3D8004476D8 /* STMCoreApplication.h */,
+				2C94C2581CF1B3D8004476D8 /* STMCoreApplication.m */,
+			);
+			name = "☯ iSisCore";
+			sourceTree = "<group>";
+		};
+		2C94C0011CF1B1BA004476D8 /* ☯ Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2C94C0021CF1B1BA004476D8 /* ☯ Base */,
+				2C94C02D1CF1B1BA004476D8 /* ☯ EntityControllers */,
+				2C94C0461CF1B1BA004476D8 /* ☯ Protocols */,
+				2C94C0511CF1B1BA004476D8 /* ☯ STMNS */,
+				2C94C0591CF1B1BA004476D8 /* ☯ STMUI */,
+				2C94C0A01CF1B1BA004476D8 /* ☯ Views */,
+			);
+			name = "☯ Classes";
+			path = ../../iSistemiumCore/iSistemiumCore/Classes;
+			sourceTree = "<group>";
+		};
+		2C94C0021CF1B1BA004476D8 /* ☯ Base */ = {
+			isa = PBXGroup;
+			children = (
+				2C94C0031CF1B1BA004476D8 /* STMBarCodeScanner.h */,
+				2C94C0041CF1B1BA004476D8 /* STMBarCodeScanner.m */,
+				2C94C0051CF1B1BA004476D8 /* STMConstants.h */,
+				2C94C0061CF1B1BA004476D8 /* STMCoreAuthController.h */,
+				2C94C0071CF1B1BA004476D8 /* STMCoreAuthController.m */,
+				2C94C0081CF1B1BA004476D8 /* STMCoreBatteryTracker.h */,
+				2C94C0091CF1B1BA004476D8 /* STMCoreBatteryTracker.m */,
+				2C94C00A1CF1B1BA004476D8 /* STMCoreLocationTracker.h */,
+				2C94C00B1CF1B1BA004476D8 /* STMCoreLocationTracker.m */,
+				2C94C00C1CF1B1BA004476D8 /* STMCoreSession.h */,
+				2C94C00D1CF1B1BA004476D8 /* STMCoreSession.m */,
+				2C94C00E1CF1B1BA004476D8 /* STMCoreSessionManager.h */,
+				2C94C00F1CF1B1BA004476D8 /* STMCoreSessionManager.m */,
+				2C94C0101CF1B1BA004476D8 /* STMCoreSettingsController.h */,
+				2C94C0111CF1B1BA004476D8 /* STMCoreSettingsController.m */,
+				2C94C0121CF1B1BA004476D8 /* STMCoreTracker.h */,
+				2C94C0131CF1B1BA004476D8 /* STMCoreTracker.m */,
+				2C94C0141CF1B1BA004476D8 /* STMDevDef.h */,
+				2C94C0151CF1B1BA004476D8 /* STMDocument.h */,
+				2C94C0161CF1B1BA004476D8 /* STMDocument.m */,
+				2C94C0171CF1B1BA004476D8 /* STMExtendNSLog.h */,
+				2C94C0181CF1B1BA004476D8 /* STMExtendNSLog.m */,
+				2C94C0191CF1B1BA004476D8 /* STMFunctions.h */,
+				2C94C01A1CF1B1BA004476D8 /* STMFunctions.m */,
+				2C94C01B1CF1B1BA004476D8 /* STMGarbageCollector.swift */,
+				2C94C01C1CF1B1BA004476D8 /* STMLogger.h */,
+				2C94C01D1CF1B1BA004476D8 /* STMLogger.m */,
+				2C94C01E1CF1B1BA004476D8 /* STMRemoteController.h */,
+				2C94C01F1CF1B1BA004476D8 /* STMRemoteController.m */,
+				2C94C0201CF1B1BA004476D8 /* STMScanApiHelper.h */,
+				2C94C0211CF1B1BA004476D8 /* STMScanApiHelper.m */,
+				2C94C0221CF1B1BA004476D8 /* STMScriptMessageController.swift */,
+				2C94C0231CF1B1BA004476D8 /* STMSettingsData.h */,
+				2C94C0241CF1B1BA004476D8 /* STMSettingsData.m */,
+				2C94C0251CF1B1BA004476D8 /* STMSocketController.h */,
+				2C94C0261CF1B1BA004476D8 /* STMSocketController.m */,
+				2C94C0271CF1B1BA004476D8 /* STMSoundController.h */,
+				2C94C0281CF1B1BA004476D8 /* STMSoundController.m */,
+				2C94C0291CF1B1BA004476D8 /* STMStringExtension.swift */,
+				2C94C02A1CF1B1BA004476D8 /* STMSwiftConstants.swift */,
+				2C94C02B1CF1B1BA004476D8 /* STMSyncer.h */,
+				2C94C02C1CF1B1BA004476D8 /* STMSyncer.m */,
+			);
+			name = "☯ Base";
+			path = Base;
+			sourceTree = "<group>";
+		};
+		2C94C02D1CF1B1BA004476D8 /* ☯ EntityControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2C94C02E1CF1B1BA004476D8 /* STMClientDataController.h */,
+				2C94C02F1CF1B1BA004476D8 /* STMClientDataController.m */,
+				2C94C0301CF1B1BA004476D8 /* STMClientEntityController.h */,
+				2C94C0311CF1B1BA004476D8 /* STMClientEntityController.m */,
+				2C94C0321CF1B1BA004476D8 /* STMCoreBarCodeController.h */,
+				2C94C0331CF1B1BA004476D8 /* STMCoreBarCodeController.m */,
+				2C94C0341CF1B1BA004476D8 /* STMCoreController.h */,
+				2C94C0351CF1B1BA004476D8 /* STMCoreController.m */,
+				2C94C0361CF1B1BA004476D8 /* STMCoreObjectsController.h */,
+				2C94C0371CF1B1BA004476D8 /* STMCoreObjectsController.m */,
+				2C94C0381CF1B1BA004476D8 /* STMCorePhotosController.h */,
+				2C94C0391CF1B1BA004476D8 /* STMCorePhotosController.m */,
+				2C94C03A1CF1B1BA004476D8 /* STMCorePicturesController.h */,
+				2C94C03B1CF1B1BA004476D8 /* STMCorePicturesController.m */,
+				2C94C03C1CF1B1BA004476D8 /* STMEntityController.h */,
+				2C94C03D1CF1B1BA004476D8 /* STMEntityController.m */,
+				2C94C03E1CF1B1BA004476D8 /* STMLocationController.h */,
+				2C94C03F1CF1B1BA004476D8 /* STMLocationController.m */,
+				2C94C0401CF1B1BA004476D8 /* STMMessageController.h */,
+				2C94C0411CF1B1BA004476D8 /* STMMessageController.m */,
+				2C94C0421CF1B1BA004476D8 /* STMRecordStatusController.h */,
+				2C94C0431CF1B1BA004476D8 /* STMRecordStatusController.m */,
+				2C94C0441CF1B1BA004476D8 /* STMWorkflowController.h */,
+				2C94C0451CF1B1BA004476D8 /* STMWorkflowController.m */,
+			);
+			name = "☯ EntityControllers";
+			path = EntityControllers;
+			sourceTree = "<group>";
+		};
+		2C94C0461CF1B1BA004476D8 /* ☯ Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				2C94C0471CF1B1BA004476D8 /* STMBarCodeScannerDelegate.h */,
+				2C94C0481CF1B1BA004476D8 /* STMEntitiesSubscribable.h */,
+				2C94C0491CF1B1BA004476D8 /* STMImagePickerOwnerProtocol.h */,
+				2C94C04A1CF1B1BA004476D8 /* STMRequestAuthenticatable.h */,
+				2C94C04B1CF1B1BA004476D8 /* STMScanApiHelperDelegate.h */,
+				2C94C04C1CF1B1BA004476D8 /* STMSessionManagement.h */,
+				2C94C04D1CF1B1BA004476D8 /* STMSoundCallbackable.h */,
+				2C94C04E1CF1B1BA004476D8 /* STMTabBarItemControllable.h */,
+				2C94C04F1CF1B1BA004476D8 /* STMVolumePickerOwner.h */,
+				2C94C0501CF1B1BA004476D8 /* STMWorkflowable.h */,
+			);
+			name = "☯ Protocols";
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		2C94C0511CF1B1BA004476D8 /* ☯ STMNS */ = {
+			isa = PBXGroup;
+			children = (
+				2C40F7981CF2060300231E01 /* STMCoreNS.h */,
+				2C94C0521CF1B1BA004476D8 /* STMEntityDescription.h */,
+				2C94C0531CF1B1BA004476D8 /* STMEntityDescription.m */,
+				2C94C0541CF1B1BA004476D8 /* STMFetchRequest.h */,
+				2C94C0551CF1B1BA004476D8 /* STMFetchRequest.m */,
+				2C94C0571CF1B1BA004476D8 /* STMPredicate.h */,
+				2C94C0581CF1B1BA004476D8 /* STMPredicate.m */,
+			);
+			name = "☯ STMNS";
+			path = STMNS;
+			sourceTree = "<group>";
+		};
+		2C94C0591CF1B1BA004476D8 /* ☯ STMUI */ = {
+			isa = PBXGroup;
+			children = (
+				2C94C0611CF1B1BA004476D8 /* ☯ STMCustomTVCells */,
+				2C94C05A1CF1B1BA004476D8 /* STMActionPopoverNC.h */,
+				2C94C05B1CF1B1BA004476D8 /* STMActionPopoverNC.m */,
+				2C94C05C1CF1B1BA004476D8 /* STMBarButtonItem.h */,
+				2C94C05D1CF1B1BA004476D8 /* STMBarButtonItem.m */,
+				2C94C05E1CF1B1BA004476D8 /* STMCoreUI.h */,
+				2C94C05F1CF1B1BA004476D8 /* STMCoreVolumePicker.h */,
+				2C94C0601CF1B1BA004476D8 /* STMCoreVolumePicker.m */,
+				2C94C0801CF1B1BA004476D8 /* STMDatePicker.swift */,
+				2C94C0811CF1B1BA004476D8 /* STMFetchedResultsControllerTVC.h */,
+				2C94C0821CF1B1BA004476D8 /* STMFetchedResultsControllerTVC.m */,
+				2C94C0831CF1B1BA004476D8 /* STMImagePickerController.h */,
+				2C94C0841CF1B1BA004476D8 /* STMImagePickerController.m */,
+				2C94C0851CF1B1BA004476D8 /* STMInfoTableViewCell.h */,
+				2C94C0861CF1B1BA004476D8 /* STMInfoTableViewCell.m */,
+				2C94C0871CF1B1BA004476D8 /* STMInsetLabel.h */,
+				2C94C0881CF1B1BA004476D8 /* STMInsetLabel.m */,
+				2C94C0891CF1B1BA004476D8 /* STMLabel.h */,
+				2C94C08A1CF1B1BA004476D8 /* STMLabel.m */,
+				2C94C08B1CF1B1BA004476D8 /* STMSearchableTVC.h */,
+				2C94C08C1CF1B1BA004476D8 /* STMSearchableTVC.m */,
+				2C94C08D1CF1B1BA004476D8 /* STMSegmentedControl.h */,
+				2C94C08E1CF1B1BA004476D8 /* STMSegmentedControl.m */,
+				2C94C08F1CF1B1BA004476D8 /* STMSpinnerView.h */,
+				2C94C0901CF1B1BA004476D8 /* STMSpinnerView.m */,
+				2C94C0911CF1B1BA004476D8 /* STMSplitViewController.h */,
+				2C94C0921CF1B1BA004476D8 /* STMSplitViewController.m */,
+				2C94C0931CF1B1BA004476D8 /* STMSplitViewController_Swift.swift */,
+				2C94C0941CF1B1BA004476D8 /* STMStoryboard.h */,
+				2C94C0951CF1B1BA004476D8 /* STMStoryboard.m */,
+				2C94C0961CF1B1BA004476D8 /* STMTableViewCell.h */,
+				2C94C0971CF1B1BA004476D8 /* STMTableViewCell.m */,
+				2C94C0981CF1B1BA004476D8 /* STMVariableCellsHeightTVC.h */,
+				2C94C0991CF1B1BA004476D8 /* STMVariableCellsHeightTVC.m */,
+				2C94C09A1CF1B1BA004476D8 /* STMWorkflowAS.h */,
+				2C94C09B1CF1B1BA004476D8 /* STMWorkflowAS.m */,
+				2C94C09C1CF1B1BA004476D8 /* UIToolbar+custom.h */,
+				2C94C09D1CF1B1BA004476D8 /* UIToolbar+custom.m */,
+				2C94C09E1CF1B1BA004476D8 /* UIViewController+custom.h */,
+				2C94C09F1CF1B1BA004476D8 /* UIViewController+custom.m */,
+			);
+			name = "☯ STMUI";
+			path = STMUI;
+			sourceTree = "<group>";
+		};
+		2C94C0611CF1B1BA004476D8 /* ☯ STMCustomTVCells */ = {
+			isa = PBXGroup;
+			children = (
+				2C94C0621CF1B1BA004476D8 /* STMCoreVolumeTVCell.h */,
+				2C94C0631CF1B1BA004476D8 /* STMCoreVolumeTVCell.m */,
+				2C94C0641CF1B1BA004476D8 /* STMCustom10TVCell.h */,
+				2C94C0651CF1B1BA004476D8 /* STMCustom10TVCell.m */,
+				2C94C0661CF1B1BA004476D8 /* STMCustom1CVCell.h */,
+				2C94C0671CF1B1BA004476D8 /* STMCustom1CVCell.m */,
+				2C94C0681CF1B1BA004476D8 /* STMCustom1CVHeader.h */,
+				2C94C0691CF1B1BA004476D8 /* STMCustom1CVHeader.m */,
+				2C94C06A1CF1B1BA004476D8 /* STMCustom1TVCell.h */,
+				2C94C06B1CF1B1BA004476D8 /* STMCustom1TVCell.m */,
+				2C94C06C1CF1B1BA004476D8 /* STMCustom2TVCell.h */,
+				2C94C06D1CF1B1BA004476D8 /* STMCustom2TVCell.m */,
+				2C94C06E1CF1B1BA004476D8 /* STMCustom3TVCell.h */,
+				2C94C06F1CF1B1BA004476D8 /* STMCustom3TVCell.m */,
+				2C94C0701CF1B1BA004476D8 /* STMCustom4TVCell.h */,
+				2C94C0711CF1B1BA004476D8 /* STMCustom4TVCell.m */,
+				2C94C0721CF1B1BA004476D8 /* STMCustom5TVCell.h */,
+				2C94C0731CF1B1BA004476D8 /* STMCustom5TVCell.m */,
+				2C94C0741CF1B1BA004476D8 /* STMCustom6TVCell.h */,
+				2C94C0751CF1B1BA004476D8 /* STMCustom6TVCell.m */,
+				2C94C0761CF1B1BA004476D8 /* STMCustom7TVCell.h */,
+				2C94C0771CF1B1BA004476D8 /* STMCustom7TVCell.m */,
+				2C94C0781CF1B1BA004476D8 /* STMCustom8TVCell.h */,
+				2C94C0791CF1B1BA004476D8 /* STMCustom8TVCell.m */,
+				2C94C07A1CF1B1BA004476D8 /* STMCustom9TVCell.h */,
+				2C94C07B1CF1B1BA004476D8 /* STMCustom9TVCell.m */,
+				2C94C07C1CF1B1BA004476D8 /* STMCustomCells.h */,
+				2C94C07D1CF1B1BA004476D8 /* STMThreeLinesAndCheckboxTVCell.swift */,
+				2C94C07E1CF1B1BA004476D8 /* STMVolumeControlsTVCell.h */,
+				2C94C07F1CF1B1BA004476D8 /* STMVolumeControlsTVCell.m */,
+			);
+			name = "☯ STMCustomTVCells";
+			path = STMCustomTVCells;
+			sourceTree = "<group>";
+		};
+		2C94C0A01CF1B1BA004476D8 /* ☯ Views */ = {
+			isa = PBXGroup;
+			children = (
+				2C94C0A11CF1B1BA004476D8 /* ☯ STMAuth */,
+				2C94C0AC1CF1B1BA004476D8 /* ☯ STMLogs */,
+				2C94C0B31CF1B1BA004476D8 /* ☯ STMMessages */,
+				2C94C0BA1CF1B1BB004476D8 /* ☯ STMProfile */,
+				2C94C0BF1CF1B1BB004476D8 /* ☯ STMScannerInfo */,
+				2C94C0C41CF1B1BB004476D8 /* ☯ STMSettings */,
+				2C94C0CD1CF1B1BB004476D8 /* ☯ STMWebView */,
+				2C94C0D21CF1B1BB004476D8 /* ☯ STMWKWebView */,
+				2C94C0AA1CF1B1BA004476D8 /* STMCoreRootTBC.h */,
+				2C94C0AB1CF1B1BA004476D8 /* STMCoreRootTBC.m */,
+				2C94C0CB1CF1B1BB004476D8 /* STMTabBarButtonTVC.h */,
+				2C94C0CC1CF1B1BB004476D8 /* STMTabBarButtonTVC.m */,
+				2C94C0D71CF1B1BB004476D8 /* STMWorkflowEditablesVC.h */,
+				2C94C0D81CF1B1BB004476D8 /* STMWorkflowEditablesVC.m */,
+			);
+			name = "☯ Views";
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2C94C0A11CF1B1BA004476D8 /* ☯ STMAuth */ = {
+			isa = PBXGroup;
+			children = (
+				2C94C0A21CF1B1BA004476D8 /* STMAuthNC.h */,
+				2C94C0A31CF1B1BA004476D8 /* STMAuthNC.m */,
+				2C94C0A41CF1B1BA004476D8 /* STMAuthPhoneVC.h */,
+				2C94C0A51CF1B1BA004476D8 /* STMAuthPhoneVC.m */,
+				2C94C0A61CF1B1BA004476D8 /* STMAuthSMSVC.h */,
+				2C94C0A71CF1B1BA004476D8 /* STMAuthSMSVC.m */,
+				2C94C0A81CF1B1BA004476D8 /* STMAuthVC.h */,
+				2C94C0A91CF1B1BA004476D8 /* STMAuthVC.m */,
+			);
+			name = "☯ STMAuth";
+			path = STMAuth;
+			sourceTree = "<group>";
+		};
+		2C94C0AC1CF1B1BA004476D8 /* ☯ STMLogs */ = {
+			isa = PBXGroup;
+			children = (
+				2C94C0AD1CF1B1BA004476D8 /* STMLogMessagesDetailTVC.h */,
+				2C94C0AE1CF1B1BA004476D8 /* STMLogMessagesDetailTVC.m */,
+				2C94C0AF1CF1B1BA004476D8 /* STMLogMessagesMasterTVC.h */,
+				2C94C0B01CF1B1BA004476D8 /* STMLogMessagesMasterTVC.m */,
+				2C94C0B11CF1B1BA004476D8 /* STMLogMessagesSVC.h */,
+				2C94C0B21CF1B1BA004476D8 /* STMLogMessagesSVC.m */,
+			);
+			name = "☯ STMLogs";
+			path = STMLogs;
+			sourceTree = "<group>";
+		};
+		2C94C0B31CF1B1BA004476D8 /* ☯ STMMessages */ = {
+			isa = PBXGroup;
+			children = (
+				2C94C0B41CF1B1BA004476D8 /* STMMessagesNC.h */,
+				2C94C0B51CF1B1BB004476D8 /* STMMessagesNC.m */,
+				2C94C0B61CF1B1BB004476D8 /* STMMessagesTVC.h */,
+				2C94C0B71CF1B1BB004476D8 /* STMMessagesTVC.m */,
+				2C94C0B81CF1B1BB004476D8 /* STMMessageVC.h */,
+				2C94C0B91CF1B1BB004476D8 /* STMMessageVC.m */,
+			);
+			name = "☯ STMMessages";
+			path = STMMessages;
+			sourceTree = "<group>";
+		};
+		2C94C0BA1CF1B1BB004476D8 /* ☯ STMProfile */ = {
+			isa = PBXGroup;
+			children = (
+				2C94C0BB1CF1B1BB004476D8 /* STMProfileNC.h */,
+				2C94C0BC1CF1B1BB004476D8 /* STMProfileNC.m */,
+				2C94C0BD1CF1B1BB004476D8 /* STMProfileVC.h */,
+				2C94C0BE1CF1B1BB004476D8 /* STMProfileVC.m */,
+			);
+			name = "☯ STMProfile";
+			path = STMProfile;
+			sourceTree = "<group>";
+		};
+		2C94C0BF1CF1B1BB004476D8 /* ☯ STMScannerInfo */ = {
+			isa = PBXGroup;
+			children = (
+				2C94C0C01CF1B1BB004476D8 /* STMScannerInfoNC.h */,
+				2C94C0C11CF1B1BB004476D8 /* STMScannerInfoNC.m */,
+				2C94C0C21CF1B1BB004476D8 /* STMScannerInfoVC.h */,
+				2C94C0C31CF1B1BB004476D8 /* STMScannerInfoVC.m */,
+			);
+			name = "☯ STMScannerInfo";
+			path = STMScannerInfo;
+			sourceTree = "<group>";
+		};
+		2C94C0C41CF1B1BB004476D8 /* ☯ STMSettings */ = {
+			isa = PBXGroup;
+			children = (
+				2C94C0C51CF1B1BB004476D8 /* STMSettingControlsTVC.h */,
+				2C94C0C61CF1B1BB004476D8 /* STMSettingControlsTVC.m */,
+				2C94C0C71CF1B1BB004476D8 /* STMSettingsNC.h */,
+				2C94C0C81CF1B1BB004476D8 /* STMSettingsNC.m */,
+				2C94C0C91CF1B1BB004476D8 /* STMSettingsTVC.h */,
+				2C94C0CA1CF1B1BB004476D8 /* STMSettingsTVC.m */,
+			);
+			name = "☯ STMSettings";
+			path = STMSettings;
+			sourceTree = "<group>";
+		};
+		2C94C0CD1CF1B1BB004476D8 /* ☯ STMWebView */ = {
+			isa = PBXGroup;
+			children = (
+				2C94C0CE1CF1B1BB004476D8 /* STMWebViewNC.h */,
+				2C94C0CF1CF1B1BB004476D8 /* STMWebViewNC.m */,
+				2C94C0D01CF1B1BB004476D8 /* STMWebViewVC.h */,
+				2C94C0D11CF1B1BB004476D8 /* STMWebViewVC.m */,
+			);
+			name = "☯ STMWebView";
+			path = STMWebView;
+			sourceTree = "<group>";
+		};
+		2C94C0D21CF1B1BB004476D8 /* ☯ STMWKWebView */ = {
+			isa = PBXGroup;
+			children = (
+				2C94C0D31CF1B1BB004476D8 /* STMWKWebViewNC.h */,
+				2C94C0D41CF1B1BB004476D8 /* STMWKWebViewNC.m */,
+				2C94C0D51CF1B1BB004476D8 /* STMWKWebViewVC.h */,
+				2C94C0D61CF1B1BB004476D8 /* STMWKWebViewVC.m */,
+			);
+			name = "☯ STMWKWebView";
+			path = STMWKWebView;
+			sourceTree = "<group>";
+		};
+		2C94C1391CF1B1F3004476D8 /* ☯ DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				2C94C13B1CF1B1F3004476D8 /* STMBarCodeScan+CoreDataProperties.h */,
+				2C94C13C1CF1B1F3004476D8 /* STMBarCodeScan+CoreDataProperties.m */,
+				2C94C13D1CF1B1F3004476D8 /* STMBarCodeScan.h */,
+				2C94C13E1CF1B1F3004476D8 /* STMBarCodeScan.m */,
+				2C94C13F1CF1B1F3004476D8 /* STMBarCodeType+CoreDataProperties.h */,
+				2C94C1401CF1B1F3004476D8 /* STMBarCodeType+CoreDataProperties.m */,
+				2C94C1411CF1B1F3004476D8 /* STMBarCodeType.h */,
+				2C94C1421CF1B1F3004476D8 /* STMBarCodeType.m */,
+				2C94C1431CF1B1F3004476D8 /* STMBatteryStatus+CoreDataProperties.h */,
+				2C94C1441CF1B1F3004476D8 /* STMBatteryStatus+CoreDataProperties.m */,
+				2C94C1451CF1B1F3004476D8 /* STMBatteryStatus.h */,
+				2C94C1461CF1B1F3004476D8 /* STMBatteryStatus.m */,
+				2C94C1471CF1B1F3004476D8 /* STMClientData+CoreDataProperties.h */,
+				2C94C1481CF1B1F3004476D8 /* STMClientData+CoreDataProperties.m */,
+				2C94C1491CF1B1F3004476D8 /* STMClientData.h */,
+				2C94C14A1CF1B1F3004476D8 /* STMClientData.m */,
+				2C94C14B1CF1B1F3004476D8 /* STMClientEntity+CoreDataProperties.h */,
+				2C94C14C1CF1B1F3004476D8 /* STMClientEntity+CoreDataProperties.m */,
+				2C94C14D1CF1B1F3004476D8 /* STMClientEntity.h */,
+				2C94C14E1CF1B1F3004476D8 /* STMClientEntity.m */,
+				2C94C14F1CF1B1F3004476D8 /* STMCoreDataModel.h */,
+				2C94C1501CF1B1F3004476D8 /* STMCorePicture+CoreDataProperties.h */,
+				2C94C1511CF1B1F3004476D8 /* STMCorePicture+CoreDataProperties.m */,
+				2C94C1521CF1B1F3004476D8 /* STMCorePicture.h */,
+				2C94C1531CF1B1F3004476D8 /* STMCorePicture.m */,
+				2C94C1541CF1B1F3004476D8 /* STMDatum+CoreDataProperties.h */,
+				2C94C1551CF1B1F3004476D8 /* STMDatum+CoreDataProperties.m */,
+				2C94C1561CF1B1F3004476D8 /* STMDatum.h */,
+				2C94C1571CF1B1F3004476D8 /* STMDatum.m */,
+				2C94C1581CF1B1F3004476D8 /* STMEntity+CoreDataProperties.h */,
+				2C94C1591CF1B1F3004476D8 /* STMEntity+CoreDataProperties.m */,
+				2C94C15A1CF1B1F3004476D8 /* STMEntity.h */,
+				2C94C15B1CF1B1F3004476D8 /* STMEntity.m */,
+				2C94C15C1CF1B1F3004476D8 /* STMLocation+CoreDataProperties.h */,
+				2C94C15D1CF1B1F3004476D8 /* STMLocation+CoreDataProperties.m */,
+				2C94C15E1CF1B1F3004476D8 /* STMLocation.h */,
+				2C94C15F1CF1B1F3004476D8 /* STMLocation.m */,
+				2C94C1601CF1B1F3004476D8 /* STMLogMessage+CoreDataProperties.h */,
+				2C94C1611CF1B1F3004476D8 /* STMLogMessage+CoreDataProperties.m */,
+				2C94C1621CF1B1F3004476D8 /* STMLogMessage.h */,
+				2C94C1631CF1B1F3004476D8 /* STMLogMessage.m */,
+				2C94C1641CF1B1F3004476D8 /* STMMessage+CoreDataProperties.h */,
+				2C94C1651CF1B1F3004476D8 /* STMMessage+CoreDataProperties.m */,
+				2C94C1661CF1B1F3004476D8 /* STMMessage.h */,
+				2C94C1671CF1B1F3004476D8 /* STMMessage.m */,
+				2C94C1681CF1B1F3004476D8 /* STMMessagePicture+CoreDataProperties.h */,
+				2C94C1691CF1B1F3004476D8 /* STMMessagePicture+CoreDataProperties.m */,
+				2C94C16A1CF1B1F3004476D8 /* STMMessagePicture.h */,
+				2C94C16B1CF1B1F3004476D8 /* STMMessagePicture.m */,
+				2C94C16C1CF1B1F3004476D8 /* STMPhoto+CoreDataProperties.h */,
+				2C94C16D1CF1B1F3004476D8 /* STMPhoto+CoreDataProperties.m */,
+				2C94C16E1CF1B1F3004476D8 /* STMPhoto.h */,
+				2C94C16F1CF1B1F3004476D8 /* STMPhoto.m */,
+				2C94C1701CF1B1F3004476D8 /* STMRecordStatus+CoreDataProperties.h */,
+				2C94C1711CF1B1F3004476D8 /* STMRecordStatus+CoreDataProperties.m */,
+				2C94C1721CF1B1F3004476D8 /* STMRecordStatus.h */,
+				2C94C1731CF1B1F3004476D8 /* STMRecordStatus.m */,
+				2C94C1741CF1B1F3004476D8 /* STMSetting+CoreDataProperties.h */,
+				2C94C1751CF1B1F3004476D8 /* STMSetting+CoreDataProperties.m */,
+				2C94C1761CF1B1F3004476D8 /* STMSetting.h */,
+				2C94C1771CF1B1F3004476D8 /* STMSetting.m */,
+				2C94C1781CF1B1F3004476D8 /* STMWorkflow+CoreDataProperties.h */,
+				2C94C1791CF1B1F3004476D8 /* STMWorkflow+CoreDataProperties.m */,
+				2C94C17A1CF1B1F3004476D8 /* STMWorkflow.h */,
+				2C94C17B1CF1B1F3004476D8 /* STMWorkflow.m */,
+			);
+			name = "☯ DataModel";
+			path = ../../iSistemiumCore/iSistemiumCore/DataModel;
+			sourceTree = "<group>";
+		};
+		2C94C19D1CF1B234004476D8 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				2C94C1A01CF1B2A6004476D8 /* iSisWarehouse.xcdatamodel */,
+				2C40F7901CF203BF00231E01 /* STMDataModel.h */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		2C94C1A21CF1B2D8004476D8 /* ☯ Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C94C1A31CF1B2D8004476D8 /* ☯ SocketIOClientSwift */,
+			);
+			name = "☯ Frameworks";
+			path = ../../iSistemiumCore/iSistemiumCore/Frameworks;
+			sourceTree = "<group>";
+		};
+		2C94C1A31CF1B2D8004476D8 /* ☯ SocketIOClientSwift */ = {
+			isa = PBXGroup;
+			children = (
+				2C94C1A41CF1B2D8004476D8 /* SocketAckEmitter.swift */,
+				2C94C1A51CF1B2D8004476D8 /* SocketAckManager.swift */,
+				2C94C1A61CF1B2D8004476D8 /* SocketAnyEvent.swift */,
+				2C94C1A71CF1B2D8004476D8 /* SocketEngine.swift */,
+				2C94C1A81CF1B2D8004476D8 /* SocketEngineClient.swift */,
+				2C94C1A91CF1B2D8004476D8 /* SocketEventHandler.swift */,
+				2C94C1AA1CF1B2D8004476D8 /* SocketFixUTF8.swift */,
+				2C94C1AB1CF1B2D8004476D8 /* SocketIOClient.swift */,
+				2C94C1AC1CF1B2D8004476D8 /* SocketIOClientStatus.swift */,
+				2C94C1AD1CF1B2D8004476D8 /* SocketLogger.swift */,
+				2C94C1AE1CF1B2D8004476D8 /* SocketPacket.swift */,
+				2C94C1AF1CF1B2D8004476D8 /* SocketParser.swift */,
+				2C94C1B01CF1B2D8004476D8 /* SocketStringReader.swift */,
+				2C94C1B11CF1B2D8004476D8 /* SocketTypes.swift */,
+				2C94C1B21CF1B2D8004476D8 /* SwiftRegex.swift */,
+				2C94C1B31CF1B2D8004476D8 /* WebSocket.swift */,
+			);
+			name = "☯ SocketIOClientSwift";
+			path = SocketIOClientSwift;
+			sourceTree = "<group>";
+		};
+		2C94C1C41CF1B308004476D8 /* ☯ Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2C94C1C51CF1B308004476D8 /* ☯ Images */,
+				2C94C1F11CF1B308004476D8 /* settings_schema.json */,
+			);
+			name = "☯ Resources";
+			path = ../../iSistemiumCore/iSistemiumCore/Resources;
+			sourceTree = "<group>";
+		};
+		2C94C1C51CF1B308004476D8 /* ☯ Images */ = {
+			isa = PBXGroup;
+			children = (
+				2C94C1C61CF1B308004476D8 /* 3colors-colorless.png */,
+				2C94C1C71CF1B308004476D8 /* alphabetical_sorting.png */,
+				2C94C1C81CF1B308004476D8 /* alphabetical_sorting_2.png */,
+				2C94C1C91CF1B308004476D8 /* back.png */,
+				2C94C1CA1CF1B308004476D8 /* barcode.png */,
+				2C94C1CB1CF1B308004476D8 /* barcode_scanner.png */,
+				2C94C1CC1CF1B308004476D8 /* camera.png */,
+				2C94C1CD1CF1B308004476D8 /* camera_filled.png */,
+				2C94C1CE1CF1B308004476D8 /* checked_user-128.png */,
+				2C94C1CF1CF1B308004476D8 /* checkmark.png */,
+				2C94C1D01CF1B308004476D8 /* checkmark_filled.png */,
+				2C94C1D11CF1B308004476D8 /* Clear Filters-25.png */,
+				2C94C1D21CF1B308004476D8 /* close-128.png */,
+				2C94C1D31CF1B308004476D8 /* data_in_both_directions.png */,
+				2C94C1D41CF1B308004476D8 /* Down4-25.png */,
+				2C94C1D51CF1B308004476D8 /* Download From Cloud-100.png */,
+				2C94C1D61CF1B308004476D8 /* exit-128.png */,
+				2C94C1D71CF1B308004476D8 /* forward.png */,
+				2C94C1D81CF1B308004476D8 /* full_moon-128.png */,
+				2C94C1D91CF1B308004476D8 /* future.png */,
+				2C94C1DA1CF1B308004476D8 /* help.png */,
+				2C94C1DB1CF1B308004476D8 /* location.png */,
+				2C94C1DC1CF1B308004476D8 /* No connection Cloud-100.png */,
+				2C94C1DD1CF1B308004476D8 /* numerical_sorting_12.png */,
+				2C94C1DE1CF1B308004476D8 /* numerical_sorting_21.png */,
+				2C94C1DF1CF1B308004476D8 /* password2-128.png */,
+				2C94C1E01CF1B308004476D8 /* past.png */,
+				2C94C1E11CF1B308004476D8 /* photo-icon.png */,
+				2C94C1E21CF1B308004476D8 /* plus.png */,
+				2C94C1E31CF1B308004476D8 /* refresh_barcode.png */,
+				2C94C1E41CF1B308004476D8 /* reordering.png */,
+				2C94C1E51CF1B308004476D8 /* scanner_info.png */,
+				2C94C1E61CF1B308004476D8 /* Settings-25.png */,
+				2C94C1E71CF1B308004476D8 /* settings.png */,
+				2C94C1E81CF1B308004476D8 /* settings3-128.png */,
+				2C94C1E91CF1B308004476D8 /* Sync With Cloud.png */,
+				2C94C1EA1CF1B308004476D8 /* uncheckmark.png */,
+				2C94C1EB1CF1B308004476D8 /* uncheckmark_filled.png */,
+				2C94C1EC1CF1B308004476D8 /* Up4-25.png */,
+				2C94C1ED1CF1B308004476D8 /* Upload To Cloud-100.png */,
+				2C94C1EE1CF1B308004476D8 /* Upload-100.png */,
+			);
+			name = "☯ Images";
+			path = Images;
+			sourceTree = "<group>";
+		};
+		2C94C21E1CF1B352004476D8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2C94C26D1CF1B870004476D8 /* Images */,
+				2C94C26C1CF1B860004476D8 /* Sounds */,
+				2C94C21F1CF1B36F004476D8 /* iphoneTabs.json */,
+				2C94C2201CF1B36F004476D8 /* settings.json */,
+				2CD5BF0A1CF1E780006E1E36 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2C94C2231CF1B3BA004476D8 /* ☯ Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				2C94C2241CF1B3BA004476D8 /* STMAuth.storyboard */,
+				2C94C2251CF1B3BA004476D8 /* ☯ STMCustomCells */,
+				2C94C2351CF1B3BA004476D8 /* STMLogs.storyboard */,
+				2C94C2361CF1B3BA004476D8 /* STMMessages.storyboard */,
+				2C94C2371CF1B3BA004476D8 /* STMMessageVC.storyboard */,
+				2C94C2381CF1B3BA004476D8 /* STMProfile.storyboard */,
+				2C94C2391CF1B3BA004476D8 /* STMScannerInfo.storyboard */,
+				2C94C23A1CF1B3BA004476D8 /* STMSettings.storyboard */,
+				2C94C23B1CF1B3BA004476D8 /* STMWebView.storyboard */,
+				2C94C23C1CF1B3BA004476D8 /* STMWKWebView.storyboard */,
+			);
+			name = "☯ Storyboards";
+			path = ../../iSistemiumCore/iSistemiumCore/Storyboards;
+			sourceTree = "<group>";
+		};
+		2C94C2251CF1B3BA004476D8 /* ☯ STMCustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				2C94C2261CF1B3BA004476D8 /* STMCoreVolumeTVCell.xib */,
+				2C94C2271CF1B3BA004476D8 /* STMCustom10TVCell.xib */,
+				2C94C2281CF1B3BA004476D8 /* STMCustom1CVCell.xib */,
+				2C94C2291CF1B3BA004476D8 /* STMCustom1CVHeader.xib */,
+				2C94C22A1CF1B3BA004476D8 /* STMCustom1TVCell.xib */,
+				2C94C22B1CF1B3BA004476D8 /* STMCustom2TVCell.xib */,
+				2C94C22C1CF1B3BA004476D8 /* STMCustom3TVCell.xib */,
+				2C94C22D1CF1B3BA004476D8 /* STMCustom4TVCell.xib */,
+				2C94C22E1CF1B3BA004476D8 /* STMCustom5TVCell.xib */,
+				2C94C22F1CF1B3BA004476D8 /* STMCustom6TVCell.xib */,
+				2C94C2301CF1B3BA004476D8 /* STMCustom7TVCell.xib */,
+				2C94C2311CF1B3BA004476D8 /* STMCustom8TVCell.xib */,
+				2C94C2321CF1B3BA004476D8 /* STMCustom9TVCell.xib */,
+				2C94C2331CF1B3BA004476D8 /* STMThreeLinesAndCheckboxTVCell.xib */,
+				2C94C2341CF1B3BA004476D8 /* STMVolumeControlsTVCell.xib */,
+			);
+			name = "☯ STMCustomCells";
+			path = STMCustomCells;
+			sourceTree = "<group>";
+		};
+		2C94C25C1CF1B46E004476D8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2C94C2661CF1B7DC004476D8 /* Base */,
+				2C94C2671CF1B7EB004476D8 /* EntityControllers */,
+				2C94C2681CF1B7FA004476D8 /* ProcessesControllers */,
+				2C94C2691CF1B809004476D8 /* Protocols */,
+				2C94C26B1CF1B831004476D8 /* STMNS */,
+				2C94C2651CF1B7C9004476D8 /* STMUI */,
+				2C94C26A1CF1B818004476D8 /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2C94C25D1CF1B4BC004476D8 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		2C94C2651CF1B7C9004476D8 /* STMUI */ = {
+			isa = PBXGroup;
+			children = (
+				2C40F7971CF205CC00231E01 /* STMUI.h */,
+			);
+			path = STMUI;
+			sourceTree = "<group>";
+		};
+		2C94C2661CF1B7DC004476D8 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2C40F7811CF203A100231E01 /* STMAuthController.h */,
+				2C40F7821CF203A100231E01 /* STMAuthController.m */,
+				2C40F7851CF203A100231E01 /* STMSession.h */,
+				2C40F7861CF203A100231E01 /* STMSession.m */,
+				2C40F7871CF203A100231E01 /* STMSessionManager.h */,
+				2C40F7881CF203A100231E01 /* STMSessionManager.m */,
+				2C40F7891CF203A100231E01 /* STMSettingsController.h */,
+				2C40F78A1CF203A100231E01 /* STMSettingsController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		2C94C2671CF1B7EB004476D8 /* EntityControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2C40F77E1CF2037A00231E01 /* STMController.h */,
+				2C40F77F1CF2037A00231E01 /* STMController.m */,
+			);
+			path = EntityControllers;
+			sourceTree = "<group>";
+		};
+		2C94C2681CF1B7FA004476D8 /* ProcessesControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ProcessesControllers;
+			sourceTree = "<group>";
+		};
+		2C94C2691CF1B809004476D8 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		2C94C26A1CF1B818004476D8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2C94C26B1CF1B831004476D8 /* STMNS */ = {
+			isa = PBXGroup;
+			children = (
+				2C40F7961CF2056700231E01 /* STMNS.h */,
+			);
+			path = STMNS;
+			sourceTree = "<group>";
+		};
+		2C94C26C1CF1B860004476D8 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		2C94C26D1CF1B870004476D8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		4F33BC9424009A9FEC7C76FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B689995AE2A7E80F555D29A /* Pods.debug.xcconfig */,
+				A3277DFA3A62BBCE8AF2B808 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C94BFC91CF1ACB8004476D8 /* iSisWarehouse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C94BFF71CF1ACB8004476D8 /* Build configuration list for PBXNativeTarget "iSisWarehouse" */;
+			buildPhases = (
+				59829FD80E42CAACBC81D4F7 /* Check Pods Manifest.lock */,
+				2C94BFC61CF1ACB8004476D8 /* Sources */,
+				2C94BFC71CF1ACB8004476D8 /* Frameworks */,
+				2C94BFC81CF1ACB8004476D8 /* Resources */,
+				3165F6B65A3C73CAF257E3FA /* Embed Pods Frameworks */,
+				C20B4D3622FCE67767F4AF2F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iSisWarehouse;
+			productName = iSisWarehouse;
+			productReference = 2C94BFCA1CF1ACB8004476D8 /* iSisWarehouse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C94BFE21CF1ACB8004476D8 /* iSisWarehouseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C94BFFA1CF1ACB8004476D8 /* Build configuration list for PBXNativeTarget "iSisWarehouseTests" */;
+			buildPhases = (
+				2C94BFDF1CF1ACB8004476D8 /* Sources */,
+				2C94BFE01CF1ACB8004476D8 /* Frameworks */,
+				2C94BFE11CF1ACB8004476D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C94BFE51CF1ACB8004476D8 /* PBXTargetDependency */,
+			);
+			name = iSisWarehouseTests;
+			productName = iSisWarehouseTests;
+			productReference = 2C94BFE31CF1ACB8004476D8 /* iSisWarehouseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2C94BFED1CF1ACB8004476D8 /* iSisWarehouseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C94BFFD1CF1ACB8004476D8 /* Build configuration list for PBXNativeTarget "iSisWarehouseUITests" */;
+			buildPhases = (
+				2C94BFEA1CF1ACB8004476D8 /* Sources */,
+				2C94BFEB1CF1ACB8004476D8 /* Frameworks */,
+				2C94BFEC1CF1ACB8004476D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C94BFF01CF1ACB8004476D8 /* PBXTargetDependency */,
+			);
+			name = iSisWarehouseUITests;
+			productName = iSisWarehouseUITests;
+			productReference = 2C94BFEE1CF1ACB8004476D8 /* iSisWarehouseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C94BFC21CF1ACB8004476D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Sistemium UAB";
+				TargetAttributes = {
+					2C94BFC91CF1ACB8004476D8 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = HZMMGDCLPA;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					2C94BFE21CF1ACB8004476D8 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2C94BFC91CF1ACB8004476D8;
+					};
+					2C94BFED1CF1ACB8004476D8 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2C94BFC91CF1ACB8004476D8;
+					};
+				};
+			};
+			buildConfigurationList = 2C94BFC51CF1ACB8004476D8 /* Build configuration list for PBXProject "iSisWarehouse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+			);
+			mainGroup = 2C94BFC11CF1ACB8004476D8;
+			productRefGroup = 2C94BFCB1CF1ACB8004476D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C94BFC91CF1ACB8004476D8 /* iSisWarehouse */,
+				2C94BFE21CF1ACB8004476D8 /* iSisWarehouseTests */,
+				2C94BFED1CF1ACB8004476D8 /* iSisWarehouseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C94BFC81CF1ACB8004476D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C94C2011CF1B308004476D8 /* Download From Cloud-100.png in Resources */,
+				2C94C2411CF1B3BA004476D8 /* STMCustom1CVHeader.xib in Resources */,
+				2C94C1F41CF1B308004476D8 /* alphabetical_sorting_2.png in Resources */,
+				2C94C2041CF1B308004476D8 /* full_moon-128.png in Resources */,
+				2C94C20F1CF1B308004476D8 /* refresh_barcode.png in Resources */,
+				2C94C2431CF1B3BA004476D8 /* STMCustom2TVCell.xib in Resources */,
+				2C94C24A1CF1B3BA004476D8 /* STMCustom9TVCell.xib in Resources */,
+				2C94C2531CF1B3BA004476D8 /* STMWebView.storyboard in Resources */,
+				2C94C24D1CF1B3BA004476D8 /* STMLogs.storyboard in Resources */,
+				2C94C1F51CF1B308004476D8 /* back.png in Resources */,
+				2C94C1FA1CF1B308004476D8 /* checked_user-128.png in Resources */,
+				2C94C1F61CF1B308004476D8 /* barcode.png in Resources */,
+				2C94C2061CF1B308004476D8 /* help.png in Resources */,
+				2C94C2461CF1B3BA004476D8 /* STMCustom5TVCell.xib in Resources */,
+				2C94C2121CF1B308004476D8 /* Settings-25.png in Resources */,
+				2C94C1FB1CF1B308004476D8 /* checkmark.png in Resources */,
+				2C94C20B1CF1B308004476D8 /* password2-128.png in Resources */,
+				2C94C2481CF1B3BA004476D8 /* STMCustom7TVCell.xib in Resources */,
+				2C94C2171CF1B308004476D8 /* uncheckmark_filled.png in Resources */,
+				2C94C2081CF1B308004476D8 /* No connection Cloud-100.png in Resources */,
+				2C94C2111CF1B308004476D8 /* scanner_info.png in Resources */,
+				2C94C24C1CF1B3BA004476D8 /* STMVolumeControlsTVCell.xib in Resources */,
+				2C94C1F91CF1B308004476D8 /* camera_filled.png in Resources */,
+				2C94C1FD1CF1B308004476D8 /* Clear Filters-25.png in Resources */,
+				2C94C2541CF1B3BA004476D8 /* STMWKWebView.storyboard in Resources */,
+				2C94C21D1CF1B308004476D8 /* settings_schema.json in Resources */,
+				2C94C2501CF1B3BA004476D8 /* STMProfile.storyboard in Resources */,
+				2C94C2421CF1B3BA004476D8 /* STMCustom1TVCell.xib in Resources */,
+				2C94C21A1CF1B308004476D8 /* Upload-100.png in Resources */,
+				2C94C2161CF1B308004476D8 /* uncheckmark.png in Resources */,
+				2C94C1F81CF1B308004476D8 /* camera.png in Resources */,
+				2C94C2141CF1B308004476D8 /* settings3-128.png in Resources */,
+				2C94C2001CF1B308004476D8 /* Down4-25.png in Resources */,
+				2C94C20A1CF1B308004476D8 /* numerical_sorting_21.png in Resources */,
+				2C94C2051CF1B308004476D8 /* future.png in Resources */,
+				2C94C2451CF1B3BA004476D8 /* STMCustom4TVCell.xib in Resources */,
+				2C94C1F21CF1B308004476D8 /* 3colors-colorless.png in Resources */,
+				2C94C2101CF1B308004476D8 /* reordering.png in Resources */,
+				2C94C2511CF1B3BA004476D8 /* STMScannerInfo.storyboard in Resources */,
+				2C94C2471CF1B3BA004476D8 /* STMCustom6TVCell.xib in Resources */,
+				2C94C2091CF1B308004476D8 /* numerical_sorting_12.png in Resources */,
+				2C94C24F1CF1B3BA004476D8 /* STMMessageVC.storyboard in Resources */,
+				2C94C2221CF1B36F004476D8 /* settings.json in Resources */,
+				2C94C20D1CF1B308004476D8 /* photo-icon.png in Resources */,
+				2C94C2401CF1B3BA004476D8 /* STMCustom1CVCell.xib in Resources */,
+				2CD5BF081CF1E780006E1E36 /* Localizable.strings in Resources */,
+				2C94C2131CF1B308004476D8 /* settings.png in Resources */,
+				2C94C20C1CF1B308004476D8 /* past.png in Resources */,
+				2C94C1FE1CF1B308004476D8 /* close-128.png in Resources */,
+				2C94C2181CF1B308004476D8 /* Up4-25.png in Resources */,
+				2C94C2191CF1B308004476D8 /* Upload To Cloud-100.png in Resources */,
+				2C94C2441CF1B3BA004476D8 /* STMCustom3TVCell.xib in Resources */,
+				2C94C23F1CF1B3BA004476D8 /* STMCustom10TVCell.xib in Resources */,
+				2C94C2151CF1B308004476D8 /* Sync With Cloud.png in Resources */,
+				2C94C2071CF1B308004476D8 /* location.png in Resources */,
+				2C94C2021CF1B308004476D8 /* exit-128.png in Resources */,
+				2C94C2211CF1B36F004476D8 /* iphoneTabs.json in Resources */,
+				2C94C24B1CF1B3BA004476D8 /* STMThreeLinesAndCheckboxTVCell.xib in Resources */,
+				2C94C23E1CF1B3BA004476D8 /* STMCoreVolumeTVCell.xib in Resources */,
+				2C94C1F31CF1B308004476D8 /* alphabetical_sorting.png in Resources */,
+				2C94BFDA1CF1ACB8004476D8 /* Assets.xcassets in Resources */,
+				2C94C1FF1CF1B308004476D8 /* data_in_both_directions.png in Resources */,
+				2C94C24E1CF1B3BA004476D8 /* STMMessages.storyboard in Resources */,
+				2C94C1F71CF1B308004476D8 /* barcode_scanner.png in Resources */,
+				2C94C2491CF1B3BA004476D8 /* STMCustom8TVCell.xib in Resources */,
+				2C94C20E1CF1B308004476D8 /* plus.png in Resources */,
+				2C94C23D1CF1B3BA004476D8 /* STMAuth.storyboard in Resources */,
+				2C94C1FC1CF1B308004476D8 /* checkmark_filled.png in Resources */,
+				2C94C2521CF1B3BA004476D8 /* STMSettings.storyboard in Resources */,
+				2C94C2031CF1B308004476D8 /* forward.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C94BFE11CF1ACB8004476D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C94BFEC1CF1ACB8004476D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3165F6B65A3C73CAF257E3FA /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59829FD80E42CAACBC81D4F7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C20B4D3622FCE67767F4AF2F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C94BFC61CF1ACB8004476D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C40F78B1CF203A100231E01 /* STMAuthController.m in Sources */,
+				2C94C10A1CF1B1BB004476D8 /* STMCustom6TVCell.m in Sources */,
+				2C94C1BF1CF1B2D8004476D8 /* SocketParser.swift in Sources */,
+				2C94C1901CF1B1F3004476D8 /* STMLogMessage.m in Sources */,
+				2C94C1251CF1B1BB004476D8 /* STMCoreRootTBC.m in Sources */,
+				2C94C0E71CF1B1BB004476D8 /* STMScanApiHelper.m in Sources */,
+				2C94C0DF1CF1B1BB004476D8 /* STMCoreSettingsController.m in Sources */,
+				2C94C1161CF1B1BB004476D8 /* STMSearchableTVC.m in Sources */,
+				2C94C1841CF1B1F3004476D8 /* STMClientData.m in Sources */,
+				2C94C0F21CF1B1BB004476D8 /* STMCoreController.m in Sources */,
+				2C94C19B1CF1B1F3004476D8 /* STMWorkflow+CoreDataProperties.m in Sources */,
+				2C94C1C11CF1B2D8004476D8 /* SocketTypes.swift in Sources */,
+				2C94C1BB1CF1B2D8004476D8 /* SocketIOClient.swift in Sources */,
+				2C94C0F71CF1B1BB004476D8 /* STMLocationController.m in Sources */,
+				2C94C1C01CF1B2D8004476D8 /* SocketStringReader.swift in Sources */,
+				2C94C1861CF1B1F3004476D8 /* STMClientEntity.m in Sources */,
+				2C94C1291CF1B1BB004476D8 /* STMMessagesNC.m in Sources */,
+				2C94C1B91CF1B2D8004476D8 /* SocketEventHandler.swift in Sources */,
+				2C94C1931CF1B1F3004476D8 /* STMMessagePicture+CoreDataProperties.m in Sources */,
+				2C94C1821CF1B1F3004476D8 /* STMBatteryStatus.m in Sources */,
+				2C94C1151CF1B1BB004476D8 /* STMLabel.m in Sources */,
+				2C94C18B1CF1B1F3004476D8 /* STMEntity+CoreDataProperties.m in Sources */,
+				2C40F7801CF2037A00231E01 /* STMController.m in Sources */,
+				2C94C1361CF1B1BB004476D8 /* STMWKWebViewNC.m in Sources */,
+				2C94C0EA1CF1B1BB004476D8 /* STMSocketController.m in Sources */,
+				2C94C1921CF1B1F3004476D8 /* STMMessage.m in Sources */,
+				2C94C1011CF1B1BB004476D8 /* STMCoreVolumeTVCell.m in Sources */,
+				2C94C0E61CF1B1BB004476D8 /* STMRemoteController.m in Sources */,
+				2C94C17D1CF1B1F3004476D8 /* STMBarCodeScan+CoreDataProperties.m in Sources */,
+				2C94C0FB1CF1B1BB004476D8 /* STMEntityDescription.m in Sources */,
+				2C94C1381CF1B1BB004476D8 /* STMWorkflowEditablesVC.m in Sources */,
+				2C94C0E21CF1B1BB004476D8 /* STMExtendNSLog.m in Sources */,
+				2C94C17F1CF1B1F3004476D8 /* STMBarCodeType+CoreDataProperties.m in Sources */,
+				2C94C0E01CF1B1BB004476D8 /* STMCoreTracker.m in Sources */,
+				2C94C19C1CF1B1F3004476D8 /* STMWorkflow.m in Sources */,
+				2C94C1801CF1B1F3004476D8 /* STMBarCodeType.m in Sources */,
+				2C94C10C1CF1B1BB004476D8 /* STMCustom8TVCell.m in Sources */,
+				2C94C1881CF1B1F3004476D8 /* STMCorePicture.m in Sources */,
+				2C94C0F01CF1B1BB004476D8 /* STMClientEntityController.m in Sources */,
+				2C94C0E91CF1B1BB004476D8 /* STMSettingsData.m in Sources */,
+				2C94C1371CF1B1BB004476D8 /* STMWKWebViewVC.m in Sources */,
+				2C94C1951CF1B1F3004476D8 /* STMPhoto+CoreDataProperties.m in Sources */,
+				2C94C10F1CF1B1BB004476D8 /* STMVolumeControlsTVCell.m in Sources */,
+				2C94C10B1CF1B1BB004476D8 /* STMCustom7TVCell.m in Sources */,
+				2C94C0E81CF1B1BB004476D8 /* STMScriptMessageController.swift in Sources */,
+				2C94C1231CF1B1BB004476D8 /* STMAuthSMSVC.m in Sources */,
+				2C94C1041CF1B1BB004476D8 /* STMCustom1CVHeader.m in Sources */,
+				2C94C1941CF1B1F3004476D8 /* STMMessagePicture.m in Sources */,
+				2C94C0ED1CF1B1BB004476D8 /* STMSwiftConstants.swift in Sources */,
+				2C94C17E1CF1B1F3004476D8 /* STMBarCodeScan.m in Sources */,
+				2C94C1061CF1B1BB004476D8 /* STMCustom2TVCell.m in Sources */,
+				2C94C1BD1CF1B2D8004476D8 /* SocketLogger.swift in Sources */,
+				2C94C0FE1CF1B1BB004476D8 /* STMActionPopoverNC.m in Sources */,
+				2C94C1B61CF1B2D8004476D8 /* SocketAnyEvent.swift in Sources */,
+				2C94C1831CF1B1F3004476D8 /* STMClientData+CoreDataProperties.m in Sources */,
+				2C40F78E1CF203A100231E01 /* STMSessionManager.m in Sources */,
+				2C94C0E41CF1B1BB004476D8 /* STMGarbageCollector.swift in Sources */,
+				2C94C1191CF1B1BB004476D8 /* STMSplitViewController.m in Sources */,
+				2C94C1301CF1B1BB004476D8 /* STMSettingControlsTVC.m in Sources */,
+				2C94C1101CF1B1BB004476D8 /* STMDatePicker.swift in Sources */,
+				2C94C1B41CF1B2D8004476D8 /* SocketAckEmitter.swift in Sources */,
+				2C94C1221CF1B1BB004476D8 /* STMAuthPhoneVC.m in Sources */,
+				2C94C10E1CF1B1BB004476D8 /* STMThreeLinesAndCheckboxTVCell.swift in Sources */,
+				2C94C0DD1CF1B1BB004476D8 /* STMCoreSession.m in Sources */,
+				2C40F78D1CF203A100231E01 /* STMSession.m in Sources */,
+				2C94C1241CF1B1BB004476D8 /* STMAuthVC.m in Sources */,
+				2C40F78F1CF203A100231E01 /* STMSettingsController.m in Sources */,
+				2C94C1021CF1B1BB004476D8 /* STMCustom10TVCell.m in Sources */,
+				2C94C12E1CF1B1BB004476D8 /* STMScannerInfoNC.m in Sources */,
+				2C94C1031CF1B1BB004476D8 /* STMCustom1CVCell.m in Sources */,
+				2C94C0D91CF1B1BB004476D8 /* STMBarCodeScanner.m in Sources */,
+				2C94C1211CF1B1BB004476D8 /* STMAuthNC.m in Sources */,
+				2C94C1051CF1B1BB004476D8 /* STMCustom1TVCell.m in Sources */,
+				2C94C1311CF1B1BB004476D8 /* STMSettingsNC.m in Sources */,
+				2C94C0F81CF1B1BB004476D8 /* STMMessageController.m in Sources */,
+				2C94C10D1CF1B1BB004476D8 /* STMCustom9TVCell.m in Sources */,
+				2C94C2631CF1B771004476D8 /* STMApplication.m in Sources */,
+				2C94C11A1CF1B1BB004476D8 /* STMSplitViewController_Swift.swift in Sources */,
+				2C94C18C1CF1B1F3004476D8 /* STMEntity.m in Sources */,
+				2C94C1331CF1B1BB004476D8 /* STMTabBarButtonTVC.m in Sources */,
+				2C94C1B71CF1B2D8004476D8 /* SocketEngine.swift in Sources */,
+				2C94C1181CF1B1BB004476D8 /* STMSpinnerView.m in Sources */,
+				2C94C1911CF1B1F3004476D8 /* STMMessage+CoreDataProperties.m in Sources */,
+				2C94C1A11CF1B2A6004476D8 /* iSisWarehouse.xcdatamodel in Sources */,
+				2C94C1171CF1B1BB004476D8 /* STMSegmentedControl.m in Sources */,
+				2C94C18E1CF1B1F3004476D8 /* STMLocation.m in Sources */,
+				2C94C1351CF1B1BB004476D8 /* STMWebViewVC.m in Sources */,
+				2C94C0DA1CF1B1BB004476D8 /* STMCoreAuthController.m in Sources */,
+				2C94C1271CF1B1BB004476D8 /* STMLogMessagesMasterTVC.m in Sources */,
+				2C94C1BA1CF1B2D8004476D8 /* SocketFixUTF8.swift in Sources */,
+				2C94C12D1CF1B1BB004476D8 /* STMProfileVC.m in Sources */,
+				2C94C0EF1CF1B1BB004476D8 /* STMClientDataController.m in Sources */,
+				2C94C1981CF1B1F3004476D8 /* STMRecordStatus.m in Sources */,
+				2C94C0F31CF1B1BB004476D8 /* STMCoreObjectsController.m in Sources */,
+				2C94C0E11CF1B1BB004476D8 /* STMDocument.m in Sources */,
+				2C94C1971CF1B1F3004476D8 /* STMRecordStatus+CoreDataProperties.m in Sources */,
+				2C94C12C1CF1B1BB004476D8 /* STMProfileNC.m in Sources */,
+				2C94C1261CF1B1BB004476D8 /* STMLogMessagesDetailTVC.m in Sources */,
+				2C94C11D1CF1B1BB004476D8 /* STMVariableCellsHeightTVC.m in Sources */,
+				2C94C1B51CF1B2D8004476D8 /* SocketAckManager.swift in Sources */,
+				2C94C0FA1CF1B1BB004476D8 /* STMWorkflowController.m in Sources */,
+				2C94C12B1CF1B1BB004476D8 /* STMMessageVC.m in Sources */,
+				2C94C0F41CF1B1BB004476D8 /* STMCorePhotosController.m in Sources */,
+				2C94C1C31CF1B2D8004476D8 /* WebSocket.swift in Sources */,
+				2C94C1BE1CF1B2D8004476D8 /* SocketPacket.swift in Sources */,
+				2C94C1341CF1B1BB004476D8 /* STMWebViewNC.m in Sources */,
+				2C94C11F1CF1B1BB004476D8 /* UIToolbar+custom.m in Sources */,
+				2C94C1851CF1B1F3004476D8 /* STMClientEntity+CoreDataProperties.m in Sources */,
+				2C94C0F91CF1B1BB004476D8 /* STMRecordStatusController.m in Sources */,
+				2C94C1081CF1B1BB004476D8 /* STMCustom4TVCell.m in Sources */,
+				2C94C0FF1CF1B1BB004476D8 /* STMBarButtonItem.m in Sources */,
+				2C94C18D1CF1B1F3004476D8 /* STMLocation+CoreDataProperties.m in Sources */,
+				2C94C0F11CF1B1BB004476D8 /* STMCoreBarCodeController.m in Sources */,
+				2C94C1201CF1B1BB004476D8 /* UIViewController+custom.m in Sources */,
+				2C94C25A1CF1B3D8004476D8 /* STMCoreApplication.m in Sources */,
+				2C94C0EC1CF1B1BB004476D8 /* STMStringExtension.swift in Sources */,
+				2C94C1321CF1B1BB004476D8 /* STMSettingsTVC.m in Sources */,
+				2C94C1891CF1B1F3004476D8 /* STMDatum+CoreDataProperties.m in Sources */,
+				2C94C0F61CF1B1BB004476D8 /* STMEntityController.m in Sources */,
+				2C94C1B81CF1B2D8004476D8 /* SocketEngineClient.swift in Sources */,
+				2C94C1C21CF1B2D8004476D8 /* SwiftRegex.swift in Sources */,
+				2C94C18F1CF1B1F3004476D8 /* STMLogMessage+CoreDataProperties.m in Sources */,
+				2C94C18A1CF1B1F3004476D8 /* STMDatum.m in Sources */,
+				2C94C0DC1CF1B1BB004476D8 /* STMCoreLocationTracker.m in Sources */,
+				2C94C0F51CF1B1BB004476D8 /* STMCorePicturesController.m in Sources */,
+				2C94C1991CF1B1F3004476D8 /* STMSetting+CoreDataProperties.m in Sources */,
+				2C94C0DB1CF1B1BB004476D8 /* STMCoreBatteryTracker.m in Sources */,
+				2C94C1111CF1B1BB004476D8 /* STMFetchedResultsControllerTVC.m in Sources */,
+				2C94C1091CF1B1BB004476D8 /* STMCustom5TVCell.m in Sources */,
+				2C94C2591CF1B3D8004476D8 /* STMCoreAppDelegate.m in Sources */,
+				2C94C1131CF1B1BB004476D8 /* STMInfoTableViewCell.m in Sources */,
+				2C94C0E51CF1B1BB004476D8 /* STMLogger.m in Sources */,
+				2C94C0EB1CF1B1BB004476D8 /* STMSoundController.m in Sources */,
+				2C94C0DE1CF1B1BB004476D8 /* STMCoreSessionManager.m in Sources */,
+				2C94C1071CF1B1BB004476D8 /* STMCustom3TVCell.m in Sources */,
+				2C94C1871CF1B1F3004476D8 /* STMCorePicture+CoreDataProperties.m in Sources */,
+				2C94C1141CF1B1BB004476D8 /* STMInsetLabel.m in Sources */,
+				2C94C0E31CF1B1BB004476D8 /* STMFunctions.m in Sources */,
+				2C94C11E1CF1B1BB004476D8 /* STMWorkflowAS.m in Sources */,
+				2C94C12A1CF1B1BB004476D8 /* STMMessagesTVC.m in Sources */,
+				2C94C1121CF1B1BB004476D8 /* STMImagePickerController.m in Sources */,
+				2C94C1BC1CF1B2D8004476D8 /* SocketIOClientStatus.swift in Sources */,
+				2C94BFCF1CF1ACB8004476D8 /* main.m in Sources */,
+				2C94C12F1CF1B1BB004476D8 /* STMScannerInfoVC.m in Sources */,
+				2C94C0EE1CF1B1BB004476D8 /* STMSyncer.m in Sources */,
+				2C94C11C1CF1B1BB004476D8 /* STMTableViewCell.m in Sources */,
+				2C94C0FD1CF1B1BB004476D8 /* STMPredicate.m in Sources */,
+				2C94C1281CF1B1BB004476D8 /* STMLogMessagesSVC.m in Sources */,
+				2C94C19A1CF1B1F3004476D8 /* STMSetting.m in Sources */,
+				2C94C2621CF1B771004476D8 /* STMAppDelegate.m in Sources */,
+				2C94C1961CF1B1F3004476D8 /* STMPhoto.m in Sources */,
+				2C94C1811CF1B1F3004476D8 /* STMBatteryStatus+CoreDataProperties.m in Sources */,
+				2C94C0FC1CF1B1BB004476D8 /* STMFetchRequest.m in Sources */,
+				2C94C1001CF1B1BB004476D8 /* STMCoreVolumePicker.m in Sources */,
+				2C94C11B1CF1B1BB004476D8 /* STMStoryboard.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C94BFDF1CF1ACB8004476D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C94BFE81CF1ACB8004476D8 /* iSisWarehouseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C94BFEA1CF1ACB8004476D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C94BFF31CF1ACB8004476D8 /* iSisWarehouseUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C94BFE51CF1ACB8004476D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C94BFC91CF1ACB8004476D8 /* iSisWarehouse */;
+			targetProxy = 2C94BFE41CF1ACB8004476D8 /* PBXContainerItemProxy */;
+		};
+		2C94BFF01CF1ACB8004476D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C94BFC91CF1ACB8004476D8 /* iSisWarehouse */;
+			targetProxy = 2C94BFEF1CF1ACB8004476D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2CD5BF0A1CF1E780006E1E36 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CD5BF091CF1E780006E1E36 /* en */,
+				2CD5BF0B1CF1E7A4006E1E36 /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C94BFF51CF1ACB8004476D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C94BFF61CF1ACB8004476D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C94BFF81CF1ACB8004476D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B689995AE2A7E80F555D29A /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = "iSisWarehouse/iSistemium-Prefix.pch";
+				INFOPLIST_FILE = iSisWarehouse/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisWarehouse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iSisWarehouse/iSistemium-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "iSistemiumCore-Swift.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C94BFF91CF1ACB8004476D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3277DFA3A62BBCE8AF2B808 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = "iSisWarehouse/iSistemium-Prefix.pch";
+				INFOPLIST_FILE = iSisWarehouse/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisWarehouse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iSisWarehouse/iSistemium-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "iSistemiumCore-Swift.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2C94BFFB1CF1ACB8004476D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iSisWarehouseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisWarehouseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSisWarehouse.app/iSisWarehouse";
+			};
+			name = Debug;
+		};
+		2C94BFFC1CF1ACB8004476D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iSisWarehouseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisWarehouseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSisWarehouse.app/iSisWarehouse";
+			};
+			name = Release;
+		};
+		2C94BFFE1CF1ACB8004476D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iSisWarehouseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisWarehouseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iSisWarehouse;
+			};
+			name = Debug;
+		};
+		2C94BFFF1CF1ACB8004476D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iSisWarehouseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sistemium.iSisWarehouseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iSisWarehouse;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C94BFC51CF1ACB8004476D8 /* Build configuration list for PBXProject "iSisWarehouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C94BFF51CF1ACB8004476D8 /* Debug */,
+				2C94BFF61CF1ACB8004476D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C94BFF71CF1ACB8004476D8 /* Build configuration list for PBXNativeTarget "iSisWarehouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C94BFF81CF1ACB8004476D8 /* Debug */,
+				2C94BFF91CF1ACB8004476D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C94BFFA1CF1ACB8004476D8 /* Build configuration list for PBXNativeTarget "iSisWarehouseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C94BFFB1CF1ACB8004476D8 /* Debug */,
+				2C94BFFC1CF1ACB8004476D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C94BFFD1CF1ACB8004476D8 /* Build configuration list for PBXNativeTarget "iSisWarehouseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C94BFFE1CF1ACB8004476D8 /* Debug */,
+				2C94BFFF1CF1ACB8004476D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C94BFC21CF1ACB8004476D8 /* Project object */;
+}
