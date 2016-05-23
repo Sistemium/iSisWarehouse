@@ -7,15 +7,15 @@
 //
 
 #import "STMOutlet.h"
-#import "STMBasketPosition.h"
-#import "STMCampaign.h"
-#import "STMCashing.h"
-#import "STMDebt.h"
+//#import "STMBasketPosition.h"
+//#import "STMCampaign.h"
+//#import "STMCashing.h"
+//#import "STMDebt.h"
 #import "STMPartner.h"
-#import "STMPhotoReport.h"
-#import "STMSaleOrder.h"
-#import "STMSalesman.h"
-#import "STMShipment.h"
+//#import "STMPhotoReport.h"
+//#import "STMSaleOrder.h"
+//#import "STMSalesman.h"
+//#import "STMShipment.h"
 
 @implementation STMOutlet
 

@@ -10,7 +10,7 @@
 #import "STMArticle.h"
 #import "STMPickingOrder.h"
 #import "STMPickingOrderPositionPicked.h"
-#import "STMQualityClass.h"
+//#import "STMQualityClass.h"
 
 @implementation STMPickingOrderPosition
 

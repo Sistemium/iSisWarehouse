@@ -14,6 +14,7 @@
 #import "STMArticle.h"
 #import "STMArticleBarCode.h"
 #import "STMArticleDoc.h"
+#import "STMArticleProductionInfo.h"
 
 #import "STMInventoryBatch.h"
 #import "STMInventoryBatchItem.h"
