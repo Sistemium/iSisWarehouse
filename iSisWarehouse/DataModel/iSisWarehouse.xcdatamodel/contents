@@ -494,6 +494,27 @@
         <attribute name="sts" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
     </entity>
+    <entity name="STMSaleOrder" representedClassName="STMSaleOrder" syncable="YES">
+        <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" indexed="YES" syncable="YES"/>
+        <attribute name="deviceCts" optional="YES" attributeType="Date" indexed="YES" syncable="YES"/>
+        <attribute name="deviceTs" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="isFantom" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="lts" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="ownerXid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
+        <attribute name="processing" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="processingMessage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="source" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sqts" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="sts" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="totalCost" optional="YES" attributeType="Decimal" defaultValueString="0.0" indexed="YES" syncable="YES"/>
+        <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
+        <relationship name="outlet" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMOutlet" inverseName="saleOrders" inverseEntity="STMOutlet" syncable="YES"/>
+        <relationship name="saleOrderPositions" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMSaleOrderPosition" inverseName="saleOrder" inverseEntity="STMSaleOrderPosition" syncable="YES"/>
+        <relationship name="salesman" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMSalesman" inverseName="saleOrders" inverseEntity="STMSalesman" syncable="YES"/>
+        <relationship name="shipments" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMShipment" inverseName="saleOrder" inverseEntity="STMShipment" syncable="YES"/>
+    </entity>
     <entity name="STMSetting" representedClassName="STMSetting" syncable="YES">
         <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="deviceCts" optional="YES" attributeType="Date" indexed="YES" syncable="YES"/>
@@ -646,6 +667,7 @@
         <element name="STMPrice" positionX="405" positionY="-88" width="128" height="253"/>
         <element name="STMProductionInfoType" positionX="718" positionY="-981" width="128" height="298"/>
         <element name="STMRecordStatus" positionX="-693" positionY="-954" width="128" height="268"/>
+        <element name="STMSaleOrder" positionX="178" positionY="-1693" width="128" height="328"/>
         <element name="STMSetting" positionX="-1154" positionY="-694" width="128" height="253"/>
         <element name="STMStockBatch" positionX="1456" positionY="-1303" width="128" height="193"/>
         <element name="STMStockBatchBarCode" positionX="1566" positionY="-886" width="128" height="238"/>
