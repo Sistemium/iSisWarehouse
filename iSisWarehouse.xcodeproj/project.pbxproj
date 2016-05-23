@@ -8,6 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		03E0124B49F4F46928602305 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9639524B0D712DC31B0658 /* libPods.a */; };
+		2C2379381CF2F6CA002AF3F5 /* STMArticleCodesTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2378F31CF2F6CA002AF3F5 /* STMArticleCodesTVC.m */; };
+		2C2379391CF2F6CA002AF3F5 /* STMArticlesNC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2378F51CF2F6CA002AF3F5 /* STMArticlesNC.m */; };
+		2C23793A1CF2F6CA002AF3F5 /* STMArticlesSVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2378F71CF2F6CA002AF3F5 /* STMArticlesSVC.m */; };
+		2C23793B1CF2F6CA002AF3F5 /* STMArticlesTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2378F91CF2F6CA002AF3F5 /* STMArticlesTVC.m */; };
+		2C23793C1CF2F6CA002AF3F5 /* STMBarCodeScanNC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2378FC1CF2F6CA002AF3F5 /* STMBarCodeScanNC.m */; };
+		2C23793D1CF2F6CA002AF3F5 /* STMBarCodeScanVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2378FE1CF2F6CA002AF3F5 /* STMBarCodeScanVC.m */; };
+		2C23793E1CF2F6CA002AF3F5 /* STMInventoryArticleSelectTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2379011CF2F6CA002AF3F5 /* STMInventoryArticleSelectTVC.m */; };
+		2C23793F1CF2F6CA002AF3F5 /* STMInventoryBatchesTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2379031CF2F6CA002AF3F5 /* STMInventoryBatchesTVC.m */; };
+		2C2379401CF2F6CA002AF3F5 /* STMInventoryBatchItemsTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2379051CF2F6CA002AF3F5 /* STMInventoryBatchItemsTVC.m */; };
+		2C2379411CF2F6CA002AF3F5 /* STMInventoryInfoSelectTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2379071CF2F6CA002AF3F5 /* STMInventoryInfoSelectTVC.m */; };
+		2C2379421CF2F6CA002AF3F5 /* STMInventoryInfoTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2379091CF2F6CA002AF3F5 /* STMInventoryInfoTVC.m */; };
+		2C2379431CF2F6CA002AF3F5 /* STMInventoryItemsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C23790B1CF2F6CA002AF3F5 /* STMInventoryItemsVC.m */; };
+		2C2379441CF2F6CA002AF3F5 /* STMInventoryNC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C23790D1CF2F6CA002AF3F5 /* STMInventoryNC.m */; };
+		2C2379451CF2F6CA002AF3F5 /* STMStockBatchInfoTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C23790F1CF2F6CA002AF3F5 /* STMStockBatchInfoTVC.m */; };
+		2C2379461CF2F6CA002AF3F5 /* STMPickedPositionsInfoTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2379121CF2F6CA002AF3F5 /* STMPickedPositionsInfoTVC.m */; };
+		2C2379471CF2F6CA002AF3F5 /* STMPickedPositionsListTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2379141CF2F6CA002AF3F5 /* STMPickedPositionsListTVC.m */; };
+		2C2379481CF2F6CA002AF3F5 /* STMPickingOrderPositionsPickedTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2379161CF2F6CA002AF3F5 /* STMPickingOrderPositionsPickedTVC.m */; };
+		2C2379491CF2F6CA002AF3F5 /* STMPickingOrderPositionsTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2379181CF2F6CA002AF3F5 /* STMPickingOrderPositionsTVC.m */; };
+		2C23794A1CF2F6CA002AF3F5 /* STMPickingOrdersNC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C23791A1CF2F6CA002AF3F5 /* STMPickingOrdersNC.m */; };
+		2C23794B1CF2F6CA002AF3F5 /* STMPickingOrdersTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C23791C1CF2F6CA002AF3F5 /* STMPickingOrdersTVC.m */; };
+		2C23794C1CF2F6CA002AF3F5 /* STMPickingPositionAddInfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C23791E1CF2F6CA002AF3F5 /* STMPickingPositionAddInfoVC.m */; };
+		2C23794D1CF2F6CA002AF3F5 /* STMPickingPositionInfoTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2379201CF2F6CA002AF3F5 /* STMPickingPositionInfoTVC.m */; };
+		2C23794E1CF2F6CA002AF3F5 /* STMPickingPositionVolumeTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2379221CF2F6CA002AF3F5 /* STMPickingPositionVolumeTVC.m */; };
+		2C23794F1CF2F6CA002AF3F5 /* STMArticleSelectionTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2379251CF2F6CA002AF3F5 /* STMArticleSelectionTVC.m */; };
+		2C2379501CF2F6CA002AF3F5 /* STMStockBatchCodesTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2379271CF2F6CA002AF3F5 /* STMStockBatchCodesTVC.m */; };
+		2C2379511CF2F6CA002AF3F5 /* STMSupplyOperationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2379291CF2F6CA002AF3F5 /* STMSupplyOperationVC.m */; };
+		2C2379521CF2F6CA002AF3F5 /* STMSupplyOrderArticleDocsTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C23792B1CF2F6CA002AF3F5 /* STMSupplyOrderArticleDocsTVC.m */; };
+		2C2379531CF2F6CA002AF3F5 /* STMSupplyOrderOperationsTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C23792D1CF2F6CA002AF3F5 /* STMSupplyOrderOperationsTVC.m */; };
+		2C2379541CF2F6CA002AF3F5 /* STMSupplyOrdersDetailNC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C23792F1CF2F6CA002AF3F5 /* STMSupplyOrdersDetailNC.m */; };
+		2C2379551CF2F6CA002AF3F5 /* STMSupplyOrdersMasterNC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2379311CF2F6CA002AF3F5 /* STMSupplyOrdersMasterNC.m */; };
+		2C2379561CF2F6CA002AF3F5 /* STMSupplyOrdersNC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2379331CF2F6CA002AF3F5 /* STMSupplyOrdersNC.m */; };
+		2C2379571CF2F6CA002AF3F5 /* STMSupplyOrdersSVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2379351CF2F6CA002AF3F5 /* STMSupplyOrdersSVC.m */; };
+		2C2379581CF2F6CA002AF3F5 /* STMSupplyOrdersTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2379371CF2F6CA002AF3F5 /* STMSupplyOrdersTVC.m */; };
 		2C40F7801CF2037A00231E01 /* STMController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C40F77F1CF2037A00231E01 /* STMController.m */; };
 		2C40F78B1CF203A100231E01 /* STMAuthController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C40F7821CF203A100231E01 /* STMAuthController.m */; };
 		2C40F78D1CF203A100231E01 /* STMSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C40F7861CF203A100231E01 /* STMSession.m */; };
@@ -256,6 +289,72 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C2378F21CF2F6CA002AF3F5 /* STMArticleCodesTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMArticleCodesTVC.h; sourceTree = "<group>"; };
+		2C2378F31CF2F6CA002AF3F5 /* STMArticleCodesTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMArticleCodesTVC.m; sourceTree = "<group>"; };
+		2C2378F41CF2F6CA002AF3F5 /* STMArticlesNC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMArticlesNC.h; sourceTree = "<group>"; };
+		2C2378F51CF2F6CA002AF3F5 /* STMArticlesNC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMArticlesNC.m; sourceTree = "<group>"; };
+		2C2378F61CF2F6CA002AF3F5 /* STMArticlesSVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMArticlesSVC.h; sourceTree = "<group>"; };
+		2C2378F71CF2F6CA002AF3F5 /* STMArticlesSVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMArticlesSVC.m; sourceTree = "<group>"; };
+		2C2378F81CF2F6CA002AF3F5 /* STMArticlesTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMArticlesTVC.h; sourceTree = "<group>"; };
+		2C2378F91CF2F6CA002AF3F5 /* STMArticlesTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMArticlesTVC.m; sourceTree = "<group>"; };
+		2C2378FB1CF2F6CA002AF3F5 /* STMBarCodeScanNC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMBarCodeScanNC.h; sourceTree = "<group>"; };
+		2C2378FC1CF2F6CA002AF3F5 /* STMBarCodeScanNC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMBarCodeScanNC.m; sourceTree = "<group>"; };
+		2C2378FD1CF2F6CA002AF3F5 /* STMBarCodeScanVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMBarCodeScanVC.h; sourceTree = "<group>"; };
+		2C2378FE1CF2F6CA002AF3F5 /* STMBarCodeScanVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMBarCodeScanVC.m; sourceTree = "<group>"; };
+		2C2379001CF2F6CA002AF3F5 /* STMInventoryArticleSelectTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMInventoryArticleSelectTVC.h; sourceTree = "<group>"; };
+		2C2379011CF2F6CA002AF3F5 /* STMInventoryArticleSelectTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMInventoryArticleSelectTVC.m; sourceTree = "<group>"; };
+		2C2379021CF2F6CA002AF3F5 /* STMInventoryBatchesTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMInventoryBatchesTVC.h; sourceTree = "<group>"; };
+		2C2379031CF2F6CA002AF3F5 /* STMInventoryBatchesTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMInventoryBatchesTVC.m; sourceTree = "<group>"; };
+		2C2379041CF2F6CA002AF3F5 /* STMInventoryBatchItemsTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMInventoryBatchItemsTVC.h; sourceTree = "<group>"; };
+		2C2379051CF2F6CA002AF3F5 /* STMInventoryBatchItemsTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMInventoryBatchItemsTVC.m; sourceTree = "<group>"; };
+		2C2379061CF2F6CA002AF3F5 /* STMInventoryInfoSelectTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMInventoryInfoSelectTVC.h; sourceTree = "<group>"; };
+		2C2379071CF2F6CA002AF3F5 /* STMInventoryInfoSelectTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMInventoryInfoSelectTVC.m; sourceTree = "<group>"; };
+		2C2379081CF2F6CA002AF3F5 /* STMInventoryInfoTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMInventoryInfoTVC.h; sourceTree = "<group>"; };
+		2C2379091CF2F6CA002AF3F5 /* STMInventoryInfoTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMInventoryInfoTVC.m; sourceTree = "<group>"; };
+		2C23790A1CF2F6CA002AF3F5 /* STMInventoryItemsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMInventoryItemsVC.h; sourceTree = "<group>"; };
+		2C23790B1CF2F6CA002AF3F5 /* STMInventoryItemsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMInventoryItemsVC.m; sourceTree = "<group>"; };
+		2C23790C1CF2F6CA002AF3F5 /* STMInventoryNC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMInventoryNC.h; sourceTree = "<group>"; };
+		2C23790D1CF2F6CA002AF3F5 /* STMInventoryNC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMInventoryNC.m; sourceTree = "<group>"; };
+		2C23790E1CF2F6CA002AF3F5 /* STMStockBatchInfoTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMStockBatchInfoTVC.h; sourceTree = "<group>"; };
+		2C23790F1CF2F6CA002AF3F5 /* STMStockBatchInfoTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMStockBatchInfoTVC.m; sourceTree = "<group>"; };
+		2C2379111CF2F6CA002AF3F5 /* STMPickedPositionsInfoTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMPickedPositionsInfoTVC.h; sourceTree = "<group>"; };
+		2C2379121CF2F6CA002AF3F5 /* STMPickedPositionsInfoTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMPickedPositionsInfoTVC.m; sourceTree = "<group>"; };
+		2C2379131CF2F6CA002AF3F5 /* STMPickedPositionsListTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMPickedPositionsListTVC.h; sourceTree = "<group>"; };
+		2C2379141CF2F6CA002AF3F5 /* STMPickedPositionsListTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMPickedPositionsListTVC.m; sourceTree = "<group>"; };
+		2C2379151CF2F6CA002AF3F5 /* STMPickingOrderPositionsPickedTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMPickingOrderPositionsPickedTVC.h; sourceTree = "<group>"; };
+		2C2379161CF2F6CA002AF3F5 /* STMPickingOrderPositionsPickedTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMPickingOrderPositionsPickedTVC.m; sourceTree = "<group>"; };
+		2C2379171CF2F6CA002AF3F5 /* STMPickingOrderPositionsTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMPickingOrderPositionsTVC.h; sourceTree = "<group>"; };
+		2C2379181CF2F6CA002AF3F5 /* STMPickingOrderPositionsTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMPickingOrderPositionsTVC.m; sourceTree = "<group>"; };
+		2C2379191CF2F6CA002AF3F5 /* STMPickingOrdersNC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMPickingOrdersNC.h; sourceTree = "<group>"; };
+		2C23791A1CF2F6CA002AF3F5 /* STMPickingOrdersNC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMPickingOrdersNC.m; sourceTree = "<group>"; };
+		2C23791B1CF2F6CA002AF3F5 /* STMPickingOrdersTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMPickingOrdersTVC.h; sourceTree = "<group>"; };
+		2C23791C1CF2F6CA002AF3F5 /* STMPickingOrdersTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMPickingOrdersTVC.m; sourceTree = "<group>"; };
+		2C23791D1CF2F6CA002AF3F5 /* STMPickingPositionAddInfoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMPickingPositionAddInfoVC.h; sourceTree = "<group>"; };
+		2C23791E1CF2F6CA002AF3F5 /* STMPickingPositionAddInfoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMPickingPositionAddInfoVC.m; sourceTree = "<group>"; };
+		2C23791F1CF2F6CA002AF3F5 /* STMPickingPositionInfoTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMPickingPositionInfoTVC.h; sourceTree = "<group>"; };
+		2C2379201CF2F6CA002AF3F5 /* STMPickingPositionInfoTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMPickingPositionInfoTVC.m; sourceTree = "<group>"; };
+		2C2379211CF2F6CA002AF3F5 /* STMPickingPositionVolumeTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMPickingPositionVolumeTVC.h; sourceTree = "<group>"; };
+		2C2379221CF2F6CA002AF3F5 /* STMPickingPositionVolumeTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMPickingPositionVolumeTVC.m; sourceTree = "<group>"; };
+		2C2379241CF2F6CA002AF3F5 /* STMArticleSelectionTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMArticleSelectionTVC.h; sourceTree = "<group>"; };
+		2C2379251CF2F6CA002AF3F5 /* STMArticleSelectionTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMArticleSelectionTVC.m; sourceTree = "<group>"; };
+		2C2379261CF2F6CA002AF3F5 /* STMStockBatchCodesTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMStockBatchCodesTVC.h; sourceTree = "<group>"; };
+		2C2379271CF2F6CA002AF3F5 /* STMStockBatchCodesTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMStockBatchCodesTVC.m; sourceTree = "<group>"; };
+		2C2379281CF2F6CA002AF3F5 /* STMSupplyOperationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMSupplyOperationVC.h; sourceTree = "<group>"; };
+		2C2379291CF2F6CA002AF3F5 /* STMSupplyOperationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMSupplyOperationVC.m; sourceTree = "<group>"; };
+		2C23792A1CF2F6CA002AF3F5 /* STMSupplyOrderArticleDocsTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMSupplyOrderArticleDocsTVC.h; sourceTree = "<group>"; };
+		2C23792B1CF2F6CA002AF3F5 /* STMSupplyOrderArticleDocsTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMSupplyOrderArticleDocsTVC.m; sourceTree = "<group>"; };
+		2C23792C1CF2F6CA002AF3F5 /* STMSupplyOrderOperationsTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMSupplyOrderOperationsTVC.h; sourceTree = "<group>"; };
+		2C23792D1CF2F6CA002AF3F5 /* STMSupplyOrderOperationsTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMSupplyOrderOperationsTVC.m; sourceTree = "<group>"; };
+		2C23792E1CF2F6CA002AF3F5 /* STMSupplyOrdersDetailNC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMSupplyOrdersDetailNC.h; sourceTree = "<group>"; };
+		2C23792F1CF2F6CA002AF3F5 /* STMSupplyOrdersDetailNC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMSupplyOrdersDetailNC.m; sourceTree = "<group>"; };
+		2C2379301CF2F6CA002AF3F5 /* STMSupplyOrdersMasterNC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMSupplyOrdersMasterNC.h; sourceTree = "<group>"; };
+		2C2379311CF2F6CA002AF3F5 /* STMSupplyOrdersMasterNC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMSupplyOrdersMasterNC.m; sourceTree = "<group>"; };
+		2C2379321CF2F6CA002AF3F5 /* STMSupplyOrdersNC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMSupplyOrdersNC.h; sourceTree = "<group>"; };
+		2C2379331CF2F6CA002AF3F5 /* STMSupplyOrdersNC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMSupplyOrdersNC.m; sourceTree = "<group>"; };
+		2C2379341CF2F6CA002AF3F5 /* STMSupplyOrdersSVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMSupplyOrdersSVC.h; sourceTree = "<group>"; };
+		2C2379351CF2F6CA002AF3F5 /* STMSupplyOrdersSVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMSupplyOrdersSVC.m; sourceTree = "<group>"; };
+		2C2379361CF2F6CA002AF3F5 /* STMSupplyOrdersTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMSupplyOrdersTVC.h; sourceTree = "<group>"; };
+		2C2379371CF2F6CA002AF3F5 /* STMSupplyOrdersTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMSupplyOrdersTVC.m; sourceTree = "<group>"; };
 		2C40F77E1CF2037A00231E01 /* STMController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMController.h; sourceTree = "<group>"; };
 		2C40F77F1CF2037A00231E01 /* STMController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMController.m; sourceTree = "<group>"; };
 		2C40F7811CF203A100231E01 /* STMAuthController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMAuthController.h; sourceTree = "<group>"; };
@@ -682,6 +781,107 @@
 				5E9639524B0D712DC31B0658 /* libPods.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C2378F11CF2F6CA002AF3F5 /* STMArticleBarcodes */ = {
+			isa = PBXGroup;
+			children = (
+				2C2378F21CF2F6CA002AF3F5 /* STMArticleCodesTVC.h */,
+				2C2378F31CF2F6CA002AF3F5 /* STMArticleCodesTVC.m */,
+				2C2378F41CF2F6CA002AF3F5 /* STMArticlesNC.h */,
+				2C2378F51CF2F6CA002AF3F5 /* STMArticlesNC.m */,
+				2C2378F61CF2F6CA002AF3F5 /* STMArticlesSVC.h */,
+				2C2378F71CF2F6CA002AF3F5 /* STMArticlesSVC.m */,
+				2C2378F81CF2F6CA002AF3F5 /* STMArticlesTVC.h */,
+				2C2378F91CF2F6CA002AF3F5 /* STMArticlesTVC.m */,
+			);
+			path = STMArticleBarcodes;
+			sourceTree = "<group>";
+		};
+		2C2378FA1CF2F6CA002AF3F5 /* STMBarCodeScan */ = {
+			isa = PBXGroup;
+			children = (
+				2C2378FB1CF2F6CA002AF3F5 /* STMBarCodeScanNC.h */,
+				2C2378FC1CF2F6CA002AF3F5 /* STMBarCodeScanNC.m */,
+				2C2378FD1CF2F6CA002AF3F5 /* STMBarCodeScanVC.h */,
+				2C2378FE1CF2F6CA002AF3F5 /* STMBarCodeScanVC.m */,
+			);
+			path = STMBarCodeScan;
+			sourceTree = "<group>";
+		};
+		2C2378FF1CF2F6CA002AF3F5 /* STMInventory */ = {
+			isa = PBXGroup;
+			children = (
+				2C2379001CF2F6CA002AF3F5 /* STMInventoryArticleSelectTVC.h */,
+				2C2379011CF2F6CA002AF3F5 /* STMInventoryArticleSelectTVC.m */,
+				2C2379021CF2F6CA002AF3F5 /* STMInventoryBatchesTVC.h */,
+				2C2379031CF2F6CA002AF3F5 /* STMInventoryBatchesTVC.m */,
+				2C2379041CF2F6CA002AF3F5 /* STMInventoryBatchItemsTVC.h */,
+				2C2379051CF2F6CA002AF3F5 /* STMInventoryBatchItemsTVC.m */,
+				2C2379061CF2F6CA002AF3F5 /* STMInventoryInfoSelectTVC.h */,
+				2C2379071CF2F6CA002AF3F5 /* STMInventoryInfoSelectTVC.m */,
+				2C2379081CF2F6CA002AF3F5 /* STMInventoryInfoTVC.h */,
+				2C2379091CF2F6CA002AF3F5 /* STMInventoryInfoTVC.m */,
+				2C23790A1CF2F6CA002AF3F5 /* STMInventoryItemsVC.h */,
+				2C23790B1CF2F6CA002AF3F5 /* STMInventoryItemsVC.m */,
+				2C23790C1CF2F6CA002AF3F5 /* STMInventoryNC.h */,
+				2C23790D1CF2F6CA002AF3F5 /* STMInventoryNC.m */,
+				2C23790E1CF2F6CA002AF3F5 /* STMStockBatchInfoTVC.h */,
+				2C23790F1CF2F6CA002AF3F5 /* STMStockBatchInfoTVC.m */,
+			);
+			path = STMInventory;
+			sourceTree = "<group>";
+		};
+		2C2379101CF2F6CA002AF3F5 /* STMPickingOrders */ = {
+			isa = PBXGroup;
+			children = (
+				2C2379111CF2F6CA002AF3F5 /* STMPickedPositionsInfoTVC.h */,
+				2C2379121CF2F6CA002AF3F5 /* STMPickedPositionsInfoTVC.m */,
+				2C2379131CF2F6CA002AF3F5 /* STMPickedPositionsListTVC.h */,
+				2C2379141CF2F6CA002AF3F5 /* STMPickedPositionsListTVC.m */,
+				2C2379151CF2F6CA002AF3F5 /* STMPickingOrderPositionsPickedTVC.h */,
+				2C2379161CF2F6CA002AF3F5 /* STMPickingOrderPositionsPickedTVC.m */,
+				2C2379171CF2F6CA002AF3F5 /* STMPickingOrderPositionsTVC.h */,
+				2C2379181CF2F6CA002AF3F5 /* STMPickingOrderPositionsTVC.m */,
+				2C2379191CF2F6CA002AF3F5 /* STMPickingOrdersNC.h */,
+				2C23791A1CF2F6CA002AF3F5 /* STMPickingOrdersNC.m */,
+				2C23791B1CF2F6CA002AF3F5 /* STMPickingOrdersTVC.h */,
+				2C23791C1CF2F6CA002AF3F5 /* STMPickingOrdersTVC.m */,
+				2C23791D1CF2F6CA002AF3F5 /* STMPickingPositionAddInfoVC.h */,
+				2C23791E1CF2F6CA002AF3F5 /* STMPickingPositionAddInfoVC.m */,
+				2C23791F1CF2F6CA002AF3F5 /* STMPickingPositionInfoTVC.h */,
+				2C2379201CF2F6CA002AF3F5 /* STMPickingPositionInfoTVC.m */,
+				2C2379211CF2F6CA002AF3F5 /* STMPickingPositionVolumeTVC.h */,
+				2C2379221CF2F6CA002AF3F5 /* STMPickingPositionVolumeTVC.m */,
+			);
+			path = STMPickingOrders;
+			sourceTree = "<group>";
+		};
+		2C2379231CF2F6CA002AF3F5 /* STMSupplyOrders */ = {
+			isa = PBXGroup;
+			children = (
+				2C2379241CF2F6CA002AF3F5 /* STMArticleSelectionTVC.h */,
+				2C2379251CF2F6CA002AF3F5 /* STMArticleSelectionTVC.m */,
+				2C2379261CF2F6CA002AF3F5 /* STMStockBatchCodesTVC.h */,
+				2C2379271CF2F6CA002AF3F5 /* STMStockBatchCodesTVC.m */,
+				2C2379281CF2F6CA002AF3F5 /* STMSupplyOperationVC.h */,
+				2C2379291CF2F6CA002AF3F5 /* STMSupplyOperationVC.m */,
+				2C23792A1CF2F6CA002AF3F5 /* STMSupplyOrderArticleDocsTVC.h */,
+				2C23792B1CF2F6CA002AF3F5 /* STMSupplyOrderArticleDocsTVC.m */,
+				2C23792C1CF2F6CA002AF3F5 /* STMSupplyOrderOperationsTVC.h */,
+				2C23792D1CF2F6CA002AF3F5 /* STMSupplyOrderOperationsTVC.m */,
+				2C23792E1CF2F6CA002AF3F5 /* STMSupplyOrdersDetailNC.h */,
+				2C23792F1CF2F6CA002AF3F5 /* STMSupplyOrdersDetailNC.m */,
+				2C2379301CF2F6CA002AF3F5 /* STMSupplyOrdersMasterNC.h */,
+				2C2379311CF2F6CA002AF3F5 /* STMSupplyOrdersMasterNC.m */,
+				2C2379321CF2F6CA002AF3F5 /* STMSupplyOrdersNC.h */,
+				2C2379331CF2F6CA002AF3F5 /* STMSupplyOrdersNC.m */,
+				2C2379341CF2F6CA002AF3F5 /* STMSupplyOrdersSVC.h */,
+				2C2379351CF2F6CA002AF3F5 /* STMSupplyOrdersSVC.m */,
+				2C2379361CF2F6CA002AF3F5 /* STMSupplyOrdersTVC.h */,
+				2C2379371CF2F6CA002AF3F5 /* STMSupplyOrdersTVC.m */,
+			);
+			path = STMSupplyOrders;
 			sourceTree = "<group>";
 		};
 		2C94BFC11CF1ACB8004476D8 = {
@@ -1410,6 +1610,11 @@
 		2C94C26A1CF1B818004476D8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2C2378F11CF2F6CA002AF3F5 /* STMArticleBarcodes */,
+				2C2378FA1CF2F6CA002AF3F5 /* STMBarCodeScan */,
+				2C2378FF1CF2F6CA002AF3F5 /* STMInventory */,
+				2C2379101CF2F6CA002AF3F5 /* STMPickingOrders */,
+				2C2379231CF2F6CA002AF3F5 /* STMSupplyOrders */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -1700,13 +1905,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C2379521CF2F6CA002AF3F5 /* STMSupplyOrderArticleDocsTVC.m in Sources */,
+				2C2379481CF2F6CA002AF3F5 /* STMPickingOrderPositionsPickedTVC.m in Sources */,
 				2C40F78B1CF203A100231E01 /* STMAuthController.m in Sources */,
 				2C94C10A1CF1B1BB004476D8 /* STMCustom6TVCell.m in Sources */,
 				2C94C1BF1CF1B2D8004476D8 /* SocketParser.swift in Sources */,
 				2C94C1901CF1B1F3004476D8 /* STMLogMessage.m in Sources */,
+				2C2379471CF2F6CA002AF3F5 /* STMPickedPositionsListTVC.m in Sources */,
 				2C94C1251CF1B1BB004476D8 /* STMCoreRootTBC.m in Sources */,
 				2C94C0E71CF1B1BB004476D8 /* STMScanApiHelper.m in Sources */,
 				2C94C0DF1CF1B1BB004476D8 /* STMCoreSettingsController.m in Sources */,
+				2C23793C1CF2F6CA002AF3F5 /* STMBarCodeScanNC.m in Sources */,
 				2C94C1161CF1B1BB004476D8 /* STMSearchableTVC.m in Sources */,
 				2C94C1841CF1B1F3004476D8 /* STMClientData.m in Sources */,
 				2C94C0F21CF1B1BB004476D8 /* STMCoreController.m in Sources */,
@@ -1728,6 +1937,7 @@
 				2C94C1921CF1B1F3004476D8 /* STMMessage.m in Sources */,
 				2C94C1011CF1B1BB004476D8 /* STMCoreVolumeTVCell.m in Sources */,
 				2C94C0E61CF1B1BB004476D8 /* STMRemoteController.m in Sources */,
+				2C2379581CF2F6CA002AF3F5 /* STMSupplyOrdersTVC.m in Sources */,
 				2C94C17D1CF1B1F3004476D8 /* STMBarCodeScan+CoreDataProperties.m in Sources */,
 				2C94C0FB1CF1B1BB004476D8 /* STMEntityDescription.m in Sources */,
 				2C94C1381CF1B1BB004476D8 /* STMWorkflowEditablesVC.m in Sources */,
@@ -1737,7 +1947,11 @@
 				2C94C19C1CF1B1F3004476D8 /* STMWorkflow.m in Sources */,
 				2C94C1801CF1B1F3004476D8 /* STMBarCodeType.m in Sources */,
 				2C94C10C1CF1B1BB004476D8 /* STMCustom8TVCell.m in Sources */,
+				2C2379441CF2F6CA002AF3F5 /* STMInventoryNC.m in Sources */,
+				2C2379491CF2F6CA002AF3F5 /* STMPickingOrderPositionsTVC.m in Sources */,
+				2C23793D1CF2F6CA002AF3F5 /* STMBarCodeScanVC.m in Sources */,
 				2C94C1881CF1B1F3004476D8 /* STMCorePicture.m in Sources */,
+				2C2379561CF2F6CA002AF3F5 /* STMSupplyOrdersNC.m in Sources */,
 				2C94C0F01CF1B1BB004476D8 /* STMClientEntityController.m in Sources */,
 				2C94C0E91CF1B1BB004476D8 /* STMSettingsData.m in Sources */,
 				2C94C1371CF1B1BB004476D8 /* STMWKWebViewVC.m in Sources */,
@@ -1752,12 +1966,16 @@
 				2C94C17E1CF1B1F3004476D8 /* STMBarCodeScan.m in Sources */,
 				2C94C1061CF1B1BB004476D8 /* STMCustom2TVCell.m in Sources */,
 				2C94C1BD1CF1B2D8004476D8 /* SocketLogger.swift in Sources */,
+				2C2379571CF2F6CA002AF3F5 /* STMSupplyOrdersSVC.m in Sources */,
 				2C94C0FE1CF1B1BB004476D8 /* STMActionPopoverNC.m in Sources */,
 				2C94C1B61CF1B2D8004476D8 /* SocketAnyEvent.swift in Sources */,
+				2C23793F1CF2F6CA002AF3F5 /* STMInventoryBatchesTVC.m in Sources */,
 				2C94C1831CF1B1F3004476D8 /* STMClientData+CoreDataProperties.m in Sources */,
 				2C40F78E1CF203A100231E01 /* STMSessionManager.m in Sources */,
 				2C94C0E41CF1B1BB004476D8 /* STMGarbageCollector.swift in Sources */,
 				2C94C1191CF1B1BB004476D8 /* STMSplitViewController.m in Sources */,
+				2C23793A1CF2F6CA002AF3F5 /* STMArticlesSVC.m in Sources */,
+				2C2379531CF2F6CA002AF3F5 /* STMSupplyOrderOperationsTVC.m in Sources */,
 				2C94C1301CF1B1BB004476D8 /* STMSettingControlsTVC.m in Sources */,
 				2C94C1101CF1B1BB004476D8 /* STMDatePicker.swift in Sources */,
 				2C94C1B41CF1B2D8004476D8 /* SocketAckEmitter.swift in Sources */,
@@ -1767,6 +1985,7 @@
 				2C40F78D1CF203A100231E01 /* STMSession.m in Sources */,
 				2C94C1241CF1B1BB004476D8 /* STMAuthVC.m in Sources */,
 				2C40F78F1CF203A100231E01 /* STMSettingsController.m in Sources */,
+				2C2379501CF2F6CA002AF3F5 /* STMStockBatchCodesTVC.m in Sources */,
 				2C94C1021CF1B1BB004476D8 /* STMCustom10TVCell.m in Sources */,
 				2C94C12E1CF1B1BB004476D8 /* STMScannerInfoNC.m in Sources */,
 				2C94C1031CF1B1BB004476D8 /* STMCustom1CVCell.m in Sources */,
@@ -1775,17 +1994,21 @@
 				2C94C1051CF1B1BB004476D8 /* STMCustom1TVCell.m in Sources */,
 				2C94C1311CF1B1BB004476D8 /* STMSettingsNC.m in Sources */,
 				2C94C0F81CF1B1BB004476D8 /* STMMessageController.m in Sources */,
+				2C2379551CF2F6CA002AF3F5 /* STMSupplyOrdersMasterNC.m in Sources */,
 				2C94C10D1CF1B1BB004476D8 /* STMCustom9TVCell.m in Sources */,
 				2C94C2631CF1B771004476D8 /* STMApplication.m in Sources */,
 				2C94C11A1CF1B1BB004476D8 /* STMSplitViewController_Swift.swift in Sources */,
 				2C94C18C1CF1B1F3004476D8 /* STMEntity.m in Sources */,
 				2C94C1331CF1B1BB004476D8 /* STMTabBarButtonTVC.m in Sources */,
+				2C23794F1CF2F6CA002AF3F5 /* STMArticleSelectionTVC.m in Sources */,
 				2C94C1B71CF1B2D8004476D8 /* SocketEngine.swift in Sources */,
+				2C2379421CF2F6CA002AF3F5 /* STMInventoryInfoTVC.m in Sources */,
 				2C94C1181CF1B1BB004476D8 /* STMSpinnerView.m in Sources */,
 				2C94C1911CF1B1F3004476D8 /* STMMessage+CoreDataProperties.m in Sources */,
 				2C94C1A11CF1B2A6004476D8 /* iSisWarehouse.xcdatamodel in Sources */,
 				2C94C1171CF1B1BB004476D8 /* STMSegmentedControl.m in Sources */,
 				2C94C18E1CF1B1F3004476D8 /* STMLocation.m in Sources */,
+				2C23794D1CF2F6CA002AF3F5 /* STMPickingPositionInfoTVC.m in Sources */,
 				2C94C1351CF1B1BB004476D8 /* STMWebViewVC.m in Sources */,
 				2C94C0DA1CF1B1BB004476D8 /* STMCoreAuthController.m in Sources */,
 				2C94C1271CF1B1BB004476D8 /* STMLogMessagesMasterTVC.m in Sources */,
@@ -1796,14 +2019,20 @@
 				2C94C0F31CF1B1BB004476D8 /* STMCoreObjectsController.m in Sources */,
 				2C94C0E11CF1B1BB004476D8 /* STMDocument.m in Sources */,
 				2C94C1971CF1B1F3004476D8 /* STMRecordStatus+CoreDataProperties.m in Sources */,
+				2C2379391CF2F6CA002AF3F5 /* STMArticlesNC.m in Sources */,
 				2C94C12C1CF1B1BB004476D8 /* STMProfileNC.m in Sources */,
 				2C94C1261CF1B1BB004476D8 /* STMLogMessagesDetailTVC.m in Sources */,
+				2C23794A1CF2F6CA002AF3F5 /* STMPickingOrdersNC.m in Sources */,
 				2C94C11D1CF1B1BB004476D8 /* STMVariableCellsHeightTVC.m in Sources */,
 				2C94C1B51CF1B2D8004476D8 /* SocketAckManager.swift in Sources */,
 				2C94C0FA1CF1B1BB004476D8 /* STMWorkflowController.m in Sources */,
+				2C2379411CF2F6CA002AF3F5 /* STMInventoryInfoSelectTVC.m in Sources */,
+				2C2379461CF2F6CA002AF3F5 /* STMPickedPositionsInfoTVC.m in Sources */,
 				2C94C12B1CF1B1BB004476D8 /* STMMessageVC.m in Sources */,
 				2C94C0F41CF1B1BB004476D8 /* STMCorePhotosController.m in Sources */,
+				2C23794B1CF2F6CA002AF3F5 /* STMPickingOrdersTVC.m in Sources */,
 				2C94C1C31CF1B2D8004476D8 /* WebSocket.swift in Sources */,
+				2C2379511CF2F6CA002AF3F5 /* STMSupplyOperationVC.m in Sources */,
 				2C94C1BE1CF1B2D8004476D8 /* SocketPacket.swift in Sources */,
 				2C94C1341CF1B1BB004476D8 /* STMWebViewNC.m in Sources */,
 				2C94C11F1CF1B1BB004476D8 /* UIToolbar+custom.m in Sources */,
@@ -1812,25 +2041,31 @@
 				2C94C1081CF1B1BB004476D8 /* STMCustom4TVCell.m in Sources */,
 				2C94C0FF1CF1B1BB004476D8 /* STMBarButtonItem.m in Sources */,
 				2C94C18D1CF1B1F3004476D8 /* STMLocation+CoreDataProperties.m in Sources */,
+				2C23793E1CF2F6CA002AF3F5 /* STMInventoryArticleSelectTVC.m in Sources */,
+				2C2379451CF2F6CA002AF3F5 /* STMStockBatchInfoTVC.m in Sources */,
 				2C94C0F11CF1B1BB004476D8 /* STMCoreBarCodeController.m in Sources */,
 				2C94C1201CF1B1BB004476D8 /* UIViewController+custom.m in Sources */,
 				2C94C25A1CF1B3D8004476D8 /* STMCoreApplication.m in Sources */,
 				2C94C0EC1CF1B1BB004476D8 /* STMStringExtension.swift in Sources */,
+				2C2379431CF2F6CA002AF3F5 /* STMInventoryItemsVC.m in Sources */,
 				2C94C1321CF1B1BB004476D8 /* STMSettingsTVC.m in Sources */,
 				2C94C1891CF1B1F3004476D8 /* STMDatum+CoreDataProperties.m in Sources */,
 				2C94C0F61CF1B1BB004476D8 /* STMEntityController.m in Sources */,
 				2C94C1B81CF1B2D8004476D8 /* SocketEngineClient.swift in Sources */,
 				2C94C1C21CF1B2D8004476D8 /* SwiftRegex.swift in Sources */,
+				2C2379541CF2F6CA002AF3F5 /* STMSupplyOrdersDetailNC.m in Sources */,
 				2C94C18F1CF1B1F3004476D8 /* STMLogMessage+CoreDataProperties.m in Sources */,
 				2C94C18A1CF1B1F3004476D8 /* STMDatum.m in Sources */,
 				2C94C0DC1CF1B1BB004476D8 /* STMCoreLocationTracker.m in Sources */,
 				2C94C0F51CF1B1BB004476D8 /* STMCorePicturesController.m in Sources */,
+				2C23794E1CF2F6CA002AF3F5 /* STMPickingPositionVolumeTVC.m in Sources */,
 				2C94C1991CF1B1F3004476D8 /* STMSetting+CoreDataProperties.m in Sources */,
 				2C94C0DB1CF1B1BB004476D8 /* STMCoreBatteryTracker.m in Sources */,
 				2C94C1111CF1B1BB004476D8 /* STMFetchedResultsControllerTVC.m in Sources */,
 				2C94C1091CF1B1BB004476D8 /* STMCustom5TVCell.m in Sources */,
 				2C94C2591CF1B3D8004476D8 /* STMCoreAppDelegate.m in Sources */,
 				2C94C1131CF1B1BB004476D8 /* STMInfoTableViewCell.m in Sources */,
+				2C23794C1CF2F6CA002AF3F5 /* STMPickingPositionAddInfoVC.m in Sources */,
 				2C94C0E51CF1B1BB004476D8 /* STMLogger.m in Sources */,
 				2C94C0EB1CF1B1BB004476D8 /* STMSoundController.m in Sources */,
 				2C94C0DE1CF1B1BB004476D8 /* STMCoreSessionManager.m in Sources */,
@@ -1841,6 +2076,7 @@
 				2C94C11E1CF1B1BB004476D8 /* STMWorkflowAS.m in Sources */,
 				2C94C12A1CF1B1BB004476D8 /* STMMessagesTVC.m in Sources */,
 				2C94C1121CF1B1BB004476D8 /* STMImagePickerController.m in Sources */,
+				2C23793B1CF2F6CA002AF3F5 /* STMArticlesTVC.m in Sources */,
 				2C94C1BC1CF1B2D8004476D8 /* SocketIOClientStatus.swift in Sources */,
 				2C94BFCF1CF1ACB8004476D8 /* main.m in Sources */,
 				2C94C12F1CF1B1BB004476D8 /* STMScannerInfoVC.m in Sources */,
@@ -1850,10 +2086,12 @@
 				2C94C1281CF1B1BB004476D8 /* STMLogMessagesSVC.m in Sources */,
 				2C94C19A1CF1B1F3004476D8 /* STMSetting.m in Sources */,
 				2C94C2621CF1B771004476D8 /* STMAppDelegate.m in Sources */,
+				2C2379401CF2F6CA002AF3F5 /* STMInventoryBatchItemsTVC.m in Sources */,
 				2C94C1961CF1B1F3004476D8 /* STMPhoto.m in Sources */,
 				2C94C1811CF1B1F3004476D8 /* STMBatteryStatus+CoreDataProperties.m in Sources */,
 				2C94C0FC1CF1B1BB004476D8 /* STMFetchRequest.m in Sources */,
 				2C94C1001CF1B1BB004476D8 /* STMCoreVolumePicker.m in Sources */,
+				2C2379381CF2F6CA002AF3F5 /* STMArticleCodesTVC.m in Sources */,
 				2C94C11B1CF1B1BB004476D8 /* STMStoryboard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
