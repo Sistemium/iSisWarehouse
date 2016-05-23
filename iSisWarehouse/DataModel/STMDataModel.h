@@ -24,12 +24,16 @@
 #import "STMPickingOrderPosition.h"
 #import "STMPickingOrderPositionPicked.h"
 
+#import "STMPrice.h"
+
 #import "STMProductionInfoType.h"
 
 #import "STMStockBatch.h"
 #import "STMStockBatchBarCode.h"
 #import "STMStockBatchOperation.h"
 #import "STMStockBatchOperationAgent.h"
+
+#import "STMSupplyOrder.h"
 
 
 #endif
