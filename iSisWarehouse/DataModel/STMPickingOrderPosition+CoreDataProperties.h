@@ -31,16 +31,10 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nullable, nonatomic, retain) STMArticle *article;
 @property (nullable, nonatomic, retain) STMPickingOrder *pickingOrder;
 @property (nullable, nonatomic, retain) NSSet<STMPickingOrderPositionPicked *> *pickingOrderPositionsPicked;
-@property (nullable, nonatomic, retain) STMQualityClass *qualityClass;
 
 @end
 
 @interface STMPickingOrderPosition (CoreDataGeneratedAccessors)
-
-- (void)addPickingOrderPositionsPickedObject:(STMPickingOrderPositionPicked *)value;
-- (void)removePickingOrderPositionsPickedObject:(STMPickingOrderPositionPicked *)value;
-- (void)addPickingOrderPositionsPicked:(NSSet<STMPickingOrderPositionPicked *> *)values;
-- (void)removePickingOrderPositionsPicked:(NSSet<STMPickingOrderPositionPicked *> *)values;
 
 @end
 

@@ -29,6 +29,5 @@
 @dynamic article;
 @dynamic pickingOrder;
 @dynamic pickingOrderPositionsPicked;
-@dynamic qualityClass;
 
 @end

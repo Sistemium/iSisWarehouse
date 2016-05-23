@@ -31,23 +31,11 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nullable, nonatomic, retain) NSDecimalNumber *totalCost;
 @property (nullable, nonatomic, retain) NSData *xid;
 @property (nullable, nonatomic, retain) STMOutlet *outlet;
-@property (nullable, nonatomic, retain) NSSet<STMSaleOrderPosition *> *saleOrderPositions;
-@property (nullable, nonatomic, retain) STMSalesman *salesman;
-@property (nullable, nonatomic, retain) NSSet<STMShipment *> *shipments;
 
 @end
 
 @interface STMSaleOrder (CoreDataGeneratedAccessors)
 
-- (void)addSaleOrderPositionsObject:(STMSaleOrderPosition *)value;
-- (void)removeSaleOrderPositionsObject:(STMSaleOrderPosition *)value;
-- (void)addSaleOrderPositions:(NSSet<STMSaleOrderPosition *> *)values;
-- (void)removeSaleOrderPositions:(NSSet<STMSaleOrderPosition *> *)values;
-
-- (void)addShipmentsObject:(STMShipment *)value;
-- (void)removeShipmentsObject:(STMShipment *)value;
-- (void)addShipments:(NSSet<STMShipment *> *)values;
-- (void)removeShipments:(NSSet<STMShipment *> *)values;
 
 @end
 

@@ -28,7 +28,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nullable, nonatomic, retain) NSDate *sts;
 @property (nullable, nonatomic, retain) NSData *xid;
 @property (nullable, nonatomic, retain) STMArticle *article;
-@property (nullable, nonatomic, retain) STMPriceType *priceType;
 
 @end
 

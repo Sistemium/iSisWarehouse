@@ -29,8 +29,5 @@
 @dynamic totalCost;
 @dynamic xid;
 @dynamic outlet;
-@dynamic saleOrderPositions;
-@dynamic salesman;
-@dynamic shipments;
 
 @end

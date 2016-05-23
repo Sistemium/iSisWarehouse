@@ -8,7 +8,6 @@
 
 #import "STMPrice.h"
 #import "STMArticle.h"
-//#import "STMPriceType.h"
 
 @implementation STMPrice
 

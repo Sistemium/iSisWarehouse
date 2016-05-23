@@ -34,21 +34,13 @@
 @dynamic sts;
 @dynamic xid;
 @dynamic articleDocs;
-@dynamic articleGroup;
 @dynamic articleProductionInfo;
 @dynamic barCodes;
-@dynamic basketPositions;
-@dynamic campaigns;
-@dynamic factShipmentPositions;
 @dynamic inventoryBatches;
 @dynamic pickingOrderPositions;
 @dynamic pickingOrderPositionsPicked;
-@dynamic pictures;
 @dynamic prices;
 @dynamic productionInfoType;
-@dynamic saleOrderPositions;
-@dynamic shipmentPositions;
-@dynamic stock;
 @dynamic stockBatches;
 @dynamic supplyOrderArticleDocs;
 

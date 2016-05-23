@@ -24,7 +24,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nullable, nonatomic, retain) NSSet<STMStockBatchBarCode *> *barCodes;
 @property (nullable, nonatomic, retain) NSSet<STMInventoryBatch *> *inventoryBatches;
 @property (nullable, nonatomic, retain) NSSet<STMPickingOrderPositionPicked *> *pickingOrderPositionsPicked;
-@property (nullable, nonatomic, retain) STMQualityClass *qualityClass;
 
 @end
 

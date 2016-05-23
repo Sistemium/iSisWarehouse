@@ -28,14 +28,7 @@
 @dynamic sqts;
 @dynamic sts;
 @dynamic xid;
-@dynamic basketPositions;
-@dynamic campaigns;
-@dynamic cashings;
-@dynamic debts;
 @dynamic partner;
-@dynamic photoReports;
 @dynamic saleOrders;
-@dynamic salesman;
-@dynamic shipments;
 
 @end

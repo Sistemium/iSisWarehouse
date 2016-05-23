@@ -22,6 +22,5 @@
 @dynamic barCodes;
 @dynamic inventoryBatches;
 @dynamic pickingOrderPositionsPicked;
-@dynamic qualityClass;
 
 @end

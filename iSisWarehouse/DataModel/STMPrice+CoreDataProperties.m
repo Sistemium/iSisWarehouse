@@ -26,6 +26,5 @@
 @dynamic sts;
 @dynamic xid;
 @dynamic article;
-@dynamic priceType;
 
 @end
