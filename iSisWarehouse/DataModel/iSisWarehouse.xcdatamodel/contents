@@ -21,24 +21,24 @@
         <attribute name="sqts" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="sts" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
-        <relationship name="articleDocs" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMArticleDoc" inverseName="article" inverseEntity="STMArticleDoc" syncable="YES"/>
-        <relationship name="articleGroup" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMArticleGroup" inverseName="articles" inverseEntity="STMArticleGroup" syncable="YES"/>
-        <relationship name="articleProductionInfo" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMArticleProductionInfo" inverseName="article" inverseEntity="STMArticleProductionInfo" syncable="YES"/>
+        <relationship name="articleDocs" optional="YES" toMany="YES" deletionRule="Cascade" syncable="YES"/>
+        <relationship name="articleGroup" optional="YES" maxCount="1" deletionRule="Nullify" syncable="YES"/>
+        <relationship name="articleProductionInfo" optional="YES" toMany="YES" deletionRule="Cascade" syncable="YES"/>
         <relationship name="barCodes" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMArticleBarCode" inverseName="article" inverseEntity="STMArticleBarCode" syncable="YES"/>
-        <relationship name="basketPositions" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMBasketPosition" inverseName="article" inverseEntity="STMBasketPosition" syncable="YES"/>
-        <relationship name="campaigns" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMCampaign" inverseName="articles" inverseEntity="STMCampaign" syncable="YES"/>
-        <relationship name="factShipmentPositions" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMShipmentPosition" inverseName="articleFact" inverseEntity="STMShipmentPosition" syncable="YES"/>
+        <relationship name="basketPositions" optional="YES" toMany="YES" deletionRule="Cascade" syncable="YES"/>
+        <relationship name="campaigns" optional="YES" toMany="YES" deletionRule="Nullify" syncable="YES"/>
+        <relationship name="factShipmentPositions" optional="YES" toMany="YES" deletionRule="Cascade" syncable="YES"/>
         <relationship name="inventoryBatches" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMInventoryBatch" inverseName="article" inverseEntity="STMInventoryBatch" syncable="YES"/>
         <relationship name="pickingOrderPositions" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMPickingOrderPosition" inverseName="article" inverseEntity="STMPickingOrderPosition" syncable="YES"/>
         <relationship name="pickingOrderPositionsPicked" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMPickingOrderPositionPicked" inverseName="article" inverseEntity="STMPickingOrderPositionPicked" syncable="YES"/>
-        <relationship name="pictures" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMArticlePicture" inverseName="articles" inverseEntity="STMArticlePicture" syncable="YES"/>
+        <relationship name="pictures" optional="YES" toMany="YES" deletionRule="Nullify" syncable="YES"/>
         <relationship name="prices" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMPrice" inverseName="article" inverseEntity="STMPrice" syncable="YES"/>
         <relationship name="productionInfoType" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMProductionInfoType" inverseName="articles" inverseEntity="STMProductionInfoType" syncable="YES"/>
-        <relationship name="saleOrderPositions" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMSaleOrderPosition" inverseName="article" inverseEntity="STMSaleOrderPosition" syncable="YES"/>
-        <relationship name="shipmentPositions" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMShipmentPosition" inverseName="article" inverseEntity="STMShipmentPosition" syncable="YES"/>
-        <relationship name="stock" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMStock" inverseName="article" inverseEntity="STMStock" syncable="YES"/>
+        <relationship name="saleOrderPositions" optional="YES" toMany="YES" deletionRule="Cascade" syncable="YES"/>
+        <relationship name="shipmentPositions" optional="YES" toMany="YES" deletionRule="Cascade" syncable="YES"/>
+        <relationship name="stock" optional="YES" maxCount="1" deletionRule="Nullify" syncable="YES"/>
         <relationship name="stockBatches" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMStockBatch" inverseName="article" inverseEntity="STMStockBatch" syncable="YES"/>
-        <relationship name="supplyOrderArticleDocs" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMSupplyOrderArticleDoc" inverseName="article" inverseEntity="STMSupplyOrderArticleDoc" syncable="YES"/>
+        <relationship name="supplyOrderArticleDocs" optional="YES" toMany="YES" deletionRule="Cascade" syncable="YES"/>
     </entity>
     <entity name="STMArticleBarCode" representedClassName="STMArticleBarCode" syncable="YES">
         <attribute name="code" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
@@ -314,16 +314,32 @@
         <attribute name="sqts" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="sts" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
-        <relationship name="basketPositions" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMBasketPosition" inverseName="outlet" inverseEntity="STMBasketPosition" syncable="YES"/>
-        <relationship name="campaigns" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMCampaign" inverseName="outlets" inverseEntity="STMCampaign" syncable="YES"/>
-        <relationship name="cashings" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMCashing" inverseName="outlet" inverseEntity="STMCashing" syncable="YES"/>
-        <relationship name="debts" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMDebt" inverseName="outlet" inverseEntity="STMDebt" syncable="YES"/>
+        <relationship name="basketPositions" optional="YES" toMany="YES" deletionRule="Cascade" syncable="YES"/>
+        <relationship name="campaigns" optional="YES" toMany="YES" deletionRule="Nullify" syncable="YES"/>
+        <relationship name="cashings" optional="YES" toMany="YES" deletionRule="Cascade" syncable="YES"/>
+        <relationship name="debts" optional="YES" toMany="YES" deletionRule="Cascade" syncable="YES"/>
         <relationship name="partner" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMPartner" inverseName="outlets" inverseEntity="STMPartner" syncable="YES"/>
-        <relationship name="photoReports" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMPhotoReport" inverseName="outlet" inverseEntity="STMPhotoReport" syncable="YES"/>
+        <relationship name="photoReports" optional="YES" toMany="YES" deletionRule="Cascade" syncable="YES"/>
         <relationship name="pickingOrders" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMPickingOrder" inverseName="outlet" inverseEntity="STMPickingOrder" syncable="YES"/>
-        <relationship name="saleOrders" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMSaleOrder" inverseName="outlet" inverseEntity="STMSaleOrder" syncable="YES"/>
-        <relationship name="salesman" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMSalesman" inverseName="outlets" inverseEntity="STMSalesman" syncable="YES"/>
-        <relationship name="shipments" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMShipment" inverseName="outlet" inverseEntity="STMShipment" syncable="YES"/>
+        <relationship name="saleOrders" optional="YES" toMany="YES" deletionRule="Cascade" syncable="YES"/>
+        <relationship name="salesman" optional="YES" maxCount="1" deletionRule="Nullify" syncable="YES"/>
+        <relationship name="shipments" optional="YES" toMany="YES" deletionRule="Cascade" syncable="YES"/>
+    </entity>
+    <entity name="STMPartner" representedClassName="STMPartner" syncable="YES">
+        <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="deviceCts" optional="YES" attributeType="Date" indexed="YES" syncable="YES"/>
+        <attribute name="deviceTs" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="isFantom" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="lts" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ownerXid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
+        <attribute name="source" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sqts" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="sts" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
+        <relationship name="outlets" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMOutlet" inverseName="partner" inverseEntity="STMOutlet" syncable="YES"/>
+        <relationship name="supplyOrders" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMSupplyOrder" inverseName="partner" inverseEntity="STMSupplyOrder" syncable="YES"/>
     </entity>
     <entity name="STMPhoto" representedClassName="STMPhoto" parentEntity="STMCorePicture" syncable="YES">
         <relationship name="location" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMLocation" inverseName="photos" inverseEntity="STMLocation" syncable="YES"/>
@@ -381,7 +397,7 @@
         <relationship name="article" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMArticle" inverseName="pickingOrderPositions" inverseEntity="STMArticle" syncable="YES"/>
         <relationship name="pickingOrder" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMPickingOrder" inverseName="pickingOrderPositions" inverseEntity="STMPickingOrder" syncable="YES"/>
         <relationship name="pickingOrderPositionsPicked" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMPickingOrderPositionPicked" inverseName="pickingOrderPosition" inverseEntity="STMPickingOrderPositionPicked" syncable="YES"/>
-        <relationship name="qualityClass" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMQualityClass" inverseName="pickingOrderPositions" inverseEntity="STMQualityClass" syncable="YES"/>
+        <relationship name="qualityClass" optional="YES" maxCount="1" deletionRule="Nullify" syncable="YES"/>
     </entity>
     <entity name="STMPickingOrderPositionPicked" representedClassName="STMPickingOrderPositionPicked" parentEntity="STMStockBatchOperationAgent" syncable="YES">
         <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
@@ -406,7 +422,7 @@
         <attribute name="sts" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
         <relationship name="article" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMArticle" inverseName="prices" inverseEntity="STMArticle" syncable="YES"/>
-        <relationship name="priceType" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMPriceType" inverseName="prices" inverseEntity="STMPriceType" syncable="YES"/>
+        <relationship name="priceType" optional="YES" maxCount="1" deletionRule="Nullify" syncable="YES"/>
     </entity>
     <entity name="STMProductionInfoType" representedClassName="STMProductionInfoType" syncable="YES">
         <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
@@ -424,7 +440,7 @@
         <attribute name="sqts" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="sts" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
-        <relationship name="articleProductionInfo" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMArticleProductionInfo" inverseName="productionInfoType" inverseEntity="STMArticleProductionInfo" syncable="YES"/>
+        <relationship name="articleProductionInfo" optional="YES" toMany="YES" deletionRule="Cascade" syncable="YES"/>
         <relationship name="articles" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMArticle" inverseName="productionInfoType" inverseEntity="STMArticle" syncable="YES"/>
     </entity>
     <entity name="STMRecordStatus" representedClassName="STMRecordStatus" syncable="YES">
@@ -470,7 +486,7 @@
         <relationship name="barCodes" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMStockBatchBarCode" inverseName="stockBatch" inverseEntity="STMStockBatchBarCode" syncable="YES"/>
         <relationship name="inventoryBatches" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMInventoryBatch" inverseName="stockBatch" inverseEntity="STMInventoryBatch" syncable="YES"/>
         <relationship name="pickingOrderPositionsPicked" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMPickingOrderPositionPicked" inverseName="stockBatch" inverseEntity="STMPickingOrderPositionPicked" syncable="YES"/>
-        <relationship name="qualityClass" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMQualityClass" inverseName="stockBatches" inverseEntity="STMQualityClass" syncable="YES"/>
+        <relationship name="qualityClass" optional="YES" maxCount="1" deletionRule="Nullify" syncable="YES"/>
     </entity>
     <entity name="STMStockBatchBarCode" representedClassName="STMStockBatchBarCode" syncable="YES">
         <attribute name="code" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
@@ -539,7 +555,16 @@
         <attribute name="sts" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
         <relationship name="partner" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMPartner" inverseName="supplyOrders" inverseEntity="STMPartner" syncable="YES"/>
-        <relationship name="supplyOrderArticleDocs" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMSupplyOrderArticleDoc" inverseName="supplyOrder" inverseEntity="STMSupplyOrderArticleDoc" syncable="YES"/>
+        <relationship name="supplyOrderArticleDocs" optional="YES" toMany="YES" deletionRule="Cascade" syncable="YES"/>
+    </entity>
+    <entity name="STMSupplyOrderArticleDoc" representedClassName="STMSupplyOrderArticleDoc" parentEntity="STMStockBatchOperationAgent" syncable="YES">
+        <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ord" optional="YES" attributeType="Integer 64" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="packageRel" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="volume" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <relationship name="article" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMArticle" inverseName="supplyOrderArticleDocs" inverseEntity="STMArticle" syncable="YES"/>
+        <relationship name="articleDoc" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMArticleDoc" inverseName="supplyOrderArticleDocs" inverseEntity="STMArticleDoc" syncable="YES"/>
+        <relationship name="supplyOrder" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMSupplyOrder" inverseName="supplyOrderArticleDocs" inverseEntity="STMSupplyOrder" syncable="YES"/>
     </entity>
     <entity name="STMWorkflow" representedClassName="STMWorkflow" syncable="YES">
         <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
@@ -566,6 +591,7 @@
         <element name="STMBatteryStatus" positionX="-1008" positionY="-957" width="128" height="238"/>
         <element name="STMClientData" positionX="-855" positionY="-957" width="128" height="418"/>
         <element name="STMClientEntity" positionX="-344" positionY="-955" width="128" height="238"/>
+        <element name="STMCorePicture" positionX="-522" positionY="-954" width="128" height="328"/>
         <element name="STMDatum" positionX="-1154" positionY="-955" width="128" height="163"/>
         <element name="STMEntity" positionX="-182" positionY="-952" width="128" height="375"/>
         <element name="STMInventoryBatch" positionX="1186" positionY="-1138" width="128" height="313"/>
@@ -575,6 +601,7 @@
         <element name="STMMessage" positionX="-180" positionY="-552" width="128" height="345"/>
         <element name="STMMessagePicture" positionX="-353" positionY="-666" width="128" height="73"/>
         <element name="STMOutlet" positionX="-666" positionY="-562" width="128" height="418"/>
+        <element name="STMPartner" positionX="-270" positionY="-2340" width="128" height="253"/>
         <element name="STMPhoto" positionX="-522" positionY="-585" width="128" height="58"/>
         <element name="STMPicker" positionX="-110" positionY="-2610" width="128" height="268"/>
         <element name="STMPickingOrder" positionX="297" positionY="-2331" width="128" height="298"/>
@@ -582,7 +609,6 @@
         <element name="STMPickingOrderPositionPicked" positionX="1431" positionY="-1933" width="128" height="148"/>
         <element name="STMPrice" positionX="405" positionY="-88" width="128" height="253"/>
         <element name="STMProductionInfoType" positionX="718" positionY="-981" width="128" height="298"/>
-        <element name="STMCorePicture" positionX="-522" positionY="-954" width="128" height="328"/>
         <element name="STMRecordStatus" positionX="-693" positionY="-954" width="128" height="268"/>
         <element name="STMSetting" positionX="-1154" positionY="-694" width="128" height="253"/>
         <element name="STMStockBatch" positionX="1456" positionY="-1303" width="128" height="193"/>
@@ -590,6 +616,7 @@
         <element name="STMStockBatchOperation" positionX="1654" positionY="-1702" width="128" height="328"/>
         <element name="STMStockBatchOperationAgent" positionX="1393" positionY="-1674" width="128" height="238"/>
         <element name="STMSupplyOrder" positionX="232" positionY="-2007" width="128" height="283"/>
+        <element name="STMSupplyOrderArticleDoc" positionX="999" positionY="-1708" width="128" height="148"/>
         <element name="STMWorkflow" positionX="7" positionY="-657" width="128" height="270"/>
     </elements>
 </model>

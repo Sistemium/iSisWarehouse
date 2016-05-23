@@ -19,6 +19,8 @@
 
 #import "STMOutlet.h"
 
+#import "STMPartner.h"
+
 #import "STMPicker.h"
 #import "STMPickingOrder.h"
 #import "STMPickingOrderPosition.h"
@@ -34,6 +36,7 @@
 #import "STMStockBatchOperationAgent.h"
 
 #import "STMSupplyOrder.h"
+#import "STMSupplyOrderArticleDoc.h"
 
 
 #endif
