@@ -1,8 +1,12 @@
 {
     "STMAuth"               : "STMAuth",
+    "STMArticleBarcodes"    : "STMArticleBarcodes_iphone",
+    "STMInventory"          : "STMInventory",
     "STMLogs"               : null,
+    "STMPickingOrders"      : "STMPickingOrders",
     "STMProfile"            : "STMProfile",
     "STMSettings"           : "STMSettings",
+    "STMSupplyOrders"       : "STMSupplyOrders_iphone",
     "STMWebView"            : "STMWebView",
     "STMWKWebView"          : "STMWKWebView",
     "STMScannerInfo"        : "STMScannerInfo"
