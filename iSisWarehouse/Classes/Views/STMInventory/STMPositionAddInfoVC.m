@@ -6,13 +6,13 @@
 //  Copyright © 2015 Sistemium UAB. All rights reserved.
 //
 
-#import "STMPickingPositionAddInfoVC.h"
+#import "STMPositionAddInfoVC.h"
 
 #import "STMObjectsController.h"
 #import "STMFunctions.h"
 
 
-@interface STMPickingPositionAddInfoVC () <UITextFieldDelegate>
+@interface STMPositionAddInfoVC () <UITextFieldDelegate>
 
 @property (weak, nonatomic) IBOutlet STMDatePicker *datePicker;
 @property (weak, nonatomic) IBOutlet UITextField *textField;
@@ -22,7 +22,7 @@
 @end
 
 
-@implementation STMPickingPositionAddInfoVC
+@implementation STMPositionAddInfoVC
 
 - (IBAction)doneButtonPressed:(id)sender {
     
@@ -58,14 +58,7 @@
     productionInfo.info = info;
     productionInfo.article = self.article;
     productionInfo.productionInfoType = self.article.productionInfoType;
-    
-    if (self.parentVC) {
         
-        self.parentVC.selectedProductionInfo = productionInfo;
-        [self.parentVC positionDidPicked];
-
-    }
-    
     if (self.inventoryInfoVC) {
         
         self.inventoryInfoVC.selectedProductionInfo = productionInfo;

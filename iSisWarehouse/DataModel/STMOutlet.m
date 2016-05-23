@@ -8,7 +8,6 @@
 
 #import "STMOutlet.h"
 #import "STMPartner.h"
-#import "STMSaleOrder.h"
 
 @implementation STMOutlet
 

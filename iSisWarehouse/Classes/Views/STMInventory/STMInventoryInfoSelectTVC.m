@@ -8,7 +8,7 @@
 
 #import "STMInventoryInfoSelectTVC.h"
 
-#import "STMPickingPositionAddInfoVC.h"
+#import "STMPositionAddInfoVC.h"
 
 
 @interface STMInventoryInfoSelectTVC ()
@@ -180,7 +180,7 @@
                 
                 NSString *vcIdentifier = ([type.datatype isEqualToString:@"date"]) ? @"addDateVC" : @"addInfoVC";
 
-                STMPickingPositionAddInfoVC *vc = [self.navigationController.storyboard instantiateViewControllerWithIdentifier:vcIdentifier];
+                STMPositionAddInfoVC *vc = [self.navigationController.storyboard instantiateViewControllerWithIdentifier:vcIdentifier];
                 vc.article = self.article;
                 vc.inventoryInfoVC = self;
                 

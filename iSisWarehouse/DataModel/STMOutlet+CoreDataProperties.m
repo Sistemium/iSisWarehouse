@@ -29,6 +29,5 @@
 @dynamic sts;
 @dynamic xid;
 @dynamic partner;
-@dynamic saleOrders;
 
 @end

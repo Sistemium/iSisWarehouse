@@ -32,8 +32,6 @@
 
 #import "STMProductionInfoType.h"
 
-#import "STMSaleOrder.h"
-
 #import "STMStockBatch.h"
 #import "STMStockBatchBarCode.h"
 #import "STMStockBatchOperation.h"

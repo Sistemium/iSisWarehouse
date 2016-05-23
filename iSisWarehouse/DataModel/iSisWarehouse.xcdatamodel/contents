@@ -342,7 +342,6 @@
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
         <relationship name="partner" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMPartner" inverseName="outlets" inverseEntity="STMPartner" syncable="YES"/>
         <relationship name="pickingOrders" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="STMPickingOrder" inverseName="outlet" inverseEntity="STMPickingOrder" syncable="YES"/>
-        <relationship name="saleOrders" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="STMSaleOrder" inverseName="outlet" inverseEntity="STMSaleOrder" syncable="YES"/>
     </entity>
     <entity name="STMPartner" representedClassName="STMPartner" syncable="YES">
         <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
@@ -476,24 +475,6 @@
         <attribute name="sqts" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="sts" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
-    </entity>
-    <entity name="STMSaleOrder" representedClassName="STMSaleOrder" syncable="YES">
-        <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="date" optional="YES" attributeType="Date" indexed="YES" syncable="YES"/>
-        <attribute name="deviceCts" optional="YES" attributeType="Date" indexed="YES" syncable="YES"/>
-        <attribute name="deviceTs" optional="YES" attributeType="Date" syncable="YES"/>
-        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" indexed="YES" syncable="YES"/>
-        <attribute name="isFantom" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
-        <attribute name="lts" optional="YES" attributeType="Date" syncable="YES"/>
-        <attribute name="ownerXid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
-        <attribute name="processing" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="processingMessage" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="source" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="sqts" optional="YES" attributeType="Date" syncable="YES"/>
-        <attribute name="sts" optional="YES" attributeType="Date" syncable="YES"/>
-        <attribute name="totalCost" optional="YES" attributeType="Decimal" defaultValueString="0.0" indexed="YES" syncable="YES"/>
-        <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
-        <relationship name="outlet" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMOutlet" inverseName="saleOrders" inverseEntity="STMOutlet" syncable="YES"/>
     </entity>
     <entity name="STMSetting" representedClassName="STMSetting" syncable="YES">
         <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
@@ -636,7 +617,7 @@
         <element name="STMLogMessage" positionX="-1008" positionY="-684" width="128" height="238"/>
         <element name="STMMessage" positionX="-180" positionY="-552" width="128" height="345"/>
         <element name="STMMessagePicture" positionX="-353" positionY="-666" width="128" height="73"/>
-        <element name="STMOutlet" positionX="-108" positionY="-2250" width="128" height="313"/>
+        <element name="STMOutlet" positionX="-108" positionY="-2250" width="128" height="298"/>
         <element name="STMPartner" positionX="142" positionY="-2080" width="128" height="253"/>
         <element name="STMPhoto" positionX="-522" positionY="-585" width="128" height="58"/>
         <element name="STMPicker" positionX="34" positionY="-2565" width="128" height="268"/>
@@ -646,7 +627,6 @@
         <element name="STMPrice" positionX="-81" positionY="-1720" width="128" height="238"/>
         <element name="STMProductionInfoType" positionX="-423" positionY="-1584" width="128" height="298"/>
         <element name="STMRecordStatus" positionX="-693" positionY="-954" width="128" height="268"/>
-        <element name="STMSaleOrder" positionX="-344" positionY="-2145" width="128" height="283"/>
         <element name="STMSetting" positionX="-1154" positionY="-694" width="128" height="253"/>
         <element name="STMStockBatch" positionX="799" positionY="-1665" width="128" height="178"/>
         <element name="STMStockBatchBarCode" positionX="610" positionY="-1723" width="128" height="238"/>

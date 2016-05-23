@@ -31,16 +31,10 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nullable, nonatomic, retain) NSDate *sts;
 @property (nullable, nonatomic, retain) NSData *xid;
 @property (nullable, nonatomic, retain) STMPartner *partner;
-@property (nullable, nonatomic, retain) NSSet<STMSaleOrder *> *saleOrders;
 
 @end
 
 @interface STMOutlet (CoreDataGeneratedAccessors)
-
-- (void)addSaleOrdersObject:(STMSaleOrder *)value;
-- (void)removeSaleOrdersObject:(STMSaleOrder *)value;
-- (void)addSaleOrders:(NSSet<STMSaleOrder *> *)values;
-- (void)removeSaleOrders:(NSSet<STMSaleOrder *> *)values;
 
 @end
 

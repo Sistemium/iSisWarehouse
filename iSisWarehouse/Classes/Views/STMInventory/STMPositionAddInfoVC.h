@@ -8,15 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-#import "STMPickingPositionInfoTVC.h"
 #import "STMInventoryInfoSelectTVC.h"
 
 #import "iSistemiumCore-Swift.h"
 
 
-@interface STMPickingPositionAddInfoVC : UIViewController
+@interface STMPositionAddInfoVC : UIViewController
 
-@property (nonatomic, weak) STMPickingPositionInfoTVC *parentVC;
 @property (nonatomic, weak) STMInventoryInfoSelectTVC *inventoryInfoVC;
 @property (nonatomic, weak) STMArticle *article;
 
