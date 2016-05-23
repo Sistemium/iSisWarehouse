@@ -89,6 +89,9 @@
 		2C2379F01CF3051B002AF3F5 /* STMSaleOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2379ED1CF3051B002AF3F5 /* STMSaleOrder.m */; };
 		2C2379F11CF3051B002AF3F5 /* STMSaleOrder+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2379EF1CF3051B002AF3F5 /* STMSaleOrder+CoreDataProperties.m */; };
 		2C2379F31CF30548002AF3F5 /* iSisWarehouse.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 2C2379F21CF30548002AF3F5 /* iSisWarehouse.xcdatamodel */; };
+		2C2379F61CF3057E002AF3F5 /* STMVolumePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2379F51CF3057E002AF3F5 /* STMVolumePicker.m */; };
+		2C2379F91CF30596002AF3F5 /* STMArticleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2379F81CF30596002AF3F5 /* STMArticleController.m */; };
+		2C2379FC1CF305B0002AF3F5 /* STMStockBatchOperationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2379FB1CF305B0002AF3F5 /* STMStockBatchOperationController.m */; };
 		2C40F7801CF2037A00231E01 /* STMController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C40F77F1CF2037A00231E01 /* STMController.m */; };
 		2C40F78B1CF203A100231E01 /* STMAuthController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C40F7821CF203A100231E01 /* STMAuthController.m */; };
 		2C40F78D1CF203A100231E01 /* STMSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C40F7861CF203A100231E01 /* STMSession.m */; };
@@ -500,6 +503,12 @@
 		2C2379EE1CF3051B002AF3F5 /* STMSaleOrder+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMSaleOrder+CoreDataProperties.h"; sourceTree = "<group>"; };
 		2C2379EF1CF3051B002AF3F5 /* STMSaleOrder+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMSaleOrder+CoreDataProperties.m"; sourceTree = "<group>"; };
 		2C2379F21CF30548002AF3F5 /* iSisWarehouse.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iSisWarehouse.xcdatamodel; sourceTree = "<group>"; };
+		2C2379F41CF3057E002AF3F5 /* STMVolumePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMVolumePicker.h; sourceTree = "<group>"; };
+		2C2379F51CF3057E002AF3F5 /* STMVolumePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMVolumePicker.m; sourceTree = "<group>"; };
+		2C2379F71CF30596002AF3F5 /* STMArticleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMArticleController.h; sourceTree = "<group>"; };
+		2C2379F81CF30596002AF3F5 /* STMArticleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMArticleController.m; sourceTree = "<group>"; };
+		2C2379FA1CF305B0002AF3F5 /* STMStockBatchOperationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMStockBatchOperationController.h; sourceTree = "<group>"; };
+		2C2379FB1CF305B0002AF3F5 /* STMStockBatchOperationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMStockBatchOperationController.m; sourceTree = "<group>"; };
 		2C40F77E1CF2037A00231E01 /* STMController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMController.h; sourceTree = "<group>"; };
 		2C40F77F1CF2037A00231E01 /* STMController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMController.m; sourceTree = "<group>"; };
 		2C40F7811CF203A100231E01 /* STMAuthController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMAuthController.h; sourceTree = "<group>"; };
@@ -1793,6 +1802,8 @@
 			isa = PBXGroup;
 			children = (
 				2C40F7971CF205CC00231E01 /* STMUI.h */,
+				2C2379F41CF3057E002AF3F5 /* STMVolumePicker.h */,
+				2C2379F51CF3057E002AF3F5 /* STMVolumePicker.m */,
 			);
 			path = STMUI;
 			sourceTree = "<group>";
@@ -1815,12 +1826,16 @@
 		2C94C2671CF1B7EB004476D8 /* EntityControllers */ = {
 			isa = PBXGroup;
 			children = (
+				2C2379F71CF30596002AF3F5 /* STMArticleController.h */,
+				2C2379F81CF30596002AF3F5 /* STMArticleController.m */,
 				2C40F77E1CF2037A00231E01 /* STMController.h */,
 				2C40F77F1CF2037A00231E01 /* STMController.m */,
 				2C2379DA1CF3038D002AF3F5 /* STMBarCodeController.h */,
 				2C2379DB1CF3038D002AF3F5 /* STMBarCodeController.m */,
 				2C2379AD1CF2FF94002AF3F5 /* STMObjectsController.h */,
 				2C2379AE1CF2FF94002AF3F5 /* STMObjectsController.m */,
+				2C2379FA1CF305B0002AF3F5 /* STMStockBatchOperationController.h */,
+				2C2379FB1CF305B0002AF3F5 /* STMStockBatchOperationController.m */,
 			);
 			path = EntityControllers;
 			sourceTree = "<group>";
@@ -2249,6 +2264,7 @@
 				2C2379C11CF30151002AF3F5 /* STMPrice.m in Sources */,
 				2C94C1051CF1B1BB004476D8 /* STMCustom1TVCell.m in Sources */,
 				2C94C1311CF1B1BB004476D8 /* STMSettingsNC.m in Sources */,
+				2C2379F91CF30596002AF3F5 /* STMArticleController.m in Sources */,
 				2C94C0F81CF1B1BB004476D8 /* STMMessageController.m in Sources */,
 				2C2379C81CF301FB002AF3F5 /* STMPartner+CoreDataProperties.m in Sources */,
 				2C2379551CF2F6CA002AF3F5 /* STMSupplyOrdersMasterNC.m in Sources */,
@@ -2276,6 +2292,7 @@
 				2C94C1271CF1B1BB004476D8 /* STMLogMessagesMasterTVC.m in Sources */,
 				2C94C1BA1CF1B2D8004476D8 /* SocketFixUTF8.swift in Sources */,
 				2C94C12D1CF1B1BB004476D8 /* STMProfileVC.m in Sources */,
+				2C2379F61CF3057E002AF3F5 /* STMVolumePicker.m in Sources */,
 				2C94C0EF1CF1B1BB004476D8 /* STMClientDataController.m in Sources */,
 				2C2379AB1CF2FF17002AF3F5 /* STMProductionInfoType.m in Sources */,
 				2C94C1981CF1B1F3004476D8 /* STMRecordStatus.m in Sources */,
@@ -2294,6 +2311,7 @@
 				2C2379461CF2F6CA002AF3F5 /* STMPickedPositionsInfoTVC.m in Sources */,
 				2C94C12B1CF1B1BB004476D8 /* STMMessageVC.m in Sources */,
 				2C94C0F41CF1B1BB004476D8 /* STMCorePhotosController.m in Sources */,
+				2C2379FC1CF305B0002AF3F5 /* STMStockBatchOperationController.m in Sources */,
 				2C23796C1CF2FAEF002AF3F5 /* STMPickingOrder+CoreDataProperties.m in Sources */,
 				2C23794B1CF2F6CA002AF3F5 /* STMPickingOrdersTVC.m in Sources */,
 				2C94C1C31CF1B2D8004476D8 /* WebSocket.swift in Sources */,
