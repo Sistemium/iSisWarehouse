@@ -338,7 +338,7 @@
 
 - (NSArray *)processingLabelsForPropertyName:(NSString *)propertyName {
     
-    NSArray *processings = [self fetchSaleOrderProperty:propertyName];
+    NSArray *processings = [self fetchSupplyOrderProperty:propertyName];
     
     //    NSLog(@"processings %@", processings);
     
@@ -361,7 +361,7 @@
     
 }
 
-- (NSArray *)fetchSaleOrderProperty:(NSString *)property {
+- (NSArray *)fetchSupplyOrderProperty:(NSString *)property {
     
     NSString *entityName = NSStringFromClass([STMSupplyOrder class]);
     
