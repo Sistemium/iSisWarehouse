@@ -3,11 +3,11 @@
     "STMArticleBarcodes"    : "STMArticleBarcodes_iphone",
     "STMInventory"          : "STMInventory",
     "STMLogs"               : null,
-    "STMPickingOrders"      : "STMPickingOrders",
+    "STMMessages"           : "STMMessages",
     "STMProfile"            : "STMProfile",
+    "STMScannerInfo"        : "STMScannerInfo",
     "STMSettings"           : "STMSettings",
     "STMSupplyOrders"       : "STMSupplyOrders_iphone",
     "STMWebView"            : "STMWebView",
-    "STMWKWebView"          : "STMWKWebView",
-    "STMScannerInfo"        : "STMScannerInfo"
+    "STMWKWebView"          : "STMWKWebView"
 }
