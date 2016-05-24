@@ -311,6 +311,7 @@
 		2C94C25A1CF1B3D8004476D8 /* STMCoreApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C2581CF1B3D8004476D8 /* STMCoreApplication.m */; };
 		2C94C2621CF1B771004476D8 /* STMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C25F1CF1B771004476D8 /* STMAppDelegate.m */; };
 		2C94C2631CF1B771004476D8 /* STMApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C2611CF1B771004476D8 /* STMApplication.m */; };
+		2C9AE9931CF486810018D9B3 /* move_by_trolley.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C9AE9921CF486810018D9B3 /* move_by_trolley.png */; };
 		2CD5BEFD1CF1DFAB006E1E36 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD5BEFC1CF1DFAB006E1E36 /* WebKit.framework */; };
 		2CD5BF081CF1E780006E1E36 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2CD5BF0A1CF1E780006E1E36 /* Localizable.strings */; };
 /* End PBXBuildFile section */
@@ -868,6 +869,7 @@
 		2C94C2601CF1B771004476D8 /* STMApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMApplication.h; sourceTree = "<group>"; };
 		2C94C2611CF1B771004476D8 /* STMApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMApplication.m; sourceTree = "<group>"; };
 		2C94C2641CF1B78D004476D8 /* iSistemium-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iSistemium-Bridging-Header.h"; sourceTree = "<group>"; };
+		2C9AE9921CF486810018D9B3 /* move_by_trolley.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = move_by_trolley.png; sourceTree = "<group>"; };
 		2CD5BEFB1CF1DEE1006E1E36 /* iSistemium-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iSistemium-Prefix.pch"; sourceTree = "<group>"; };
 		2CD5BEFC1CF1DFAB006E1E36 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		2CD5BF091CF1E780006E1E36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -1845,6 +1847,7 @@
 		2C94C26D1CF1B870004476D8 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				2C9AE9921CF486810018D9B3 /* move_by_trolley.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -1976,6 +1979,7 @@
 				2C94C1F41CF1B308004476D8 /* alphabetical_sorting_2.png in Resources */,
 				2C94C2041CF1B308004476D8 /* full_moon-128.png in Resources */,
 				2C94C20F1CF1B308004476D8 /* refresh_barcode.png in Resources */,
+				2C9AE9931CF486810018D9B3 /* move_by_trolley.png in Resources */,
 				2C237A141CF332E0002AF3F5 /* STMWKWebView.storyboard in Resources */,
 				2C94C2431CF1B3BA004476D8 /* STMCustom2TVCell.xib in Resources */,
 				2C94C24A1CF1B3BA004476D8 /* STMCustom9TVCell.xib in Resources */,
