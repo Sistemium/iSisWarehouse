@@ -312,6 +312,7 @@
 		2C94C2621CF1B771004476D8 /* STMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C25F1CF1B771004476D8 /* STMAppDelegate.m */; };
 		2C94C2631CF1B771004476D8 /* STMApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94C2611CF1B771004476D8 /* STMApplication.m */; };
 		2C9AE9931CF486810018D9B3 /* move_by_trolley.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C9AE9921CF486810018D9B3 /* move_by_trolley.png */; };
+		2C9AE9951CF48D800018D9B3 /* truck_checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C9AE9941CF48D800018D9B3 /* truck_checked.png */; };
 		2CD5BEFD1CF1DFAB006E1E36 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD5BEFC1CF1DFAB006E1E36 /* WebKit.framework */; };
 		2CD5BF081CF1E780006E1E36 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2CD5BF0A1CF1E780006E1E36 /* Localizable.strings */; };
 /* End PBXBuildFile section */
@@ -870,6 +871,7 @@
 		2C94C2611CF1B771004476D8 /* STMApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMApplication.m; sourceTree = "<group>"; };
 		2C94C2641CF1B78D004476D8 /* iSistemium-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iSistemium-Bridging-Header.h"; sourceTree = "<group>"; };
 		2C9AE9921CF486810018D9B3 /* move_by_trolley.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = move_by_trolley.png; sourceTree = "<group>"; };
+		2C9AE9941CF48D800018D9B3 /* truck_checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = truck_checked.png; sourceTree = "<group>"; };
 		2CD5BEFB1CF1DEE1006E1E36 /* iSistemium-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iSistemium-Prefix.pch"; sourceTree = "<group>"; };
 		2CD5BEFC1CF1DFAB006E1E36 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		2CD5BF091CF1E780006E1E36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -1848,6 +1850,7 @@
 			isa = PBXGroup;
 			children = (
 				2C9AE9921CF486810018D9B3 /* move_by_trolley.png */,
+				2C9AE9941CF48D800018D9B3 /* truck_checked.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -1999,6 +2002,7 @@
 				2C94C2171CF1B308004476D8 /* uncheckmark_filled.png in Resources */,
 				2C94C2081CF1B308004476D8 /* No connection Cloud-100.png in Resources */,
 				2C94C2111CF1B308004476D8 /* scanner_info.png in Resources */,
+				2C9AE9951CF48D800018D9B3 /* truck_checked.png in Resources */,
 				2C94C24C1CF1B3BA004476D8 /* STMVolumeControlsTVCell.xib in Resources */,
 				2C94C1F91CF1B308004476D8 /* camera_filled.png in Resources */,
 				2C94C1FD1CF1B308004476D8 /* Clear Filters-25.png in Resources */,
