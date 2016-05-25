@@ -260,6 +260,18 @@
         <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
         <relationship name="inventoryBatch" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="STMInventoryBatch" inverseName="inventoryBatchItems" inverseEntity="STMInventoryBatch" syncable="YES"/>
     </entity>
+    <entity name="STMJson" representedClassName="STMJson" syncable="YES">
+        <attribute name="data" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="deviceCts" optional="YES" attributeType="Date" indexed="YES" syncable="YES"/>
+        <attribute name="deviceTs" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="isFantom" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="lts" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sqts" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="sts" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="xid" optional="YES" attributeType="Binary" indexed="YES" syncable="YES"/>
+    </entity>
     <entity name="STMLocation" representedClassName="STMLocation" syncable="YES">
         <attribute name="altitude" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
         <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
@@ -613,6 +625,7 @@
         <element name="STMEntity" positionX="-182" positionY="-952" width="128" height="375"/>
         <element name="STMInventoryBatch" positionX="853" positionY="-1366" width="128" height="313"/>
         <element name="STMInventoryBatchItem" positionX="1033" positionY="-1390" width="128" height="238"/>
+        <element name="STMJson" positionX="-855" positionY="-513" width="128" height="193"/>
         <element name="STMLocation" positionX="-695" positionY="-657" width="128" height="360"/>
         <element name="STMLogMessage" positionX="-1008" positionY="-684" width="128" height="238"/>
         <element name="STMMessage" positionX="-180" positionY="-552" width="128" height="345"/>
