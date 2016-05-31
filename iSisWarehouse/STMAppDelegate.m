@@ -8,8 +8,20 @@
 
 #import "STMAppDelegate.h"
 
+#import "STMAuthController.h"
+#import "STMSessionManager.h"
+
 
 @implementation STMAppDelegate
+
+
+- (void)startAuthController {
+    [STMAuthController authController];
+}
+
+- (STMCoreSessionManager *)sessionManager {
+    return [STMSessionManager sharedManager];
+}
 
 
 #pragma mark - Crashlytics
