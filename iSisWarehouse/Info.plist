@@ -4,6 +4,8 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>$(PRODUCT_NAME)</string>
 	<key>CFBundleDocumentTypes</key>
 	<array/>
 	<key>CFBundleExecutable</key>
@@ -12,8 +14,6 @@
 	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
-	<key>CFBundleDisplayName</key>
-	<string>$(PRODUCT_NAME)</string>
 	<key>CFBundleName</key>
 	<string>$(PRODUCT_NAME)</string>
 	<key>CFBundlePackageType</key>
@@ -24,13 +24,27 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>200</string>
+	<key>Fabric</key>
+	<dict>
+		<key>APIKey</key>
+		<string>035bda92bd5b13402aaf2c6cb5f66b8ff23f2166</string>
+		<key>Kits</key>
+		<array>
+			<dict>
+				<key>KitInfo</key>
+				<dict/>
+				<key>KitName</key>
+				<string>Crashlytics</string>
+			</dict>
+		</array>
+	</dict>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string></string>
 	<key>NSLocationUsageDescription</key>
 	<string></string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
-	<key>NSLocationAlwaysUsageDescription</key>
 	<string></string>
 	<key>UIBackgroundModes</key>
 	<array>
