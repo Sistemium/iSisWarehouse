@@ -28,7 +28,7 @@
 
 - (void)startCrashlytics {
     
-    [[Crashlytics sharedInstance] setDebugMode:YES];
+//    [[Crashlytics sharedInstance] setDebugMode:YES];
     
     [Fabric with:@[CrashlyticsKit]];
     
