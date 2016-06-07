@@ -314,6 +314,7 @@
 		2C9AE9951CF48D800018D9B3 /* truck_checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C9AE9941CF48D800018D9B3 /* truck_checked.png */; };
 		2C9AE9A61CF5B02F0018D9B3 /* STMJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9AE9A31CF5B02F0018D9B3 /* STMJson.m */; };
 		2C9AE9A71CF5B02F0018D9B3 /* STMJson+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9AE9A51CF5B02F0018D9B3 /* STMJson+CoreDataProperties.m */; };
+		2CB314681D06F08400E3E59D /* STMKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB314671D06F08400E3E59D /* STMKeychain.m */; };
 		2CD5BEFD1CF1DFAB006E1E36 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD5BEFC1CF1DFAB006E1E36 /* WebKit.framework */; };
 		2CD5BF081CF1E780006E1E36 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2CD5BF0A1CF1E780006E1E36 /* Localizable.strings */; };
 /* End PBXBuildFile section */
@@ -875,6 +876,8 @@
 		2C9AE9A31CF5B02F0018D9B3 /* STMJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMJson.m; sourceTree = "<group>"; };
 		2C9AE9A41CF5B02F0018D9B3 /* STMJson+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STMJson+CoreDataProperties.h"; sourceTree = "<group>"; };
 		2C9AE9A51CF5B02F0018D9B3 /* STMJson+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "STMJson+CoreDataProperties.m"; sourceTree = "<group>"; };
+		2CB314661D06F08400E3E59D /* STMKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMKeychain.h; sourceTree = "<group>"; };
+		2CB314671D06F08400E3E59D /* STMKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMKeychain.m; sourceTree = "<group>"; };
 		2CD5BEFB1CF1DEE1006E1E36 /* iSistemium-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iSistemium-Prefix.pch"; sourceTree = "<group>"; };
 		2CD5BEFC1CF1DFAB006E1E36 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		2CD5BF091CF1E780006E1E36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -1126,6 +1129,8 @@
 				2C94C01B1CF1B1BA004476D8 /* STMGarbageCollector.swift */,
 				2C94C01C1CF1B1BA004476D8 /* STMLogger.h */,
 				2C94C01D1CF1B1BA004476D8 /* STMLogger.m */,
+				2CB314661D06F08400E3E59D /* STMKeychain.h */,
+				2CB314671D06F08400E3E59D /* STMKeychain.m */,
 				2C94C01E1CF1B1BA004476D8 /* STMRemoteController.h */,
 				2C94C01F1CF1B1BA004476D8 /* STMRemoteController.m */,
 				2C94C0201CF1B1BA004476D8 /* STMScanApiHelper.h */,
@@ -2306,6 +2311,7 @@
 				2C2379A51CF2FE75002AF3F5 /* STMStockBatchOperationAgent.m in Sources */,
 				2C94C1081CF1B1BB004476D8 /* STMCustom4TVCell.m in Sources */,
 				2C94C0FF1CF1B1BB004476D8 /* STMBarButtonItem.m in Sources */,
+				2CB314681D06F08400E3E59D /* STMKeychain.m in Sources */,
 				2C94C18D1CF1B1F3004476D8 /* STMLocation+CoreDataProperties.m in Sources */,
 				2C23793E1CF2F6CA002AF3F5 /* STMInventoryArticleSelectTVC.m in Sources */,
 				2C2379861CF2FE2A002AF3F5 /* STMInventoryBatch+CoreDataProperties.m in Sources */,
